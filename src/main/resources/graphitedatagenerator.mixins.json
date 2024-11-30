@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.moulberry.graphite.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MixinDataGenerator"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
