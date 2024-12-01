@@ -2,8 +2,15 @@
   "acacia_boat": {
     "id": 0,
     "translationKey": "entity.minecraft.acacia_boat",
-    "height": 0.5625,
-    "width": 1.375,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.5625,
+        "width": 1.375,
+        "height": 0.5625
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -78,8 +85,15 @@
   "acacia_chest_boat": {
     "id": 1,
     "translationKey": "entity.minecraft.acacia_chest_boat",
-    "height": 0.5625,
-    "width": 1.375,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.5625,
+        "width": 1.375,
+        "height": 0.5625
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -154,8 +168,21 @@
   "allay": {
     "id": 2,
     "translationKey": "entity.minecraft.allay",
-    "height": 0.6,
-    "width": 0.35,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.36,
+        "width": 0.35,
+        "height": 0.6
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -248,8 +275,15 @@
   "area_effect_cloud": {
     "id": 3,
     "translationKey": "entity.minecraft.area_effect_cloud",
-    "height": 0.5,
-    "width": 6.0,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.425,
+        "width": 6.0,
+        "height": 0.5
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -308,8 +342,21 @@
   "armadillo": {
     "id": 4,
     "translationKey": "entity.minecraft.armadillo",
-    "height": 0.65,
-    "width": 0.7,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.26,
+        "width": 0.7,
+        "height": 0.65
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -401,8 +448,21 @@
   "armor_stand": {
     "id": 5,
     "translationKey": "entity.minecraft.armor_stand",
-    "height": 1.975,
-    "width": 0.5,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.7775,
+        "width": 0.5,
+        "height": 1.975
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -509,8 +569,15 @@
   "arrow": {
     "id": 6,
     "translationKey": "entity.minecraft.arrow",
-    "height": 0.5,
-    "width": 0.5,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.13,
+        "width": 0.5,
+        "height": 0.5
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -575,8 +642,21 @@
   "axolotl": {
     "id": 7,
     "translationKey": "entity.minecraft.axolotl",
-    "height": 0.42,
-    "width": 0.75,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.2751,
+        "width": 0.75,
+        "height": 0.42
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -679,8 +759,15 @@
   "bamboo_chest_raft": {
     "id": 8,
     "translationKey": "entity.minecraft.bamboo_chest_raft",
-    "height": 0.5625,
-    "width": 1.375,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.5625,
+        "width": 1.375,
+        "height": 0.5625
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -755,8 +842,15 @@
   "bamboo_raft": {
     "id": 9,
     "translationKey": "entity.minecraft.bamboo_raft",
-    "height": 0.5625,
-    "width": 1.375,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.5625,
+        "width": 1.375,
+        "height": 0.5625
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -831,8 +925,21 @@
   "bat": {
     "id": 10,
     "translationKey": "entity.minecraft.bat",
-    "height": 0.9,
-    "width": 0.5,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.45,
+        "width": 0.5,
+        "height": 0.9
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -920,8 +1027,21 @@
   "bee": {
     "id": 11,
     "translationKey": "entity.minecraft.bee",
-    "height": 0.6,
-    "width": 0.7,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.3,
+        "width": 0.7,
+        "height": 0.6
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -1019,8 +1139,15 @@
   "birch_boat": {
     "id": 12,
     "translationKey": "entity.minecraft.birch_boat",
-    "height": 0.5625,
-    "width": 1.375,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.5625,
+        "width": 1.375,
+        "height": 0.5625
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -1095,8 +1222,15 @@
   "birch_chest_boat": {
     "id": 13,
     "translationKey": "entity.minecraft.birch_chest_boat",
-    "height": 0.5625,
-    "width": 1.375,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.5625,
+        "width": 1.375,
+        "height": 0.5625
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -1171,8 +1305,21 @@
   "blaze": {
     "id": 14,
     "translationKey": "entity.minecraft.blaze",
-    "height": 1.8,
-    "width": 0.6,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.53,
+        "width": 0.6,
+        "height": 1.8
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -1260,8 +1407,15 @@
   "block_display": {
     "id": 15,
     "translationKey": "entity.minecraft.block_display",
-    "height": 0.0,
-    "width": 0.0,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -1381,8 +1535,21 @@
   "bogged": {
     "id": 16,
     "translationKey": "entity.minecraft.bogged",
-    "height": 1.99,
-    "width": 0.6,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.74,
+        "width": 0.6,
+        "height": 1.99
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -1470,8 +1637,21 @@
   "breeze": {
     "id": 17,
     "translationKey": "entity.minecraft.breeze",
-    "height": 1.77,
-    "width": 0.6,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.3452,
+        "width": 0.6,
+        "height": 1.77
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -1554,8 +1734,15 @@
   "breeze_wind_charge": {
     "id": 18,
     "translationKey": "entity.minecraft.breeze_wind_charge",
-    "height": 0.3125,
-    "width": 0.3125,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.0,
+        "width": 0.3125,
+        "height": 0.3125
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -1600,8 +1787,27 @@
   "camel": {
     "id": 19,
     "translationKey": "entity.minecraft.camel",
-    "height": 2.375,
-    "width": 1.7,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 2.275,
+        "width": 1.7,
+        "height": 2.375
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      },
+      "sitting": {
+        "fixed": false,
+        "eyeHeight": 0.845,
+        "width": 1.7,
+        "height": 0.94500005
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -1704,8 +1910,21 @@
   "cat": {
     "id": 20,
     "translationKey": "entity.minecraft.cat",
-    "height": 0.7,
-    "width": 0.6,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.35,
+        "width": 0.6,
+        "height": 0.7
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -1821,8 +2040,21 @@
   "cave_spider": {
     "id": 21,
     "translationKey": "entity.minecraft.cave_spider",
-    "height": 0.5,
-    "width": 0.7,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.45,
+        "width": 0.7,
+        "height": 0.5
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -1910,8 +2142,15 @@
   "cherry_boat": {
     "id": 22,
     "translationKey": "entity.minecraft.cherry_boat",
-    "height": 0.5625,
-    "width": 1.375,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.5625,
+        "width": 1.375,
+        "height": 0.5625
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -1986,8 +2225,15 @@
   "cherry_chest_boat": {
     "id": 23,
     "translationKey": "entity.minecraft.cherry_chest_boat",
-    "height": 0.5625,
-    "width": 1.375,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.5625,
+        "width": 1.375,
+        "height": 0.5625
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -2062,8 +2308,15 @@
   "chest_minecart": {
     "id": 24,
     "translationKey": "entity.minecraft.chest_minecart",
-    "height": 0.7,
-    "width": 0.98,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.595,
+        "width": 0.98,
+        "height": 0.7
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -2138,8 +2391,21 @@
   "chicken": {
     "id": 25,
     "translationKey": "entity.minecraft.chicken",
-    "height": 0.7,
-    "width": 0.4,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.644,
+        "width": 0.4,
+        "height": 0.7
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -2227,8 +2493,21 @@
   "cod": {
     "id": 26,
     "translationKey": "entity.minecraft.cod",
-    "height": 0.3,
-    "width": 0.5,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.195,
+        "width": 0.5,
+        "height": 0.3
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -2316,8 +2595,15 @@
   "command_block_minecart": {
     "id": 27,
     "translationKey": "entity.minecraft.command_block_minecart",
-    "height": 0.7,
-    "width": 0.98,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.595,
+        "width": 0.98,
+        "height": 0.7
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -2401,8 +2687,21 @@
   "cow": {
     "id": 28,
     "translationKey": "entity.minecraft.cow",
-    "height": 1.4,
-    "width": 0.9,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.3,
+        "width": 0.9,
+        "height": 1.4
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -2490,8 +2789,21 @@
   "creaking": {
     "id": 29,
     "translationKey": "entity.minecraft.creaking",
-    "height": 2.7,
-    "width": 0.9,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 2.3,
+        "width": 0.9,
+        "height": 2.7
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -2584,8 +2896,21 @@
   "creaking_transient": {
     "id": 30,
     "translationKey": "entity.minecraft.creaking_transient",
-    "height": 2.7,
-    "width": 0.9,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 2.3,
+        "width": 0.9,
+        "height": 2.7
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -2678,8 +3003,21 @@
   "creeper": {
     "id": 31,
     "translationKey": "entity.minecraft.creeper",
-    "height": 1.7,
-    "width": 0.6,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.445,
+        "width": 0.6,
+        "height": 1.7
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -2777,8 +3115,15 @@
   "dark_oak_boat": {
     "id": 32,
     "translationKey": "entity.minecraft.dark_oak_boat",
-    "height": 0.5625,
-    "width": 1.375,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.5625,
+        "width": 1.375,
+        "height": 0.5625
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -2853,8 +3198,15 @@
   "dark_oak_chest_boat": {
     "id": 33,
     "translationKey": "entity.minecraft.dark_oak_chest_boat",
-    "height": 0.5625,
-    "width": 1.375,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.5625,
+        "width": 1.375,
+        "height": 0.5625
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -2929,8 +3281,21 @@
   "dolphin": {
     "id": 34,
     "translationKey": "entity.minecraft.dolphin",
-    "height": 0.6,
-    "width": 0.9,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.3,
+        "width": 0.9,
+        "height": 0.6
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -3032,8 +3397,21 @@
   "donkey": {
     "id": 35,
     "translationKey": "entity.minecraft.donkey",
-    "height": 1.5,
-    "width": 1.3964844,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.425,
+        "width": 1.3964844,
+        "height": 1.5
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -3131,8 +3509,15 @@
   "dragon_fireball": {
     "id": 36,
     "translationKey": "entity.minecraft.dragon_fireball",
-    "height": 1.0,
-    "width": 1.0,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.85,
+        "width": 1.0,
+        "height": 1.0
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -3177,8 +3562,21 @@
   "drowned": {
     "id": 37,
     "translationKey": "entity.minecraft.drowned",
-    "height": 1.95,
-    "width": 0.6,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.74,
+        "width": 0.6,
+        "height": 1.95
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -3276,8 +3674,15 @@
   "egg": {
     "id": 38,
     "translationKey": "entity.minecraft.egg",
-    "height": 0.25,
-    "width": 0.25,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.2125,
+        "width": 0.25,
+        "height": 0.25
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -3326,8 +3731,21 @@
   "elder_guardian": {
     "id": 39,
     "translationKey": "entity.minecraft.elder_guardian",
-    "height": 1.9975,
-    "width": 1.9975,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.99875,
+        "width": 1.9975,
+        "height": 1.9975
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -3420,8 +3838,21 @@
   "enderman": {
     "id": 40,
     "translationKey": "entity.minecraft.enderman",
-    "height": 2.9,
-    "width": 0.6,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 2.55,
+        "width": 0.6,
+        "height": 2.9
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -3518,8 +3949,21 @@
   "endermite": {
     "id": 41,
     "translationKey": "entity.minecraft.endermite",
-    "height": 0.3,
-    "width": 0.4,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.13,
+        "width": 0.4,
+        "height": 0.3
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -3602,8 +4046,21 @@
   "ender_dragon": {
     "id": 42,
     "translationKey": "entity.minecraft.ender_dragon",
-    "height": 8.0,
-    "width": 16.0,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 6.8,
+        "width": 16.0,
+        "height": 8.0
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -3691,8 +4148,15 @@
   "ender_pearl": {
     "id": 43,
     "translationKey": "entity.minecraft.ender_pearl",
-    "height": 0.25,
-    "width": 0.25,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.2125,
+        "width": 0.25,
+        "height": 0.25
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -3741,8 +4205,15 @@
   "end_crystal": {
     "id": 44,
     "translationKey": "entity.minecraft.end_crystal",
-    "height": 2.0,
-    "width": 2.0,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.7,
+        "width": 2.0,
+        "height": 2.0
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -3796,8 +4267,21 @@
   "evoker": {
     "id": 45,
     "translationKey": "entity.minecraft.evoker",
-    "height": 1.95,
-    "width": 0.6,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.6575,
+        "width": 0.6,
+        "height": 1.95
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -3890,8 +4374,15 @@
   "evoker_fangs": {
     "id": 46,
     "translationKey": "entity.minecraft.evoker_fangs",
-    "height": 0.8,
-    "width": 0.5,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.68,
+        "width": 0.5,
+        "height": 0.8
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -3936,8 +4427,15 @@
   "experience_bottle": {
     "id": 47,
     "translationKey": "entity.minecraft.experience_bottle",
-    "height": 0.25,
-    "width": 0.25,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.2125,
+        "width": 0.25,
+        "height": 0.25
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -3986,8 +4484,15 @@
   "experience_orb": {
     "id": 48,
     "translationKey": "entity.minecraft.experience_orb",
-    "height": 0.5,
-    "width": 0.5,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.425,
+        "width": 0.5,
+        "height": 0.5
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -4032,8 +4537,15 @@
   "eye_of_ender": {
     "id": 49,
     "translationKey": "entity.minecraft.eye_of_ender",
-    "height": 0.25,
-    "width": 0.25,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.2125,
+        "width": 0.25,
+        "height": 0.25
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -4082,8 +4594,15 @@
   "falling_block": {
     "id": 50,
     "translationKey": "entity.minecraft.falling_block",
-    "height": 0.98,
-    "width": 0.98,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.83300006,
+        "width": 0.98,
+        "height": 0.98
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -4132,8 +4651,15 @@
   "fireball": {
     "id": 51,
     "translationKey": "entity.minecraft.fireball",
-    "height": 1.0,
-    "width": 1.0,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.85,
+        "width": 1.0,
+        "height": 1.0
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -4182,8 +4708,15 @@
   "firework_rocket": {
     "id": 52,
     "translationKey": "entity.minecraft.firework_rocket",
-    "height": 0.25,
-    "width": 0.25,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.2125,
+        "width": 0.25,
+        "height": 0.25
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -4241,8 +4774,21 @@
   "fox": {
     "id": 53,
     "translationKey": "entity.minecraft.fox",
-    "height": 0.7,
-    "width": 0.6,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.4,
+        "width": 0.6,
+        "height": 0.7
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -4348,8 +4894,21 @@
   "frog": {
     "id": 54,
     "translationKey": "entity.minecraft.frog",
-    "height": 0.5,
-    "width": 0.5,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.425,
+        "width": 0.5,
+        "height": 0.5
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -4445,8 +5004,15 @@
   "furnace_minecart": {
     "id": 55,
     "translationKey": "entity.minecraft.furnace_minecart",
-    "height": 0.7,
-    "width": 0.98,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.595,
+        "width": 0.98,
+        "height": 0.7
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -4526,8 +5092,21 @@
   "ghast": {
     "id": 56,
     "translationKey": "entity.minecraft.ghast",
-    "height": 4.0,
-    "width": 4.0,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 2.6,
+        "width": 4.0,
+        "height": 4.0
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -4615,8 +5194,21 @@
   "giant": {
     "id": 57,
     "translationKey": "entity.minecraft.giant",
-    "height": 12.0,
-    "width": 3.6,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 10.44,
+        "width": 3.6,
+        "height": 12.0
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -4699,8 +5291,15 @@
   "glow_item_frame": {
     "id": 58,
     "translationKey": "entity.minecraft.glow_item_frame",
-    "height": 0.5,
-    "width": 0.5,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.0,
+        "width": 0.5,
+        "height": 0.5
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -4754,8 +5353,21 @@
   "glow_squid": {
     "id": 59,
     "translationKey": "entity.minecraft.glow_squid",
-    "height": 0.8,
-    "width": 0.8,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.4,
+        "width": 0.8,
+        "height": 0.8
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -4848,8 +5460,27 @@
   "goat": {
     "id": 60,
     "translationKey": "entity.minecraft.goat",
-    "height": 1.3,
-    "width": 0.9,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.105,
+        "width": 0.9,
+        "height": 1.3
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      },
+      "long_jumping": {
+        "fixed": false,
+        "eyeHeight": 0.7735,
+        "width": 0.63,
+        "height": 0.90999997
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -4952,8 +5583,21 @@
   "guardian": {
     "id": 61,
     "translationKey": "entity.minecraft.guardian",
-    "height": 0.85,
-    "width": 0.85,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.425,
+        "width": 0.85,
+        "height": 0.85
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -5046,8 +5690,21 @@
   "hoglin": {
     "id": 62,
     "translationKey": "entity.minecraft.hoglin",
-    "height": 1.4,
-    "width": 1.3964844,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.19,
+        "width": 1.3964844,
+        "height": 1.4
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -5140,8 +5797,15 @@
   "hopper_minecart": {
     "id": 63,
     "translationKey": "entity.minecraft.hopper_minecart",
-    "height": 0.7,
-    "width": 0.98,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.595,
+        "width": 0.98,
+        "height": 0.7
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -5216,8 +5880,21 @@
   "horse": {
     "id": 64,
     "translationKey": "entity.minecraft.horse",
-    "height": 1.6,
-    "width": 1.3964844,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.52,
+        "width": 1.3964844,
+        "height": 1.6
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -5315,8 +5992,21 @@
   "husk": {
     "id": 65,
     "translationKey": "entity.minecraft.husk",
-    "height": 1.95,
-    "width": 0.6,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.74,
+        "width": 0.6,
+        "height": 1.95
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -5414,8 +6104,21 @@
   "illusioner": {
     "id": 66,
     "translationKey": "entity.minecraft.illusioner",
-    "height": 1.95,
-    "width": 0.6,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.6575,
+        "width": 0.6,
+        "height": 1.95
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -5508,8 +6211,15 @@
   "interaction": {
     "id": 67,
     "translationKey": "entity.minecraft.interaction",
-    "height": 0.0,
-    "width": 0.0,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.85,
+        "width": 1.0,
+        "height": 1.0
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -5569,8 +6279,21 @@
   "iron_golem": {
     "id": 68,
     "translationKey": "entity.minecraft.iron_golem",
-    "height": 2.7,
-    "width": 1.4,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 2.295,
+        "width": 1.4,
+        "height": 2.7
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -5658,8 +6381,15 @@
   "item": {
     "id": 69,
     "translationKey": "entity.minecraft.item",
-    "height": 0.25,
-    "width": 0.25,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.2125,
+        "width": 0.25,
+        "height": 0.25
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -5708,8 +6438,15 @@
   "item_display": {
     "id": 70,
     "translationKey": "entity.minecraft.item_display",
-    "height": 0.0,
-    "width": 0.0,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -5834,8 +6571,15 @@
   "item_frame": {
     "id": 71,
     "translationKey": "entity.minecraft.item_frame",
-    "height": 0.5,
-    "width": 0.5,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.0,
+        "width": 0.5,
+        "height": 0.5
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -5889,8 +6633,15 @@
   "jungle_boat": {
     "id": 72,
     "translationKey": "entity.minecraft.jungle_boat",
-    "height": 0.5625,
-    "width": 1.375,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.5625,
+        "width": 1.375,
+        "height": 0.5625
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -5965,8 +6716,15 @@
   "jungle_chest_boat": {
     "id": 73,
     "translationKey": "entity.minecraft.jungle_chest_boat",
-    "height": 0.5625,
-    "width": 1.375,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.5625,
+        "width": 1.375,
+        "height": 0.5625
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -6041,8 +6799,15 @@
   "leash_knot": {
     "id": 74,
     "translationKey": "entity.minecraft.leash_knot",
-    "height": 0.5,
-    "width": 0.375,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.0625,
+        "width": 0.375,
+        "height": 0.5
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -6087,8 +6852,15 @@
   "lightning_bolt": {
     "id": 75,
     "translationKey": "entity.minecraft.lightning_bolt",
-    "height": 0.0,
-    "width": 0.0,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -6133,8 +6905,21 @@
   "llama": {
     "id": 76,
     "translationKey": "entity.minecraft.llama",
-    "height": 1.87,
-    "width": 0.9,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.7765,
+        "width": 0.9,
+        "height": 1.87
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -6242,8 +7027,15 @@
   "llama_spit": {
     "id": 77,
     "translationKey": "entity.minecraft.llama_spit",
-    "height": 0.25,
-    "width": 0.25,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.2125,
+        "width": 0.25,
+        "height": 0.25
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -6288,8 +7080,21 @@
   "magma_cube": {
     "id": 78,
     "translationKey": "entity.minecraft.magma_cube",
-    "height": 0.52,
-    "width": 0.52,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.325,
+        "width": 0.52,
+        "height": 0.52
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -6377,8 +7182,15 @@
   "mangrove_boat": {
     "id": 79,
     "translationKey": "entity.minecraft.mangrove_boat",
-    "height": 0.5625,
-    "width": 1.375,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.5625,
+        "width": 1.375,
+        "height": 0.5625
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -6453,8 +7265,15 @@
   "mangrove_chest_boat": {
     "id": 80,
     "translationKey": "entity.minecraft.mangrove_chest_boat",
-    "height": 0.5625,
-    "width": 1.375,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.5625,
+        "width": 1.375,
+        "height": 0.5625
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -6529,8 +7348,15 @@
   "marker": {
     "id": 81,
     "translationKey": "entity.minecraft.marker",
-    "height": 0.0,
-    "width": 0.0,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -6575,8 +7401,15 @@
   "minecart": {
     "id": 82,
     "translationKey": "entity.minecraft.minecart",
-    "height": 0.7,
-    "width": 0.98,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.595,
+        "width": 0.98,
+        "height": 0.7
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -6651,8 +7484,21 @@
   "mooshroom": {
     "id": 83,
     "translationKey": "entity.minecraft.mooshroom",
-    "height": 1.4,
-    "width": 0.9,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.3,
+        "width": 0.9,
+        "height": 1.4
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -6745,8 +7591,21 @@
   "mule": {
     "id": 84,
     "translationKey": "entity.minecraft.mule",
-    "height": 1.6,
-    "width": 1.3964844,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.52,
+        "width": 1.3964844,
+        "height": 1.6
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -6844,8 +7703,15 @@
   "oak_boat": {
     "id": 85,
     "translationKey": "entity.minecraft.oak_boat",
-    "height": 0.5625,
-    "width": 1.375,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.5625,
+        "width": 1.375,
+        "height": 0.5625
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -6920,8 +7786,15 @@
   "oak_chest_boat": {
     "id": 86,
     "translationKey": "entity.minecraft.oak_chest_boat",
-    "height": 0.5625,
-    "width": 1.375,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.5625,
+        "width": 1.375,
+        "height": 0.5625
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -6996,8 +7869,21 @@
   "ocelot": {
     "id": 87,
     "translationKey": "entity.minecraft.ocelot",
-    "height": 0.7,
-    "width": 0.6,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.595,
+        "width": 0.6,
+        "height": 0.7
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -7090,8 +7976,15 @@
   "ominous_item_spawner": {
     "id": 88,
     "translationKey": "entity.minecraft.ominous_item_spawner",
-    "height": 0.25,
-    "width": 0.25,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.2125,
+        "width": 0.25,
+        "height": 0.25
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -7140,8 +8033,15 @@
   "painting": {
     "id": 89,
     "translationKey": "entity.minecraft.painting",
-    "height": 0.5,
-    "width": 0.5,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.425,
+        "width": 0.5,
+        "height": 0.5
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -7190,8 +8090,15 @@
   "pale_oak_boat": {
     "id": 90,
     "translationKey": "entity.minecraft.pale_oak_boat",
-    "height": 0.5625,
-    "width": 1.375,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.5625,
+        "width": 1.375,
+        "height": 0.5625
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -7266,8 +8173,15 @@
   "pale_oak_chest_boat": {
     "id": 91,
     "translationKey": "entity.minecraft.pale_oak_chest_boat",
-    "height": 0.5625,
-    "width": 1.375,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.5625,
+        "width": 1.375,
+        "height": 0.5625
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -7342,8 +8256,21 @@
   "panda": {
     "id": 92,
     "translationKey": "entity.minecraft.panda",
-    "height": 1.25,
-    "width": 1.3,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.0625,
+        "width": 1.3,
+        "height": 1.25
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -7461,8 +8388,21 @@
   "parrot": {
     "id": 93,
     "translationKey": "entity.minecraft.parrot",
-    "height": 0.9,
-    "width": 0.5,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.54,
+        "width": 0.5,
+        "height": 0.9
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -7564,8 +8504,21 @@
   "phantom": {
     "id": 94,
     "translationKey": "entity.minecraft.phantom",
-    "height": 0.5,
-    "width": 0.9,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.175,
+        "width": 0.9,
+        "height": 0.5
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -7653,8 +8606,21 @@
   "pig": {
     "id": 95,
     "translationKey": "entity.minecraft.pig",
-    "height": 0.9,
-    "width": 0.9,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.765,
+        "width": 0.9,
+        "height": 0.9
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -7752,8 +8718,21 @@
   "piglin": {
     "id": 96,
     "translationKey": "entity.minecraft.piglin",
-    "height": 1.95,
-    "width": 0.6,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.79,
+        "width": 0.6,
+        "height": 1.95
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -7856,8 +8835,21 @@
   "piglin_brute": {
     "id": 97,
     "translationKey": "entity.minecraft.piglin_brute",
-    "height": 1.95,
-    "width": 0.6,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.79,
+        "width": 0.6,
+        "height": 1.95
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -7945,8 +8937,21 @@
   "pillager": {
     "id": 98,
     "translationKey": "entity.minecraft.pillager",
-    "height": 1.95,
-    "width": 0.6,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.6575,
+        "width": 0.6,
+        "height": 1.95
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -8039,8 +9044,21 @@
   "polar_bear": {
     "id": 99,
     "translationKey": "entity.minecraft.polar_bear",
-    "height": 1.4,
-    "width": 1.4,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.19,
+        "width": 1.4,
+        "height": 1.4
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -8133,8 +9151,15 @@
   "potion": {
     "id": 100,
     "translationKey": "entity.minecraft.potion",
-    "height": 0.25,
-    "width": 0.25,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.2125,
+        "width": 0.25,
+        "height": 0.25
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -8183,8 +9208,21 @@
   "pufferfish": {
     "id": 101,
     "translationKey": "entity.minecraft.pufferfish",
-    "height": 0.7,
-    "width": 0.7,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.2275,
+        "width": 0.35,
+        "height": 0.35
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -8277,8 +9315,21 @@
   "rabbit": {
     "id": 102,
     "translationKey": "entity.minecraft.rabbit",
-    "height": 0.5,
-    "width": 0.4,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.425,
+        "width": 0.4,
+        "height": 0.5
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -8371,8 +9422,21 @@
   "ravager": {
     "id": 103,
     "translationKey": "entity.minecraft.ravager",
-    "height": 2.2,
-    "width": 1.95,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.8700001,
+        "width": 1.95,
+        "height": 2.2
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -8460,8 +9524,21 @@
   "salmon": {
     "id": 104,
     "translationKey": "entity.minecraft.salmon",
-    "height": 0.4,
-    "width": 0.7,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.26,
+        "width": 0.7,
+        "height": 0.4
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -8554,8 +9631,21 @@
   "sheep": {
     "id": 105,
     "translationKey": "entity.minecraft.sheep",
-    "height": 1.3,
-    "width": 0.9,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.235,
+        "width": 0.9,
+        "height": 1.3
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -8648,8 +9738,21 @@
   "shulker": {
     "id": 106,
     "translationKey": "entity.minecraft.shulker",
-    "height": 1.0,
-    "width": 1.0,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.5,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -8746,8 +9849,15 @@
   "shulker_bullet": {
     "id": 107,
     "translationKey": "entity.minecraft.shulker_bullet",
-    "height": 0.3125,
-    "width": 0.3125,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.265625,
+        "width": 0.3125,
+        "height": 0.3125
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -8792,8 +9902,21 @@
   "silverfish": {
     "id": 108,
     "translationKey": "entity.minecraft.silverfish",
-    "height": 0.3,
-    "width": 0.4,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.13,
+        "width": 0.4,
+        "height": 0.3
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -8876,8 +9999,21 @@
   "skeleton": {
     "id": 109,
     "translationKey": "entity.minecraft.skeleton",
-    "height": 1.99,
-    "width": 0.6,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.74,
+        "width": 0.6,
+        "height": 1.99
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -8965,8 +10101,21 @@
   "skeleton_horse": {
     "id": 110,
     "translationKey": "entity.minecraft.skeleton_horse",
-    "height": 1.6,
-    "width": 1.3964844,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.52,
+        "width": 1.3964844,
+        "height": 1.6
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -9059,8 +10208,21 @@
   "slime": {
     "id": 111,
     "translationKey": "entity.minecraft.slime",
-    "height": 0.52,
-    "width": 0.52,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.325,
+        "width": 0.52,
+        "height": 0.52
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -9148,8 +10310,15 @@
   "small_fireball": {
     "id": 112,
     "translationKey": "entity.minecraft.small_fireball",
-    "height": 0.3125,
-    "width": 0.3125,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.265625,
+        "width": 0.3125,
+        "height": 0.3125
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -9198,8 +10367,21 @@
   "sniffer": {
     "id": 113,
     "translationKey": "entity.minecraft.sniffer",
-    "height": 1.75,
-    "width": 1.9,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.05,
+        "width": 1.9,
+        "height": 1.75
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -9296,8 +10478,15 @@
   "snowball": {
     "id": 114,
     "translationKey": "entity.minecraft.snowball",
-    "height": 0.25,
-    "width": 0.25,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.2125,
+        "width": 0.25,
+        "height": 0.25
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -9346,8 +10535,21 @@
   "snow_golem": {
     "id": 115,
     "translationKey": "entity.minecraft.snow_golem",
-    "height": 1.9,
-    "width": 0.7,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.7,
+        "width": 0.7,
+        "height": 1.9
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -9435,8 +10637,15 @@
   "spawner_minecart": {
     "id": 116,
     "translationKey": "entity.minecraft.spawner_minecart",
-    "height": 0.7,
-    "width": 0.98,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.595,
+        "width": 0.98,
+        "height": 0.7
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -9511,8 +10720,15 @@
   "spectral_arrow": {
     "id": 117,
     "translationKey": "entity.minecraft.spectral_arrow",
-    "height": 0.5,
-    "width": 0.5,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.13,
+        "width": 0.5,
+        "height": 0.5
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -9572,8 +10788,21 @@
   "spider": {
     "id": 118,
     "translationKey": "entity.minecraft.spider",
-    "height": 0.9,
-    "width": 1.4,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.65,
+        "width": 1.4,
+        "height": 0.9
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -9661,8 +10890,15 @@
   "spruce_boat": {
     "id": 119,
     "translationKey": "entity.minecraft.spruce_boat",
-    "height": 0.5625,
-    "width": 1.375,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.5625,
+        "width": 1.375,
+        "height": 0.5625
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -9737,8 +10973,15 @@
   "spruce_chest_boat": {
     "id": 120,
     "translationKey": "entity.minecraft.spruce_chest_boat",
-    "height": 0.5625,
-    "width": 1.375,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.5625,
+        "width": 1.375,
+        "height": 0.5625
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -9813,8 +11056,21 @@
   "squid": {
     "id": 121,
     "translationKey": "entity.minecraft.squid",
-    "height": 0.8,
-    "width": 0.8,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.4,
+        "width": 0.8,
+        "height": 0.8
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -9902,8 +11158,21 @@
   "stray": {
     "id": 122,
     "translationKey": "entity.minecraft.stray",
-    "height": 1.99,
-    "width": 0.6,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.74,
+        "width": 0.6,
+        "height": 1.99
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -9986,8 +11255,21 @@
   "strider": {
     "id": 123,
     "translationKey": "entity.minecraft.strider",
-    "height": 1.7,
-    "width": 0.9,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.445,
+        "width": 0.9,
+        "height": 1.7
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -10090,8 +11372,21 @@
   "tadpole": {
     "id": 124,
     "translationKey": "entity.minecraft.tadpole",
-    "height": 0.3,
-    "width": 0.4,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.19500001,
+        "width": 0.4,
+        "height": 0.3
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -10179,8 +11474,15 @@
   "text_display": {
     "id": 125,
     "translationKey": "entity.minecraft.text_display",
-    "height": 0.0,
-    "width": 0.0,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -10320,8 +11622,15 @@
   "tnt": {
     "id": 126,
     "translationKey": "entity.minecraft.tnt",
-    "height": 0.98,
-    "width": 0.98,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.15,
+        "width": 0.98,
+        "height": 0.98
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -10375,8 +11684,15 @@
   "tnt_minecart": {
     "id": 127,
     "translationKey": "entity.minecraft.tnt_minecart",
-    "height": 0.7,
-    "width": 0.98,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.595,
+        "width": 0.98,
+        "height": 0.7
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -10451,8 +11767,21 @@
   "trader_llama": {
     "id": 128,
     "translationKey": "entity.minecraft.trader_llama",
-    "height": 1.87,
-    "width": 0.9,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.7765,
+        "width": 0.9,
+        "height": 1.87
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -10560,8 +11889,15 @@
   "trident": {
     "id": 129,
     "translationKey": "entity.minecraft.trident",
-    "height": 0.5,
-    "width": 0.5,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.13,
+        "width": 0.5,
+        "height": 0.5
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -10631,8 +11967,21 @@
   "tropical_fish": {
     "id": 130,
     "translationKey": "entity.minecraft.tropical_fish",
-    "height": 0.4,
-    "width": 0.5,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.26,
+        "width": 0.5,
+        "height": 0.4
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -10725,8 +12074,21 @@
   "turtle": {
     "id": 131,
     "translationKey": "entity.minecraft.turtle",
-    "height": 0.4,
-    "width": 1.2,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.34,
+        "width": 1.2,
+        "height": 0.4
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -10842,8 +12204,21 @@
   "vex": {
     "id": 132,
     "translationKey": "entity.minecraft.vex",
-    "height": 0.8,
-    "width": 0.4,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.51875,
+        "width": 0.4,
+        "height": 0.8
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -10931,8 +12306,21 @@
   "villager": {
     "id": 133,
     "translationKey": "entity.minecraft.villager",
-    "height": 1.95,
-    "width": 0.6,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.62,
+        "width": 0.6,
+        "height": 1.95
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -11029,8 +12417,21 @@
   "vindicator": {
     "id": 134,
     "translationKey": "entity.minecraft.vindicator",
-    "height": 1.95,
-    "width": 0.6,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.6575,
+        "width": 0.6,
+        "height": 1.95
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -11118,8 +12519,21 @@
   "wandering_trader": {
     "id": 135,
     "translationKey": "entity.minecraft.wandering_trader",
-    "height": 1.95,
-    "width": 0.6,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.62,
+        "width": 0.6,
+        "height": 1.95
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -11212,8 +12626,21 @@
   "warden": {
     "id": 136,
     "translationKey": "entity.minecraft.warden",
-    "height": 2.9,
-    "width": 0.9,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 2.4650002,
+        "width": 0.9,
+        "height": 2.9
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -11301,8 +12728,15 @@
   "wind_charge": {
     "id": 137,
     "translationKey": "entity.minecraft.wind_charge",
-    "height": 0.3125,
-    "width": 0.3125,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.0,
+        "width": 0.3125,
+        "height": 0.3125
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -11347,8 +12781,21 @@
   "witch": {
     "id": 138,
     "translationKey": "entity.minecraft.witch",
-    "height": 1.95,
-    "width": 0.6,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.62,
+        "width": 0.6,
+        "height": 1.95
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -11441,8 +12888,21 @@
   "wither": {
     "id": 139,
     "translationKey": "entity.minecraft.wither",
-    "height": 3.5,
-    "width": 0.9,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 2.9750001,
+        "width": 0.9,
+        "height": 3.5
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -11545,8 +13005,21 @@
   "wither_skeleton": {
     "id": 140,
     "translationKey": "entity.minecraft.wither_skeleton",
-    "height": 2.4,
-    "width": 0.7,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 2.1,
+        "width": 0.7,
+        "height": 2.4
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -11629,8 +13102,15 @@
   "wither_skull": {
     "id": 141,
     "translationKey": "entity.minecraft.wither_skull",
-    "height": 0.3125,
-    "width": 0.3125,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.265625,
+        "width": 0.3125,
+        "height": 0.3125
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -11680,8 +13160,21 @@
   "wolf": {
     "id": 142,
     "translationKey": "entity.minecraft.wolf",
-    "height": 0.85,
-    "width": 0.6,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.68,
+        "width": 0.6,
+        "height": 0.85
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -11797,8 +13290,21 @@
   "zoglin": {
     "id": 143,
     "translationKey": "entity.minecraft.zoglin",
-    "height": 1.4,
-    "width": 1.3964844,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.19,
+        "width": 1.3964844,
+        "height": 1.4
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -11886,8 +13392,21 @@
   "zombie": {
     "id": 144,
     "translationKey": "entity.minecraft.zombie",
-    "height": 1.95,
-    "width": 0.6,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.74,
+        "width": 0.6,
+        "height": 1.95
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -11985,8 +13504,21 @@
   "zombie_horse": {
     "id": 145,
     "translationKey": "entity.minecraft.zombie_horse",
-    "height": 1.6,
-    "width": 1.3964844,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.52,
+        "width": 1.3964844,
+        "height": 1.6
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -12079,8 +13611,21 @@
   "zombie_villager": {
     "id": 146,
     "translationKey": "entity.minecraft.zombie_villager",
-    "height": 1.95,
-    "width": 0.6,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.74,
+        "width": 0.6,
+        "height": 1.95
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -12187,8 +13732,21 @@
   "zombified_piglin": {
     "id": 147,
     "translationKey": "entity.minecraft.zombified_piglin",
-    "height": 1.95,
-    "width": 0.6,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.79,
+        "width": 0.6,
+        "height": 1.95
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -12286,8 +13844,51 @@
   "player": {
     "id": 148,
     "translationKey": "entity.minecraft.player",
-    "height": 1.8,
-    "width": 0.6,
+    "interpolationDuration": 3,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 1.62,
+        "width": 0.6,
+        "height": 1.8
+      },
+      "fall_flying": {
+        "fixed": false,
+        "eyeHeight": 0.4,
+        "width": 0.6,
+        "height": 0.6
+      },
+      "sleeping": {
+        "fixed": true,
+        "eyeHeight": 0.2,
+        "width": 0.2,
+        "height": 0.2
+      },
+      "swimming": {
+        "fixed": false,
+        "eyeHeight": 0.4,
+        "width": 0.6,
+        "height": 0.6
+      },
+      "spin_attack": {
+        "fixed": false,
+        "eyeHeight": 0.4,
+        "width": 0.6,
+        "height": 0.6
+      },
+      "crouching": {
+        "fixed": false,
+        "eyeHeight": 1.27,
+        "width": 0.6,
+        "height": 1.5
+      },
+      "dying": {
+        "fixed": true,
+        "eyeHeight": 1.62,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",
@@ -12393,8 +13994,15 @@
   "fishing_bobber": {
     "id": 149,
     "translationKey": "entity.minecraft.fishing_bobber",
-    "height": 0.25,
-    "width": 0.25,
+    "interpolationDuration": 1,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.2125,
+        "width": 0.25,
+        "height": 0.25
+      }
+    },
     "metadata": [
       {
         "name": "shared_flags",

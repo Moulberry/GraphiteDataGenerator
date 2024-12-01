@@ -13,11 +13,20 @@ import net.minecraft.network.syncher.SynchedEntityData;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.EntityDimensions;
 import net.minecraft.world.entity.EntitySpawnReason;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Pose;
+import net.minecraft.world.entity.monster.Shulker;
 import net.minecraft.world.entity.monster.Zombie;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.vehicle.AbstractBoat;
+import net.minecraft.world.entity.vehicle.Boat;
+import net.minecraft.world.phys.AABB;
+import net.minecraft.world.phys.Vec3;
 import org.apache.commons.lang3.ClassUtils;
+import org.jetbrains.annotations.NotNull;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
@@ -86,8 +95,25 @@ public class EntityGenerator implements DataGenerator {
 
             entityJson.addProperty("id", BuiltInRegistries.ENTITY_TYPE.getId(entityType));
             entityJson.addProperty("translationKey", entityType.getDescriptionId());
-            entityJson.addProperty("height", entityType.getDimensions().height());
-            entityJson.addProperty("width", entityType.getDimensions().width());
+
+            int interpolationDuration = 1;
+            if (entity instanceof Shulker) {
+                interpolationDuration = 1;
+            } else if (entity instanceof LivingEntity || entity instanceof AbstractBoat) {
+                interpolationDuration = 3;
+            }
+            entityJson.addProperty("interpolationDuration", interpolationDuration);
+
+            JsonObject dimensionsJson = new JsonObject();
+            JsonObject defaultDimensions = createDimensionJson(entity.getDimensions(entity.getPose()));
+            dimensionsJson.add("default", defaultDimensions);
+            for (Pose pose : Pose.values()) {
+                JsonObject dimensions = createDimensionJson(entity.getDimensions(pose));
+                if (!dimensions.equals(defaultDimensions)) {
+                    dimensionsJson.add(pose.name().toLowerCase(Locale.ROOT), dimensions);
+                }
+            }
+            entityJson.add("dimensions", dimensionsJson);
 
             Map<EntityDataAccessor, String> accessorNames = new HashMap<>();
             Class<?> entityClass = entity.getClass();
@@ -146,6 +172,15 @@ public class EntityGenerator implements DataGenerator {
         }
 
         return allEntitiesJson;
+    }
+
+    private static JsonObject createDimensionJson(EntityDimensions dimensions) {
+        JsonObject jsonObject = new JsonObject();
+        jsonObject.addProperty("fixed", dimensions.fixed());
+        jsonObject.addProperty("eyeHeight", dimensions.eyeHeight());
+        jsonObject.addProperty("width", dimensions.width());
+        jsonObject.addProperty("height", dimensions.height());
+        return jsonObject;
     }
 
 }
