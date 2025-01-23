@@ -103,6 +103,7 @@ public class EntityGenerator implements DataGenerator {
                 interpolationDuration = 3;
             }
             entityJson.addProperty("interpolationDuration", interpolationDuration);
+            entityJson.addProperty("isLivingEntity", entity instanceof LivingEntity);
 
             JsonObject dimensionsJson = new JsonObject();
             JsonObject defaultDimensions = createDimensionJson(entity.getDimensions(entity.getPose()));

@@ -5091,13 +5091,6 @@
       "location": "minecraft:event.mob_effect.raid_omen"
     }
   },
-  "fluid": {
-    "empty": {},
-    "flowing_water": {},
-    "water": {},
-    "flowing_lava": {},
-    "lava": {}
-  },
   "mob_effect": {
     "speed": {
       "color": 3402751,

@@ -37,6 +37,7 @@ public class Generator implements DataGeneratorEntrypoint {
 
 		FabricDataGenerator.Pack pack = generator.createPack();
 		pack.addProvider(this.createProvider(new BlockGenerator()));
+		pack.addProvider(this.createProvider(new FluidGenerator()));
 		pack.addProvider(this.createProvider(new BuiltinGenerator(server.overworld())));
 		pack.addProvider(this.createProvider(new EntityGenerator(server.overworld())));
 		pack.addProvider(this.createProvider(new TypesGenerator()));

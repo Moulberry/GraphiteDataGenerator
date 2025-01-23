@@ -55,7 +55,7 @@ public class BuiltinGenerator implements DataGenerator {
         JsonObject allRegistriesJson = new JsonObject();
 
         for (Registry registry : BuiltInRegistries.REGISTRY) {
-            if (registry == BuiltInRegistries.BLOCK || registry == BuiltInRegistries.BLOCK_TYPE || registry == BuiltInRegistries.ITEM ||
+            if (registry == BuiltInRegistries.BLOCK || registry == BuiltInRegistries.FLUID || registry == BuiltInRegistries.BLOCK_TYPE || registry == BuiltInRegistries.ITEM ||
                     registry == BuiltInRegistries.ENTITY_TYPE || registry == BuiltInRegistries.REGISTRY || registry == BuiltInRegistries.PARTICLE_TYPE) {
                 continue;
             }
