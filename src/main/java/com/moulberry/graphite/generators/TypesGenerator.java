@@ -23,6 +23,7 @@ import net.minecraft.world.entity.animal.sniffer.Sniffer;
 import net.minecraft.world.entity.player.ChatVisiblity;
 import net.minecraft.world.inventory.ClickType;
 import net.minecraft.world.item.DyeColor;
+import net.minecraft.world.item.ItemUseAnimation;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.component.MapPostProcessing;
 import net.minecraft.world.level.block.LevelEvent;
@@ -70,6 +71,7 @@ public class TypesGenerator implements DataGenerator {
         addType(allTypesJson, Rarity.class);
         addType(allTypesJson, Sniffer.State.class, "sniffer_state");
         addType(allTypesJson, SoundSource.class);
+        addType(allTypesJson, ItemUseAnimation.class);
 
         addStaticConstants(allTypesJson, ClientboundAnimatePacket.class, int.class, Function.identity(), "entity_animation");
         addStaticConstants(allTypesJson, LevelEvent.class, int.class, Function.identity(), "level_event");

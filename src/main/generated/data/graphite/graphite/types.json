@@ -204,6 +204,18 @@
     "ambient",
     "voice"
   ],
+  "item_use_animation": [
+    "none",
+    "eat",
+    "drink",
+    "block",
+    "bow",
+    "spear",
+    "crossbow",
+    "spyglass",
+    "toot_horn",
+    "brush"
+  ],
   "entity_animation": {
     "swing_main_hand": 0,
     "wake_up": 2,
