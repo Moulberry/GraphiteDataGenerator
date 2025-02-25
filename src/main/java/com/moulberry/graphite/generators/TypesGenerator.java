@@ -72,6 +72,7 @@ public class TypesGenerator implements DataGenerator {
         addType(allTypesJson, Sniffer.State.class, "sniffer_state");
         addType(allTypesJson, SoundSource.class);
         addType(allTypesJson, ItemUseAnimation.class);
+        addType(allTypesJson, ServerboundClientCommandPacket.Action.class, "client_action");
 
         addStaticConstants(allTypesJson, ClientboundAnimatePacket.class, int.class, Function.identity(), "entity_animation");
         addStaticConstants(allTypesJson, LevelEvent.class, int.class, Function.identity(), "level_event");
