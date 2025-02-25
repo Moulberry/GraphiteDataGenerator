@@ -135,7 +135,8 @@
     "update_listed",
     "update_latency",
     "update_display_name",
-    "update_list_order"
+    "update_list_order",
+    "update_hat"
   ],
   "objective_render_type": [
     "integer",
@@ -214,7 +215,12 @@
     "crossbow",
     "spyglass",
     "toot_horn",
-    "brush"
+    "brush",
+    "bundle"
+  ],
+  "client_action": [
+    "perform_respawn",
+    "request_stats"
   ],
   "entity_animation": {
     "swing_main_hand": 0,

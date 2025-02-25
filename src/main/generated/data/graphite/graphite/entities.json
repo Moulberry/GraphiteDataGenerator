@@ -2920,119 +2920,20 @@
         "name": "is_active",
         "serializer": "boolean",
         "defaultValue": false
-      }
-    ]
-  },
-  "creaking_transient": {
-    "id": 30,
-    "translationKey": "entity.minecraft.creaking_transient",
-    "interpolationDuration": 3,
-    "isLivingEntity": true,
-    "dimensions": {
-      "default": {
-        "fixed": false,
-        "eyeHeight": 2.3,
-        "width": 0.9,
-        "height": 2.7
-      },
-      "sleeping": {
-        "fixed": true,
-        "eyeHeight": 0.2,
-        "width": 0.2,
-        "height": 0.2
-      }
-    },
-    "metadata": [
-      {
-        "name": "shared_flags",
-        "serializer": "byte",
-        "defaultValue": 0
       },
       {
-        "name": "air_supply",
-        "serializer": "int",
-        "defaultValue": 300
-      },
-      {
-        "name": "custom_name",
-        "serializer": "optional_component"
-      },
-      {
-        "name": "custom_name_visible",
+        "name": "is_tearing_down",
         "serializer": "boolean",
         "defaultValue": false
       },
       {
-        "name": "silent",
-        "serializer": "boolean",
-        "defaultValue": false
-      },
-      {
-        "name": "no_gravity",
-        "serializer": "boolean",
-        "defaultValue": false
-      },
-      {
-        "name": "pose",
-        "serializer": "pose"
-      },
-      {
-        "name": "ticks_frozen",
-        "serializer": "int",
-        "defaultValue": 0
-      },
-      {
-        "name": "living_entity_flags",
-        "serializer": "byte",
-        "defaultValue": 0
-      },
-      {
-        "name": "health",
-        "serializer": "float",
-        "defaultValue": 1.0
-      },
-      {
-        "name": "effect_particles",
-        "serializer": "particles"
-      },
-      {
-        "name": "effect_ambience",
-        "serializer": "boolean",
-        "defaultValue": false
-      },
-      {
-        "name": "arrow_count",
-        "serializer": "int",
-        "defaultValue": 0
-      },
-      {
-        "name": "stinger_count",
-        "serializer": "int",
-        "defaultValue": 0
-      },
-      {
-        "name": "sleeping_pos",
+        "name": "home_pos",
         "serializer": "optional_block_pos"
-      },
-      {
-        "name": "mob_flags",
-        "serializer": "byte",
-        "defaultValue": 0
-      },
-      {
-        "name": "can_move",
-        "serializer": "boolean",
-        "defaultValue": true
-      },
-      {
-        "name": "is_active",
-        "serializer": "boolean",
-        "defaultValue": false
       }
     ]
   },
   "creeper": {
-    "id": 31,
+    "id": 30,
     "translationKey": "entity.minecraft.creeper",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -3145,7 +3046,7 @@
     ]
   },
   "dark_oak_boat": {
-    "id": 32,
+    "id": 31,
     "translationKey": "entity.minecraft.dark_oak_boat",
     "interpolationDuration": 3,
     "isLivingEntity": false,
@@ -3229,7 +3130,7 @@
     ]
   },
   "dark_oak_chest_boat": {
-    "id": 33,
+    "id": 32,
     "translationKey": "entity.minecraft.dark_oak_chest_boat",
     "interpolationDuration": 3,
     "isLivingEntity": false,
@@ -3313,7 +3214,7 @@
     ]
   },
   "dolphin": {
-    "id": 34,
+    "id": 33,
     "translationKey": "entity.minecraft.dolphin",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -3430,7 +3331,7 @@
     ]
   },
   "donkey": {
-    "id": 35,
+    "id": 34,
     "translationKey": "entity.minecraft.donkey",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -3543,7 +3444,7 @@
     ]
   },
   "dragon_fireball": {
-    "id": 36,
+    "id": 35,
     "translationKey": "entity.minecraft.dragon_fireball",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -3597,7 +3498,7 @@
     ]
   },
   "drowned": {
-    "id": 37,
+    "id": 36,
     "translationKey": "entity.minecraft.drowned",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -3710,7 +3611,7 @@
     ]
   },
   "egg": {
-    "id": 38,
+    "id": 37,
     "translationKey": "entity.minecraft.egg",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -3768,7 +3669,7 @@
     ]
   },
   "elder_guardian": {
-    "id": 39,
+    "id": 38,
     "translationKey": "entity.minecraft.elder_guardian",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -3876,7 +3777,7 @@
     ]
   },
   "enderman": {
-    "id": 40,
+    "id": 39,
     "translationKey": "entity.minecraft.enderman",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -3988,7 +3889,7 @@
     ]
   },
   "endermite": {
-    "id": 41,
+    "id": 40,
     "translationKey": "entity.minecraft.endermite",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -4086,7 +3987,7 @@
     ]
   },
   "ender_dragon": {
-    "id": 42,
+    "id": 41,
     "translationKey": "entity.minecraft.ender_dragon",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -4189,7 +4090,7 @@
     ]
   },
   "ender_pearl": {
-    "id": 43,
+    "id": 42,
     "translationKey": "entity.minecraft.ender_pearl",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -4247,7 +4148,7 @@
     ]
   },
   "end_crystal": {
-    "id": 44,
+    "id": 43,
     "translationKey": "entity.minecraft.end_crystal",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -4310,7 +4211,7 @@
     ]
   },
   "evoker": {
-    "id": 45,
+    "id": 44,
     "translationKey": "entity.minecraft.evoker",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -4418,7 +4319,7 @@
     ]
   },
   "evoker_fangs": {
-    "id": 46,
+    "id": 45,
     "translationKey": "entity.minecraft.evoker_fangs",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -4472,7 +4373,7 @@
     ]
   },
   "experience_bottle": {
-    "id": 47,
+    "id": 46,
     "translationKey": "entity.minecraft.experience_bottle",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -4530,7 +4431,7 @@
     ]
   },
   "experience_orb": {
-    "id": 48,
+    "id": 47,
     "translationKey": "entity.minecraft.experience_orb",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -4584,7 +4485,7 @@
     ]
   },
   "eye_of_ender": {
-    "id": 49,
+    "id": 48,
     "translationKey": "entity.minecraft.eye_of_ender",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -4642,7 +4543,7 @@
     ]
   },
   "falling_block": {
-    "id": 50,
+    "id": 49,
     "translationKey": "entity.minecraft.falling_block",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -4700,7 +4601,7 @@
     ]
   },
   "fireball": {
-    "id": 51,
+    "id": 50,
     "translationKey": "entity.minecraft.fireball",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -4758,7 +4659,7 @@
     ]
   },
   "firework_rocket": {
-    "id": 52,
+    "id": 51,
     "translationKey": "entity.minecraft.firework_rocket",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -4825,7 +4726,7 @@
     ]
   },
   "fox": {
-    "id": 53,
+    "id": 52,
     "translationKey": "entity.minecraft.fox",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -4946,7 +4847,7 @@
     ]
   },
   "frog": {
-    "id": 54,
+    "id": 53,
     "translationKey": "entity.minecraft.frog",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -5057,7 +4958,7 @@
     ]
   },
   "furnace_minecart": {
-    "id": 55,
+    "id": 54,
     "translationKey": "entity.minecraft.furnace_minecart",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -5146,7 +5047,7 @@
     ]
   },
   "ghast": {
-    "id": 56,
+    "id": 55,
     "translationKey": "entity.minecraft.ghast",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -5249,7 +5150,7 @@
     ]
   },
   "giant": {
-    "id": 57,
+    "id": 56,
     "translationKey": "entity.minecraft.giant",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -5347,7 +5248,7 @@
     ]
   },
   "glow_item_frame": {
-    "id": 58,
+    "id": 57,
     "translationKey": "entity.minecraft.glow_item_frame",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -5410,7 +5311,7 @@
     ]
   },
   "glow_squid": {
-    "id": 59,
+    "id": 58,
     "translationKey": "entity.minecraft.glow_squid",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -5518,7 +5419,7 @@
     ]
   },
   "goat": {
-    "id": 60,
+    "id": 59,
     "translationKey": "entity.minecraft.goat",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -5642,7 +5543,7 @@
     ]
   },
   "guardian": {
-    "id": 61,
+    "id": 60,
     "translationKey": "entity.minecraft.guardian",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -5750,7 +5651,7 @@
     ]
   },
   "hoglin": {
-    "id": 62,
+    "id": 61,
     "translationKey": "entity.minecraft.hoglin",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -5858,7 +5759,7 @@
     ]
   },
   "hopper_minecart": {
-    "id": 63,
+    "id": 62,
     "translationKey": "entity.minecraft.hopper_minecart",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -5942,7 +5843,7 @@
     ]
   },
   "horse": {
-    "id": 64,
+    "id": 63,
     "translationKey": "entity.minecraft.horse",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -6055,7 +5956,7 @@
     ]
   },
   "husk": {
-    "id": 65,
+    "id": 64,
     "translationKey": "entity.minecraft.husk",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -6168,7 +6069,7 @@
     ]
   },
   "illusioner": {
-    "id": 66,
+    "id": 65,
     "translationKey": "entity.minecraft.illusioner",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -6276,7 +6177,7 @@
     ]
   },
   "interaction": {
-    "id": 67,
+    "id": 66,
     "translationKey": "entity.minecraft.interaction",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -6345,7 +6246,7 @@
     ]
   },
   "iron_golem": {
-    "id": 68,
+    "id": 67,
     "translationKey": "entity.minecraft.iron_golem",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -6448,7 +6349,7 @@
     ]
   },
   "item": {
-    "id": 69,
+    "id": 68,
     "translationKey": "entity.minecraft.item",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -6506,7 +6407,7 @@
     ]
   },
   "item_display": {
-    "id": 70,
+    "id": 69,
     "translationKey": "entity.minecraft.item_display",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -6640,7 +6541,7 @@
     ]
   },
   "item_frame": {
-    "id": 71,
+    "id": 70,
     "translationKey": "entity.minecraft.item_frame",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -6703,7 +6604,7 @@
     ]
   },
   "jungle_boat": {
-    "id": 72,
+    "id": 71,
     "translationKey": "entity.minecraft.jungle_boat",
     "interpolationDuration": 3,
     "isLivingEntity": false,
@@ -6787,7 +6688,7 @@
     ]
   },
   "jungle_chest_boat": {
-    "id": 73,
+    "id": 72,
     "translationKey": "entity.minecraft.jungle_chest_boat",
     "interpolationDuration": 3,
     "isLivingEntity": false,
@@ -6871,7 +6772,7 @@
     ]
   },
   "leash_knot": {
-    "id": 74,
+    "id": 73,
     "translationKey": "entity.minecraft.leash_knot",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -6925,7 +6826,7 @@
     ]
   },
   "lightning_bolt": {
-    "id": 75,
+    "id": 74,
     "translationKey": "entity.minecraft.lightning_bolt",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -6979,7 +6880,7 @@
     ]
   },
   "llama": {
-    "id": 76,
+    "id": 75,
     "translationKey": "entity.minecraft.llama",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -7102,7 +7003,7 @@
     ]
   },
   "llama_spit": {
-    "id": 77,
+    "id": 76,
     "translationKey": "entity.minecraft.llama_spit",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -7156,7 +7057,7 @@
     ]
   },
   "magma_cube": {
-    "id": 78,
+    "id": 77,
     "translationKey": "entity.minecraft.magma_cube",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -7259,7 +7160,7 @@
     ]
   },
   "mangrove_boat": {
-    "id": 79,
+    "id": 78,
     "translationKey": "entity.minecraft.mangrove_boat",
     "interpolationDuration": 3,
     "isLivingEntity": false,
@@ -7343,7 +7244,7 @@
     ]
   },
   "mangrove_chest_boat": {
-    "id": 80,
+    "id": 79,
     "translationKey": "entity.minecraft.mangrove_chest_boat",
     "interpolationDuration": 3,
     "isLivingEntity": false,
@@ -7427,7 +7328,7 @@
     ]
   },
   "marker": {
-    "id": 81,
+    "id": 80,
     "translationKey": "entity.minecraft.marker",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -7481,7 +7382,7 @@
     ]
   },
   "minecart": {
-    "id": 82,
+    "id": 81,
     "translationKey": "entity.minecraft.minecart",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -7565,7 +7466,7 @@
     ]
   },
   "mooshroom": {
-    "id": 83,
+    "id": 82,
     "translationKey": "entity.minecraft.mooshroom",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -7673,7 +7574,7 @@
     ]
   },
   "mule": {
-    "id": 84,
+    "id": 83,
     "translationKey": "entity.minecraft.mule",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -7786,7 +7687,7 @@
     ]
   },
   "oak_boat": {
-    "id": 85,
+    "id": 84,
     "translationKey": "entity.minecraft.oak_boat",
     "interpolationDuration": 3,
     "isLivingEntity": false,
@@ -7870,7 +7771,7 @@
     ]
   },
   "oak_chest_boat": {
-    "id": 86,
+    "id": 85,
     "translationKey": "entity.minecraft.oak_chest_boat",
     "interpolationDuration": 3,
     "isLivingEntity": false,
@@ -7954,7 +7855,7 @@
     ]
   },
   "ocelot": {
-    "id": 87,
+    "id": 86,
     "translationKey": "entity.minecraft.ocelot",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -8062,7 +7963,7 @@
     ]
   },
   "ominous_item_spawner": {
-    "id": 88,
+    "id": 87,
     "translationKey": "entity.minecraft.ominous_item_spawner",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -8120,7 +8021,7 @@
     ]
   },
   "painting": {
-    "id": 89,
+    "id": 88,
     "translationKey": "entity.minecraft.painting",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -8178,7 +8079,7 @@
     ]
   },
   "pale_oak_boat": {
-    "id": 90,
+    "id": 89,
     "translationKey": "entity.minecraft.pale_oak_boat",
     "interpolationDuration": 3,
     "isLivingEntity": false,
@@ -8262,7 +8163,7 @@
     ]
   },
   "pale_oak_chest_boat": {
-    "id": 91,
+    "id": 90,
     "translationKey": "entity.minecraft.pale_oak_chest_boat",
     "interpolationDuration": 3,
     "isLivingEntity": false,
@@ -8346,7 +8247,7 @@
     ]
   },
   "panda": {
-    "id": 92,
+    "id": 91,
     "translationKey": "entity.minecraft.panda",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -8479,7 +8380,7 @@
     ]
   },
   "parrot": {
-    "id": 93,
+    "id": 92,
     "translationKey": "entity.minecraft.parrot",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -8596,7 +8497,7 @@
     ]
   },
   "phantom": {
-    "id": 94,
+    "id": 93,
     "translationKey": "entity.minecraft.phantom",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -8699,7 +8600,7 @@
     ]
   },
   "pig": {
-    "id": 95,
+    "id": 94,
     "translationKey": "entity.minecraft.pig",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -8812,7 +8713,7 @@
     ]
   },
   "piglin": {
-    "id": 96,
+    "id": 95,
     "translationKey": "entity.minecraft.piglin",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -8930,7 +8831,7 @@
     ]
   },
   "piglin_brute": {
-    "id": 97,
+    "id": 96,
     "translationKey": "entity.minecraft.piglin_brute",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -9033,7 +8934,7 @@
     ]
   },
   "pillager": {
-    "id": 98,
+    "id": 97,
     "translationKey": "entity.minecraft.pillager",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -9141,7 +9042,7 @@
     ]
   },
   "polar_bear": {
-    "id": 99,
+    "id": 98,
     "translationKey": "entity.minecraft.polar_bear",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -9249,7 +9150,7 @@
     ]
   },
   "potion": {
-    "id": 100,
+    "id": 99,
     "translationKey": "entity.minecraft.potion",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -9307,7 +9208,7 @@
     ]
   },
   "pufferfish": {
-    "id": 101,
+    "id": 100,
     "translationKey": "entity.minecraft.pufferfish",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -9415,7 +9316,7 @@
     ]
   },
   "rabbit": {
-    "id": 102,
+    "id": 101,
     "translationKey": "entity.minecraft.rabbit",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -9523,7 +9424,7 @@
     ]
   },
   "ravager": {
-    "id": 103,
+    "id": 102,
     "translationKey": "entity.minecraft.ravager",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -9626,7 +9527,7 @@
     ]
   },
   "salmon": {
-    "id": 104,
+    "id": 103,
     "translationKey": "entity.minecraft.salmon",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -9728,13 +9629,13 @@
       },
       {
         "name": "type",
-        "serializer": "string",
-        "defaultValue": "medium"
+        "serializer": "int",
+        "defaultValue": 1
       }
     ]
   },
   "sheep": {
-    "id": 105,
+    "id": 104,
     "translationKey": "entity.minecraft.sheep",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -9842,7 +9743,7 @@
     ]
   },
   "shulker": {
-    "id": 106,
+    "id": 105,
     "translationKey": "entity.minecraft.shulker",
     "interpolationDuration": 1,
     "isLivingEntity": true,
@@ -9954,7 +9855,7 @@
     ]
   },
   "shulker_bullet": {
-    "id": 107,
+    "id": 106,
     "translationKey": "entity.minecraft.shulker_bullet",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -10008,7 +9909,7 @@
     ]
   },
   "silverfish": {
-    "id": 108,
+    "id": 107,
     "translationKey": "entity.minecraft.silverfish",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -10106,7 +10007,7 @@
     ]
   },
   "skeleton": {
-    "id": 109,
+    "id": 108,
     "translationKey": "entity.minecraft.skeleton",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -10209,7 +10110,7 @@
     ]
   },
   "skeleton_horse": {
-    "id": 110,
+    "id": 109,
     "translationKey": "entity.minecraft.skeleton_horse",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -10317,7 +10218,7 @@
     ]
   },
   "slime": {
-    "id": 111,
+    "id": 110,
     "translationKey": "entity.minecraft.slime",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -10420,7 +10321,7 @@
     ]
   },
   "small_fireball": {
-    "id": 112,
+    "id": 111,
     "translationKey": "entity.minecraft.small_fireball",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -10478,7 +10379,7 @@
     ]
   },
   "sniffer": {
-    "id": 113,
+    "id": 112,
     "translationKey": "entity.minecraft.sniffer",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -10590,7 +10491,7 @@
     ]
   },
   "snowball": {
-    "id": 114,
+    "id": 113,
     "translationKey": "entity.minecraft.snowball",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -10648,7 +10549,7 @@
     ]
   },
   "snow_golem": {
-    "id": 115,
+    "id": 114,
     "translationKey": "entity.minecraft.snow_golem",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -10751,7 +10652,7 @@
     ]
   },
   "spawner_minecart": {
-    "id": 116,
+    "id": 115,
     "translationKey": "entity.minecraft.spawner_minecart",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -10835,7 +10736,7 @@
     ]
   },
   "spectral_arrow": {
-    "id": 117,
+    "id": 116,
     "translationKey": "entity.minecraft.spectral_arrow",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -10904,7 +10805,7 @@
     ]
   },
   "spider": {
-    "id": 118,
+    "id": 117,
     "translationKey": "entity.minecraft.spider",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -11007,7 +10908,7 @@
     ]
   },
   "spruce_boat": {
-    "id": 119,
+    "id": 118,
     "translationKey": "entity.minecraft.spruce_boat",
     "interpolationDuration": 3,
     "isLivingEntity": false,
@@ -11091,7 +10992,7 @@
     ]
   },
   "spruce_chest_boat": {
-    "id": 120,
+    "id": 119,
     "translationKey": "entity.minecraft.spruce_chest_boat",
     "interpolationDuration": 3,
     "isLivingEntity": false,
@@ -11175,7 +11076,7 @@
     ]
   },
   "squid": {
-    "id": 121,
+    "id": 120,
     "translationKey": "entity.minecraft.squid",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -11278,7 +11179,7 @@
     ]
   },
   "stray": {
-    "id": 122,
+    "id": 121,
     "translationKey": "entity.minecraft.stray",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -11376,7 +11277,7 @@
     ]
   },
   "strider": {
-    "id": 123,
+    "id": 122,
     "translationKey": "entity.minecraft.strider",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -11494,7 +11395,7 @@
     ]
   },
   "tadpole": {
-    "id": 124,
+    "id": 123,
     "translationKey": "entity.minecraft.tadpole",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -11597,7 +11498,7 @@
     ]
   },
   "text_display": {
-    "id": 125,
+    "id": 124,
     "translationKey": "entity.minecraft.text_display",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -11746,7 +11647,7 @@
     ]
   },
   "tnt": {
-    "id": 126,
+    "id": 125,
     "translationKey": "entity.minecraft.tnt",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -11809,7 +11710,7 @@
     ]
   },
   "tnt_minecart": {
-    "id": 127,
+    "id": 126,
     "translationKey": "entity.minecraft.tnt_minecart",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -11893,7 +11794,7 @@
     ]
   },
   "trader_llama": {
-    "id": 128,
+    "id": 127,
     "translationKey": "entity.minecraft.trader_llama",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -12016,7 +11917,7 @@
     ]
   },
   "trident": {
-    "id": 129,
+    "id": 128,
     "translationKey": "entity.minecraft.trident",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -12095,7 +11996,7 @@
     ]
   },
   "tropical_fish": {
-    "id": 130,
+    "id": 129,
     "translationKey": "entity.minecraft.tropical_fish",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -12203,7 +12104,7 @@
     ]
   },
   "turtle": {
-    "id": 131,
+    "id": 130,
     "translationKey": "entity.minecraft.turtle",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -12334,7 +12235,7 @@
     ]
   },
   "vex": {
-    "id": 132,
+    "id": 131,
     "translationKey": "entity.minecraft.vex",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -12437,7 +12338,7 @@
     ]
   },
   "villager": {
-    "id": 133,
+    "id": 132,
     "translationKey": "entity.minecraft.villager",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -12549,7 +12450,7 @@
     ]
   },
   "vindicator": {
-    "id": 134,
+    "id": 133,
     "translationKey": "entity.minecraft.vindicator",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -12652,7 +12553,7 @@
     ]
   },
   "wandering_trader": {
-    "id": 135,
+    "id": 134,
     "translationKey": "entity.minecraft.wandering_trader",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -12760,7 +12661,7 @@
     ]
   },
   "warden": {
-    "id": 136,
+    "id": 135,
     "translationKey": "entity.minecraft.warden",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -12863,7 +12764,7 @@
     ]
   },
   "wind_charge": {
-    "id": 137,
+    "id": 136,
     "translationKey": "entity.minecraft.wind_charge",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -12917,7 +12818,7 @@
     ]
   },
   "witch": {
-    "id": 138,
+    "id": 137,
     "translationKey": "entity.minecraft.witch",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -13025,7 +12926,7 @@
     ]
   },
   "wither": {
-    "id": 139,
+    "id": 138,
     "translationKey": "entity.minecraft.wither",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -13143,7 +13044,7 @@
     ]
   },
   "wither_skeleton": {
-    "id": 140,
+    "id": 139,
     "translationKey": "entity.minecraft.wither_skeleton",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -13241,7 +13142,7 @@
     ]
   },
   "wither_skull": {
-    "id": 141,
+    "id": 140,
     "translationKey": "entity.minecraft.wither_skull",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -13300,7 +13201,7 @@
     ]
   },
   "wolf": {
-    "id": 142,
+    "id": 141,
     "translationKey": "entity.minecraft.wolf",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -13431,7 +13332,7 @@
     ]
   },
   "zoglin": {
-    "id": 143,
+    "id": 142,
     "translationKey": "entity.minecraft.zoglin",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -13534,7 +13435,7 @@
     ]
   },
   "zombie": {
-    "id": 144,
+    "id": 143,
     "translationKey": "entity.minecraft.zombie",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -13647,7 +13548,7 @@
     ]
   },
   "zombie_horse": {
-    "id": 145,
+    "id": 144,
     "translationKey": "entity.minecraft.zombie_horse",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -13755,7 +13656,7 @@
     ]
   },
   "zombie_villager": {
-    "id": 146,
+    "id": 145,
     "translationKey": "entity.minecraft.zombie_villager",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -13877,7 +13778,7 @@
     ]
   },
   "zombified_piglin": {
-    "id": 147,
+    "id": 146,
     "translationKey": "entity.minecraft.zombified_piglin",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -13990,7 +13891,7 @@
     ]
   },
   "player": {
-    "id": 148,
+    "id": 147,
     "translationKey": "entity.minecraft.player",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -14141,7 +14042,7 @@
     ]
   },
   "fishing_bobber": {
-    "id": 149,
+    "id": 148,
     "translationKey": "entity.minecraft.fishing_bobber",
     "interpolationDuration": 1,
     "isLivingEntity": false,
