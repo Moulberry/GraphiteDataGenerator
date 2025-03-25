@@ -49,8 +49,6 @@ public class FluidGenerator implements DataGenerator {
                 int stateId = Fluid.FLUID_STATE_REGISTRY.getId(possibleState);
                 minStateId = Math.min(minStateId, stateId);
 
-                System.out.println("got state: " + stateId + ": " + possibleState.getOwnHeight());
-
                 FluidAttributes stateAttributes = FluidAttributes.fromState(possibleState);
                 JsonObject stateAttributesJson = stateAttributes.write(fluidAttributes);
 
