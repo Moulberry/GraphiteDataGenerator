@@ -10,6 +10,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.EmptyBlockGetter;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.FenceGateBlock;
+import net.minecraft.world.level.block.Rotation;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
@@ -132,7 +133,8 @@ public class BlockGenerator implements DataGenerator {
         int lightEmission,
         boolean fallDamageResetting,
         boolean climbable,
-        List<AABB> collisionShape
+        List<AABB> collisionShape,
+        int clockwiseRotationStateIdOffset
     ) {
         public static BlockAttributes createDefault() {
             return new BlockAttributes(
@@ -151,12 +153,19 @@ public class BlockGenerator implements DataGenerator {
                 0,
                 false,
                 false,
-                null
+                null,
+                0
             );
         }
 
         public static BlockAttributes fromState(BlockState blockState) {
             boolean isWaterlogged = blockState.getFluidState().is(Fluids.WATER) || blockState.getFluidState().is(Fluids.FLOWING_WATER);
+
+            int stateId = Block.BLOCK_STATE_REGISTRY.getId(blockState);
+            BlockState rotatedBlockState = blockState.rotate(Rotation.CLOCKWISE_90);
+            int rotatedStateId = Block.BLOCK_STATE_REGISTRY.getId(rotatedBlockState);
+            int clockwiseRotationStateIdOffset = rotatedStateId - stateId;
+
             return new BlockAttributes(
                 Fluid.FLUID_STATE_REGISTRY.getId(blockState.getFluidState()),
                 blockState.getDestroySpeed(EmptyBlockGetter.INSTANCE, BlockPos.ZERO),
@@ -178,7 +187,8 @@ public class BlockGenerator implements DataGenerator {
                 blockState.getLightEmission(),
                 blockState.is(BlockTags.FALL_DAMAGE_RESETTING) || isWaterlogged,
                 blockState.is(BlockTags.CLIMBABLE),
-                blockState.getCollisionShape(EmptyBlockGetter.INSTANCE, BlockPos.ZERO).toAabbs()
+                blockState.getCollisionShape(EmptyBlockGetter.INSTANCE, BlockPos.ZERO).toAabbs(),
+                clockwiseRotationStateIdOffset
             );
         }
 
@@ -243,6 +253,9 @@ public class BlockGenerator implements DataGenerator {
             }
             if (defaultValues == null || this.climbable != defaultValues.climbable) {
                 jsonObject.addProperty("climbable", this.climbable);
+            }
+            if (defaultValues == null || this.clockwiseRotationStateIdOffset != defaultValues.clockwiseRotationStateIdOffset) {
+                jsonObject.addProperty("clockwiseRotationStateIdOffset", this.clockwiseRotationStateIdOffset);
             }
             if (defaultValues == null || !this.collisionShape.equals(defaultValues.collisionShape)) {
                 JsonArray collisionShape = new JsonArray();

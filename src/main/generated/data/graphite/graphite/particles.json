@@ -45,6 +45,7 @@
   "flame": {},
   "infested": {},
   "cherry_leaves": {},
+  "pale_oak_leaves": {},
   "sculk_soul": {},
   "sculk_charge": {
     "particle_options": "sculk_charge"
@@ -64,7 +65,7 @@
     "particle_options": "vibration"
   },
   "trail": {
-    "particle_options": "target_color"
+    "particle_options": "trail"
   },
   "item_slime": {},
   "item_cobweb": {},

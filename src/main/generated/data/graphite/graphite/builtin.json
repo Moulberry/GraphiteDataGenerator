@@ -1334,6 +1334,9 @@
     "entity.creaking.sway": {
       "location": "minecraft:entity.creaking.sway"
     },
+    "entity.creaking.twitch": {
+      "location": "minecraft:entity.creaking.twitch"
+    },
     "block.creaking_heart.break": {
       "location": "minecraft:block.creaking_heart.break"
     },
@@ -1747,6 +1750,21 @@
     },
     "entity.experience_orb.pickup": {
       "location": "minecraft:entity.experience_orb.pickup"
+    },
+    "block.eyeblossom.open_long": {
+      "location": "minecraft:block.eyeblossom.open_long"
+    },
+    "block.eyeblossom.open": {
+      "location": "minecraft:block.eyeblossom.open"
+    },
+    "block.eyeblossom.close_long": {
+      "location": "minecraft:block.eyeblossom.close_long"
+    },
+    "block.eyeblossom.close": {
+      "location": "minecraft:block.eyeblossom.close"
+    },
+    "block.eyeblossom.idle": {
+      "location": "minecraft:block.eyeblossom.idle"
     },
     "block.fence_gate.close": {
       "location": "minecraft:block.fence_gate.close"
@@ -4147,6 +4165,33 @@
     },
     "block.spawner.step": {
       "location": "minecraft:block.spawner.step"
+    },
+    "block.resin.break": {
+      "location": "minecraft:block.resin.break"
+    },
+    "block.resin.fall": {
+      "location": "minecraft:block.resin.fall"
+    },
+    "block.resin.place": {
+      "location": "minecraft:block.resin.place"
+    },
+    "block.resin.step": {
+      "location": "minecraft:block.resin.step"
+    },
+    "block.resin_bricks.break": {
+      "location": "minecraft:block.resin_bricks.break"
+    },
+    "block.resin_bricks.fall": {
+      "location": "minecraft:block.resin_bricks.fall"
+    },
+    "block.resin_bricks.hit": {
+      "location": "minecraft:block.resin_bricks.hit"
+    },
+    "block.resin_bricks.place": {
+      "location": "minecraft:block.resin_bricks.place"
+    },
+    "block.resin_bricks.step": {
+      "location": "minecraft:block.resin_bricks.step"
     },
     "block.spore_blossom.break": {
       "location": "minecraft:block.spore_blossom.break"

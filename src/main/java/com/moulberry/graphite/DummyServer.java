@@ -17,6 +17,7 @@ import net.minecraft.server.dedicated.DedicatedServerSettings;
 import net.minecraft.server.level.progress.LoggerChunkProgressListener;
 import net.minecraft.server.packs.repository.PackRepository;
 import net.minecraft.server.packs.repository.ServerPacksSource;
+import net.minecraft.util.HttpUtil;
 import net.minecraft.util.datafix.DataFixers;
 import net.minecraft.world.Difficulty;
 import net.minecraft.world.flag.FeatureFlags;
@@ -83,7 +84,7 @@ public class DummyServer {
         var server = MinecraftServer.spin((threadx) -> {
             DedicatedServer dedicatedServer = new DedicatedServer(threadx, access, packRepository, worldStem, dedicatedServerSettings, DataFixers.getDataFixer(),
                     services, LoggerChunkProgressListener::createFromGameruleRadius);
-            dedicatedServer.setPort(25565);
+            dedicatedServer.setPort(HttpUtil.getAvailablePort());
             dedicatedServer.setDemo(false);
             return dedicatedServer;
         });
