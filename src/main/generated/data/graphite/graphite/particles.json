@@ -46,6 +46,9 @@
   "infested": {},
   "cherry_leaves": {},
   "pale_oak_leaves": {},
+  "tinted_leaves": {
+    "particle_options": "color"
+  },
   "sculk_soul": {},
   "sculk_charge": {
     "particle_options": "sculk_charge"
@@ -136,5 +139,6 @@
   "trial_omen": {},
   "block_crumble": {
     "particle_options": "block"
-  }
+  },
+  "firefly": {}
 }

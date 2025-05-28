@@ -2035,7 +2035,7 @@
       },
       {
         "name": "owneruuid",
-        "serializer": "optional_uuid"
+        "serializer": "optional_living_entity_reference"
       },
       {
         "name": "variant",
@@ -2397,19 +2397,13 @@
         "defaultValue": 0.0
       },
       {
-        "name": "id_display_block",
-        "serializer": "int",
-        "defaultValue": 0
+        "name": "id_custom_display_block",
+        "serializer": "optional_block_state"
       },
       {
         "name": "id_display_offset",
         "serializer": "int",
-        "defaultValue": 6
-      },
-      {
-        "name": "id_custom_display",
-        "serializer": "boolean",
-        "defaultValue": false
+        "defaultValue": 8
       }
     ]
   },
@@ -2513,6 +2507,10 @@
         "name": "baby",
         "serializer": "boolean",
         "defaultValue": false
+      },
+      {
+        "name": "variant",
+        "serializer": "chicken_variant"
       }
     ]
   },
@@ -2687,19 +2685,13 @@
         "defaultValue": 0.0
       },
       {
-        "name": "id_display_block",
-        "serializer": "int",
-        "defaultValue": 0
+        "name": "id_custom_display_block",
+        "serializer": "optional_block_state"
       },
       {
         "name": "id_display_offset",
         "serializer": "int",
         "defaultValue": 6
-      },
-      {
-        "name": "id_custom_display",
-        "serializer": "boolean",
-        "defaultValue": false
       },
       {
         "name": "id_command_name",
@@ -2812,6 +2804,10 @@
         "name": "baby",
         "serializer": "boolean",
         "defaultValue": false
+      },
+      {
+        "name": "variant",
+        "serializer": "cow_variant"
       }
     ]
   },
@@ -3313,10 +3309,6 @@
         "name": "baby",
         "serializer": "boolean",
         "defaultValue": false
-      },
-      {
-        "name": "treasure_pos",
-        "serializer": "block_pos"
       },
       {
         "name": "got_fish",
@@ -4481,6 +4473,11 @@
         "name": "ticks_frozen",
         "serializer": "int",
         "defaultValue": 0
+      },
+      {
+        "name": "value",
+        "serializer": "int",
+        "defaultValue": 0
       }
     ]
   },
@@ -4838,11 +4835,11 @@
       },
       {
         "name": "trusted_0",
-        "serializer": "optional_uuid"
+        "serializer": "optional_living_entity_reference"
       },
       {
         "name": "trusted_1",
-        "serializer": "optional_uuid"
+        "serializer": "optional_living_entity_reference"
       }
     ]
   },
@@ -5025,19 +5022,13 @@
         "defaultValue": 0.0
       },
       {
-        "name": "id_display_block",
-        "serializer": "int",
-        "defaultValue": 0
+        "name": "id_custom_display_block",
+        "serializer": "optional_block_state"
       },
       {
         "name": "id_display_offset",
         "serializer": "int",
         "defaultValue": 6
-      },
-      {
-        "name": "id_custom_display",
-        "serializer": "boolean",
-        "defaultValue": false
       },
       {
         "name": "id_fuel",
@@ -5826,19 +5817,13 @@
         "defaultValue": 0.0
       },
       {
-        "name": "id_display_block",
-        "serializer": "int",
-        "defaultValue": 0
+        "name": "id_custom_display_block",
+        "serializer": "optional_block_state"
       },
       {
         "name": "id_display_offset",
         "serializer": "int",
-        "defaultValue": 6
-      },
-      {
-        "name": "id_custom_display",
-        "serializer": "boolean",
-        "defaultValue": false
+        "defaultValue": 1
       }
     ]
   },
@@ -7449,19 +7434,13 @@
         "defaultValue": 0.0
       },
       {
-        "name": "id_display_block",
-        "serializer": "int",
-        "defaultValue": 0
+        "name": "id_custom_display_block",
+        "serializer": "optional_block_state"
       },
       {
         "name": "id_display_offset",
         "serializer": "int",
         "defaultValue": 6
-      },
-      {
-        "name": "id_custom_display",
-        "serializer": "boolean",
-        "defaultValue": false
       }
     ]
   },
@@ -7568,8 +7547,8 @@
       },
       {
         "name": "type",
-        "serializer": "string",
-        "defaultValue": "red"
+        "serializer": "int",
+        "defaultValue": 0
       }
     ]
   },
@@ -8487,7 +8466,7 @@
       },
       {
         "name": "owneruuid",
-        "serializer": "optional_uuid"
+        "serializer": "optional_living_entity_reference"
       },
       {
         "name": "variant",
@@ -8701,14 +8680,13 @@
         "defaultValue": false
       },
       {
-        "name": "saddle",
-        "serializer": "boolean",
-        "defaultValue": false
-      },
-      {
         "name": "boost_time",
         "serializer": "int",
         "defaultValue": 0
+      },
+      {
+        "name": "variant",
+        "serializer": "pig_variant"
       }
     ]
   },
@@ -9149,9 +9127,67 @@
       }
     ]
   },
-  "potion": {
+  "splash_potion": {
     "id": 99,
-    "translationKey": "entity.minecraft.potion",
+    "translationKey": "entity.minecraft.splash_potion",
+    "interpolationDuration": 1,
+    "isLivingEntity": false,
+    "dimensions": {
+      "default": {
+        "fixed": false,
+        "eyeHeight": 0.2125,
+        "width": 0.25,
+        "height": 0.25
+      }
+    },
+    "metadata": [
+      {
+        "name": "shared_flags",
+        "serializer": "byte",
+        "defaultValue": 0
+      },
+      {
+        "name": "air_supply",
+        "serializer": "int",
+        "defaultValue": 300
+      },
+      {
+        "name": "custom_name",
+        "serializer": "optional_component"
+      },
+      {
+        "name": "custom_name_visible",
+        "serializer": "boolean",
+        "defaultValue": false
+      },
+      {
+        "name": "silent",
+        "serializer": "boolean",
+        "defaultValue": false
+      },
+      {
+        "name": "no_gravity",
+        "serializer": "boolean",
+        "defaultValue": false
+      },
+      {
+        "name": "pose",
+        "serializer": "pose"
+      },
+      {
+        "name": "ticks_frozen",
+        "serializer": "int",
+        "defaultValue": 0
+      },
+      {
+        "name": "item_stack",
+        "serializer": "item_stack"
+      }
+    ]
+  },
+  "lingering_potion": {
+    "id": 100,
+    "translationKey": "entity.minecraft.lingering_potion",
     "interpolationDuration": 1,
     "isLivingEntity": false,
     "dimensions": {
@@ -9208,7 +9244,7 @@
     ]
   },
   "pufferfish": {
-    "id": 100,
+    "id": 101,
     "translationKey": "entity.minecraft.pufferfish",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -9316,7 +9352,7 @@
     ]
   },
   "rabbit": {
-    "id": 101,
+    "id": 102,
     "translationKey": "entity.minecraft.rabbit",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -9424,7 +9460,7 @@
     ]
   },
   "ravager": {
-    "id": 102,
+    "id": 103,
     "translationKey": "entity.minecraft.ravager",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -9527,7 +9563,7 @@
     ]
   },
   "salmon": {
-    "id": 103,
+    "id": 104,
     "translationKey": "entity.minecraft.salmon",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -9635,7 +9671,7 @@
     ]
   },
   "sheep": {
-    "id": 104,
+    "id": 105,
     "translationKey": "entity.minecraft.sheep",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -9743,7 +9779,7 @@
     ]
   },
   "shulker": {
-    "id": 105,
+    "id": 106,
     "translationKey": "entity.minecraft.shulker",
     "interpolationDuration": 1,
     "isLivingEntity": true,
@@ -9855,7 +9891,7 @@
     ]
   },
   "shulker_bullet": {
-    "id": 106,
+    "id": 107,
     "translationKey": "entity.minecraft.shulker_bullet",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -9909,7 +9945,7 @@
     ]
   },
   "silverfish": {
-    "id": 107,
+    "id": 108,
     "translationKey": "entity.minecraft.silverfish",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -10007,7 +10043,7 @@
     ]
   },
   "skeleton": {
-    "id": 108,
+    "id": 109,
     "translationKey": "entity.minecraft.skeleton",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -10110,7 +10146,7 @@
     ]
   },
   "skeleton_horse": {
-    "id": 109,
+    "id": 110,
     "translationKey": "entity.minecraft.skeleton_horse",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -10218,7 +10254,7 @@
     ]
   },
   "slime": {
-    "id": 110,
+    "id": 111,
     "translationKey": "entity.minecraft.slime",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -10321,7 +10357,7 @@
     ]
   },
   "small_fireball": {
-    "id": 111,
+    "id": 112,
     "translationKey": "entity.minecraft.small_fireball",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -10379,7 +10415,7 @@
     ]
   },
   "sniffer": {
-    "id": 112,
+    "id": 113,
     "translationKey": "entity.minecraft.sniffer",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -10491,7 +10527,7 @@
     ]
   },
   "snowball": {
-    "id": 113,
+    "id": 114,
     "translationKey": "entity.minecraft.snowball",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -10549,7 +10585,7 @@
     ]
   },
   "snow_golem": {
-    "id": 114,
+    "id": 115,
     "translationKey": "entity.minecraft.snow_golem",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -10652,7 +10688,7 @@
     ]
   },
   "spawner_minecart": {
-    "id": 115,
+    "id": 116,
     "translationKey": "entity.minecraft.spawner_minecart",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -10719,24 +10755,18 @@
         "defaultValue": 0.0
       },
       {
-        "name": "id_display_block",
-        "serializer": "int",
-        "defaultValue": 0
+        "name": "id_custom_display_block",
+        "serializer": "optional_block_state"
       },
       {
         "name": "id_display_offset",
         "serializer": "int",
         "defaultValue": 6
-      },
-      {
-        "name": "id_custom_display",
-        "serializer": "boolean",
-        "defaultValue": false
       }
     ]
   },
   "spectral_arrow": {
-    "id": 116,
+    "id": 117,
     "translationKey": "entity.minecraft.spectral_arrow",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -10805,7 +10835,7 @@
     ]
   },
   "spider": {
-    "id": 117,
+    "id": 118,
     "translationKey": "entity.minecraft.spider",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -10908,7 +10938,7 @@
     ]
   },
   "spruce_boat": {
-    "id": 118,
+    "id": 119,
     "translationKey": "entity.minecraft.spruce_boat",
     "interpolationDuration": 3,
     "isLivingEntity": false,
@@ -10992,7 +11022,7 @@
     ]
   },
   "spruce_chest_boat": {
-    "id": 119,
+    "id": 120,
     "translationKey": "entity.minecraft.spruce_chest_boat",
     "interpolationDuration": 3,
     "isLivingEntity": false,
@@ -11076,7 +11106,7 @@
     ]
   },
   "squid": {
-    "id": 120,
+    "id": 121,
     "translationKey": "entity.minecraft.squid",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -11179,7 +11209,7 @@
     ]
   },
   "stray": {
-    "id": 121,
+    "id": 122,
     "translationKey": "entity.minecraft.stray",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -11277,7 +11307,7 @@
     ]
   },
   "strider": {
-    "id": 122,
+    "id": 123,
     "translationKey": "entity.minecraft.strider",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -11386,16 +11416,11 @@
         "name": "suffocating",
         "serializer": "boolean",
         "defaultValue": false
-      },
-      {
-        "name": "saddle",
-        "serializer": "boolean",
-        "defaultValue": false
       }
     ]
   },
   "tadpole": {
-    "id": 123,
+    "id": 124,
     "translationKey": "entity.minecraft.tadpole",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -11498,7 +11523,7 @@
     ]
   },
   "text_display": {
-    "id": 124,
+    "id": 125,
     "translationKey": "entity.minecraft.text_display",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -11647,7 +11672,7 @@
     ]
   },
   "tnt": {
-    "id": 125,
+    "id": 126,
     "translationKey": "entity.minecraft.tnt",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -11710,7 +11735,7 @@
     ]
   },
   "tnt_minecart": {
-    "id": 126,
+    "id": 127,
     "translationKey": "entity.minecraft.tnt_minecart",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -11777,24 +11802,18 @@
         "defaultValue": 0.0
       },
       {
-        "name": "id_display_block",
-        "serializer": "int",
-        "defaultValue": 0
+        "name": "id_custom_display_block",
+        "serializer": "optional_block_state"
       },
       {
         "name": "id_display_offset",
         "serializer": "int",
         "defaultValue": 6
-      },
-      {
-        "name": "id_custom_display",
-        "serializer": "boolean",
-        "defaultValue": false
       }
     ]
   },
   "trader_llama": {
-    "id": 127,
+    "id": 128,
     "translationKey": "entity.minecraft.trader_llama",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -11917,7 +11936,7 @@
     ]
   },
   "trident": {
-    "id": 128,
+    "id": 129,
     "translationKey": "entity.minecraft.trident",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -11996,7 +12015,7 @@
     ]
   },
   "tropical_fish": {
-    "id": 129,
+    "id": 130,
     "translationKey": "entity.minecraft.tropical_fish",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -12104,7 +12123,7 @@
     ]
   },
   "turtle": {
-    "id": 130,
+    "id": 131,
     "translationKey": "entity.minecraft.turtle",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -12205,10 +12224,6 @@
         "defaultValue": false
       },
       {
-        "name": "home_pos",
-        "serializer": "block_pos"
-      },
-      {
         "name": "has_egg",
         "serializer": "boolean",
         "defaultValue": false
@@ -12217,25 +12232,11 @@
         "name": "laying_egg",
         "serializer": "boolean",
         "defaultValue": false
-      },
-      {
-        "name": "travel_pos",
-        "serializer": "block_pos"
-      },
-      {
-        "name": "going_home",
-        "serializer": "boolean",
-        "defaultValue": false
-      },
-      {
-        "name": "travelling",
-        "serializer": "boolean",
-        "defaultValue": false
       }
     ]
   },
   "vex": {
-    "id": 131,
+    "id": 132,
     "translationKey": "entity.minecraft.vex",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -12338,7 +12339,7 @@
     ]
   },
   "villager": {
-    "id": 132,
+    "id": 133,
     "translationKey": "entity.minecraft.villager",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -12450,7 +12451,7 @@
     ]
   },
   "vindicator": {
-    "id": 133,
+    "id": 134,
     "translationKey": "entity.minecraft.vindicator",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -12553,7 +12554,7 @@
     ]
   },
   "wandering_trader": {
-    "id": 134,
+    "id": 135,
     "translationKey": "entity.minecraft.wandering_trader",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -12661,7 +12662,7 @@
     ]
   },
   "warden": {
-    "id": 135,
+    "id": 136,
     "translationKey": "entity.minecraft.warden",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -12764,7 +12765,7 @@
     ]
   },
   "wind_charge": {
-    "id": 136,
+    "id": 137,
     "translationKey": "entity.minecraft.wind_charge",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -12818,7 +12819,7 @@
     ]
   },
   "witch": {
-    "id": 137,
+    "id": 138,
     "translationKey": "entity.minecraft.witch",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -12926,7 +12927,7 @@
     ]
   },
   "wither": {
-    "id": 138,
+    "id": 139,
     "translationKey": "entity.minecraft.wither",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -13044,7 +13045,7 @@
     ]
   },
   "wither_skeleton": {
-    "id": 139,
+    "id": 140,
     "translationKey": "entity.minecraft.wither_skeleton",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -13142,7 +13143,7 @@
     ]
   },
   "wither_skull": {
-    "id": 140,
+    "id": 141,
     "translationKey": "entity.minecraft.wither_skull",
     "interpolationDuration": 1,
     "isLivingEntity": false,
@@ -13201,7 +13202,7 @@
     ]
   },
   "wolf": {
-    "id": 141,
+    "id": 142,
     "translationKey": "entity.minecraft.wolf",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -13308,7 +13309,7 @@
       },
       {
         "name": "owneruuid",
-        "serializer": "optional_uuid"
+        "serializer": "optional_living_entity_reference"
       },
       {
         "name": "interested",
@@ -13328,11 +13329,15 @@
       {
         "name": "variant",
         "serializer": "wolf_variant"
+      },
+      {
+        "name": "sound_variant",
+        "serializer": "wolf_sound_variant"
       }
     ]
   },
   "zoglin": {
-    "id": 142,
+    "id": 143,
     "translationKey": "entity.minecraft.zoglin",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -13435,7 +13440,7 @@
     ]
   },
   "zombie": {
-    "id": 143,
+    "id": 144,
     "translationKey": "entity.minecraft.zombie",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -13548,7 +13553,7 @@
     ]
   },
   "zombie_horse": {
-    "id": 144,
+    "id": 145,
     "translationKey": "entity.minecraft.zombie_horse",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -13656,7 +13661,7 @@
     ]
   },
   "zombie_villager": {
-    "id": 145,
+    "id": 146,
     "translationKey": "entity.minecraft.zombie_villager",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -13778,7 +13783,7 @@
     ]
   },
   "zombified_piglin": {
-    "id": 146,
+    "id": 147,
     "translationKey": "entity.minecraft.zombified_piglin",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -13891,7 +13896,7 @@
     ]
   },
   "player": {
-    "id": 147,
+    "id": 148,
     "translationKey": "entity.minecraft.player",
     "interpolationDuration": 3,
     "isLivingEntity": true,
@@ -14042,7 +14047,7 @@
     ]
   },
   "fishing_bobber": {
-    "id": 148,
+    "id": 149,
     "translationKey": "entity.minecraft.fishing_bobber",
     "interpolationDuration": 1,
     "isLivingEntity": false,

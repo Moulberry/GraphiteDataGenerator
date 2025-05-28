@@ -863,6 +863,12 @@
     "item.bundle.remove_one": {
       "location": "minecraft:item.bundle.remove_one"
     },
+    "block.cactus_flower.break": {
+      "location": "minecraft:block.cactus_flower.break"
+    },
+    "block.cactus_flower.place": {
+      "location": "minecraft:block.cactus_flower.place"
+    },
     "block.cake.add_candle": {
       "location": "minecraft:block.cake.add_candle"
     },
@@ -1400,6 +1406,9 @@
     "item.crossbow.shoot": {
       "location": "minecraft:item.crossbow.shoot"
     },
+    "block.deadbush.idle": {
+      "location": "minecraft:block.deadbush.idle"
+    },
     "block.decorated_pot.break": {
       "location": "minecraft:block.decorated_pot.break"
     },
@@ -1774,6 +1783,9 @@
     },
     "item.firecharge.use": {
       "location": "minecraft:item.firecharge.use"
+    },
+    "block.firefly_bush.idle": {
+      "location": "minecraft:block.firefly_bush.idle"
     },
     "entity.firework_rocket.blast": {
       "location": "minecraft:entity.firework_rocket.blast"
@@ -2492,6 +2504,21 @@
     "item.ink_sac.use": {
       "location": "minecraft:item.ink_sac.use"
     },
+    "block.iron.break": {
+      "location": "minecraft:block.iron.break"
+    },
+    "block.iron.step": {
+      "location": "minecraft:block.iron.step"
+    },
+    "block.iron.place": {
+      "location": "minecraft:block.iron.place"
+    },
+    "block.iron.hit": {
+      "location": "minecraft:block.iron.hit"
+    },
+    "block.iron.fall": {
+      "location": "minecraft:block.iron.fall"
+    },
     "block.iron_door.close": {
       "location": "minecraft:block.iron_door.close"
     },
@@ -2587,6 +2614,21 @@
     },
     "block.lava.pop": {
       "location": "minecraft:block.lava.pop"
+    },
+    "block.leaf_litter.break": {
+      "location": "minecraft:block.leaf_litter.break"
+    },
+    "block.leaf_litter.step": {
+      "location": "minecraft:block.leaf_litter.step"
+    },
+    "block.leaf_litter.place": {
+      "location": "minecraft:block.leaf_litter.place"
+    },
+    "block.leaf_litter.hit": {
+      "location": "minecraft:block.leaf_litter.hit"
+    },
+    "block.leaf_litter.fall": {
+      "location": "minecraft:block.leaf_litter.fall"
     },
     "entity.leash_knot.break": {
       "location": "minecraft:entity.leash_knot.break"
@@ -3830,6 +3872,12 @@
     "block.sand.step": {
       "location": "minecraft:block.sand.step"
     },
+    "block.sand.idle": {
+      "location": "minecraft:block.sand.idle"
+    },
+    "block.sand.wind": {
+      "location": "minecraft:block.sand.wind"
+    },
     "block.scaffolding.break": {
       "location": "minecraft:block.scaffolding.break"
     },
@@ -4958,6 +5006,12 @@
     "item.wolf_armor.repair": {
       "location": "minecraft:item.wolf_armor.repair"
     },
+    "entity.wolf.shake": {
+      "location": "minecraft:entity.wolf.shake"
+    },
+    "entity.wolf.step": {
+      "location": "minecraft:entity.wolf.step"
+    },
     "entity.wolf.ambient": {
       "location": "minecraft:entity.wolf.ambient"
     },
@@ -4967,23 +5021,122 @@
     "entity.wolf.growl": {
       "location": "minecraft:entity.wolf.growl"
     },
-    "entity.wolf.howl": {
-      "location": "minecraft:entity.wolf.howl"
-    },
     "entity.wolf.hurt": {
       "location": "minecraft:entity.wolf.hurt"
     },
     "entity.wolf.pant": {
       "location": "minecraft:entity.wolf.pant"
     },
-    "entity.wolf.shake": {
-      "location": "minecraft:entity.wolf.shake"
-    },
-    "entity.wolf.step": {
-      "location": "minecraft:entity.wolf.step"
-    },
     "entity.wolf.whine": {
       "location": "minecraft:entity.wolf.whine"
+    },
+    "entity.wolf_puglin.ambient": {
+      "location": "minecraft:entity.wolf_puglin.ambient"
+    },
+    "entity.wolf_puglin.death": {
+      "location": "minecraft:entity.wolf_puglin.death"
+    },
+    "entity.wolf_puglin.growl": {
+      "location": "minecraft:entity.wolf_puglin.growl"
+    },
+    "entity.wolf_puglin.hurt": {
+      "location": "minecraft:entity.wolf_puglin.hurt"
+    },
+    "entity.wolf_puglin.pant": {
+      "location": "minecraft:entity.wolf_puglin.pant"
+    },
+    "entity.wolf_puglin.whine": {
+      "location": "minecraft:entity.wolf_puglin.whine"
+    },
+    "entity.wolf_sad.ambient": {
+      "location": "minecraft:entity.wolf_sad.ambient"
+    },
+    "entity.wolf_sad.death": {
+      "location": "minecraft:entity.wolf_sad.death"
+    },
+    "entity.wolf_sad.growl": {
+      "location": "minecraft:entity.wolf_sad.growl"
+    },
+    "entity.wolf_sad.hurt": {
+      "location": "minecraft:entity.wolf_sad.hurt"
+    },
+    "entity.wolf_sad.pant": {
+      "location": "minecraft:entity.wolf_sad.pant"
+    },
+    "entity.wolf_sad.whine": {
+      "location": "minecraft:entity.wolf_sad.whine"
+    },
+    "entity.wolf_angry.ambient": {
+      "location": "minecraft:entity.wolf_angry.ambient"
+    },
+    "entity.wolf_angry.death": {
+      "location": "minecraft:entity.wolf_angry.death"
+    },
+    "entity.wolf_angry.growl": {
+      "location": "minecraft:entity.wolf_angry.growl"
+    },
+    "entity.wolf_angry.hurt": {
+      "location": "minecraft:entity.wolf_angry.hurt"
+    },
+    "entity.wolf_angry.pant": {
+      "location": "minecraft:entity.wolf_angry.pant"
+    },
+    "entity.wolf_angry.whine": {
+      "location": "minecraft:entity.wolf_angry.whine"
+    },
+    "entity.wolf_grumpy.ambient": {
+      "location": "minecraft:entity.wolf_grumpy.ambient"
+    },
+    "entity.wolf_grumpy.death": {
+      "location": "minecraft:entity.wolf_grumpy.death"
+    },
+    "entity.wolf_grumpy.growl": {
+      "location": "minecraft:entity.wolf_grumpy.growl"
+    },
+    "entity.wolf_grumpy.hurt": {
+      "location": "minecraft:entity.wolf_grumpy.hurt"
+    },
+    "entity.wolf_grumpy.pant": {
+      "location": "minecraft:entity.wolf_grumpy.pant"
+    },
+    "entity.wolf_grumpy.whine": {
+      "location": "minecraft:entity.wolf_grumpy.whine"
+    },
+    "entity.wolf_big.ambient": {
+      "location": "minecraft:entity.wolf_big.ambient"
+    },
+    "entity.wolf_big.death": {
+      "location": "minecraft:entity.wolf_big.death"
+    },
+    "entity.wolf_big.growl": {
+      "location": "minecraft:entity.wolf_big.growl"
+    },
+    "entity.wolf_big.hurt": {
+      "location": "minecraft:entity.wolf_big.hurt"
+    },
+    "entity.wolf_big.pant": {
+      "location": "minecraft:entity.wolf_big.pant"
+    },
+    "entity.wolf_big.whine": {
+      "location": "minecraft:entity.wolf_big.whine"
+    },
+    "entity.wolf_cute.ambient": {
+      "location": "minecraft:entity.wolf_cute.ambient"
+    },
+    "entity.wolf_cute.death": {
+      "location": "minecraft:entity.wolf_cute.death"
+    },
+    "entity.wolf_cute.growl": {
+      "location": "minecraft:entity.wolf_cute.growl"
+    },
+    "entity.wolf_cute.hurt": {
+      "location": "minecraft:entity.wolf_cute.hurt"
+    },
+    "entity.wolf_cute.pant": {
+      "location": "minecraft:entity.wolf_cute.pant"
+    },
+    "entity.wolf_cute.whine": {
+      "location": "minecraft:entity.wolf_cute.whine"
     },
     "block.wooden_door.close": {
       "location": "minecraft:block.wooden_door.close"
@@ -5139,159 +5292,237 @@
   "mob_effect": {
     "speed": {
       "color": 3402751,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "slowness": {
       "color": 9154528,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "haste": {
       "color": 14270531,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "mining_fatigue": {
       "color": 4866583,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "strength": {
       "color": 16762624,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "instant_health": {
       "color": 16262179,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "instant_damage": {
       "color": 11101546,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "jump_boost": {
       "color": 16646020,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "nausea": {
       "color": 5578058,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 150,
+      "blend_out_duration_ticks": 20,
+      "blend_out_advance_ticks": 60
     },
     "regeneration": {
       "color": 13458603,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "resistance": {
       "color": 9520880,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "fire_resistance": {
       "color": 16750848,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "water_breathing": {
       "color": 10017472,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "invisibility": {
       "color": 16185078,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "blindness": {
       "color": 2039587,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "night_vision": {
       "color": 12779366,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "hunger": {
       "color": 5797459,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "weakness": {
       "color": 4738376,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "poison": {
       "color": 8889187,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "wither": {
       "color": 7561558,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "health_boost": {
       "color": 16284963,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "absorption": {
       "color": 2445989,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "saturation": {
       "color": 16262179,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "glowing": {
       "color": 9740385,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "levitation": {
       "color": 13565951,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "luck": {
       "color": 5882118,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "unluck": {
       "color": 12624973,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "slow_falling": {
       "color": 15978425,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "conduit_power": {
       "color": 1950417,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "dolphins_grace": {
       "color": 8954814,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "bad_omen": {
       "color": 745784,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "hero_of_the_village": {
       "color": 4521796,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "darkness": {
       "color": 2696993,
-      "blend_duration_ticks": 22
+      "blend_in_duration_ticks": 22,
+      "blend_out_duration_ticks": 22,
+      "blend_out_advance_ticks": 22
     },
     "trial_omen": {
       "color": 1484454,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "raid_omen": {
       "color": 14565464,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "wind_charged": {
       "color": 12438015,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "weaving": {
       "color": 7891290,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "oozing": {
       "color": 10092451,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     },
     "infested": {
       "color": 9214860,
-      "blend_duration_ticks": 0
+      "blend_in_duration_ticks": 0,
+      "blend_out_duration_ticks": 0,
+      "blend_out_advance_ticks": 0
     }
   },
   "potion": {
@@ -5479,7 +5710,9 @@
     "decorated_pot": {},
     "crafter": {},
     "trial_spawner": {},
-    "vault": {}
+    "vault": {},
+    "test_block": {},
+    "test_instance_block": {}
   },
   "custom_stat": {
     "leave_game": {
@@ -6153,6 +6386,7 @@
     "resource_or_tag_key": {},
     "resource": {},
     "resource_key": {},
+    "resource_selector": {},
     "template_mirror": {},
     "template_rotation": {},
     "heightmap": {},
@@ -6173,74 +6407,30 @@
     "custom": {}
   },
   "villager_type": {
-    "desert": {
-      "name": "desert"
-    },
-    "jungle": {
-      "name": "jungle"
-    },
-    "plains": {
-      "name": "plains"
-    },
-    "savanna": {
-      "name": "savanna"
-    },
-    "snow": {
-      "name": "snow"
-    },
-    "swamp": {
-      "name": "swamp"
-    },
-    "taiga": {
-      "name": "taiga"
-    }
+    "desert": {},
+    "jungle": {},
+    "plains": {},
+    "savanna": {},
+    "snow": {},
+    "swamp": {},
+    "taiga": {}
   },
   "villager_profession": {
-    "none": {
-      "name": "none"
-    },
-    "armorer": {
-      "name": "armorer"
-    },
-    "butcher": {
-      "name": "butcher"
-    },
-    "cartographer": {
-      "name": "cartographer"
-    },
-    "cleric": {
-      "name": "cleric"
-    },
-    "farmer": {
-      "name": "farmer"
-    },
-    "fisherman": {
-      "name": "fisherman"
-    },
-    "fletcher": {
-      "name": "fletcher"
-    },
-    "leatherworker": {
-      "name": "leatherworker"
-    },
-    "librarian": {
-      "name": "librarian"
-    },
-    "mason": {
-      "name": "mason"
-    },
-    "nitwit": {
-      "name": "nitwit"
-    },
-    "shepherd": {
-      "name": "shepherd"
-    },
-    "toolsmith": {
-      "name": "toolsmith"
-    },
-    "weaponsmith": {
-      "name": "weaponsmith"
-    }
+    "none": {},
+    "armorer": {},
+    "butcher": {},
+    "cartographer": {},
+    "cleric": {},
+    "farmer": {},
+    "fisherman": {},
+    "fletcher": {},
+    "leatherworker": {},
+    "librarian": {},
+    "mason": {},
+    "nitwit": {},
+    "shepherd": {},
+    "toolsmith": {},
+    "weaponsmith": {}
   },
   "point_of_interest_type": {
     "armorer": {
@@ -6337,6 +6527,7 @@
     "nearest_players": {},
     "nearest_visible_player": {},
     "nearest_visible_targetable_player": {},
+    "nearest_visible_targetable_players": {},
     "walk_target": {},
     "look_target": {},
     "attack_target": {},
@@ -6680,6 +6871,7 @@
   "worldgen/feature": {
     "no_op": {},
     "tree": {},
+    "fallen_tree": {},
     "flower": {},
     "no_bonemeal_flower": {},
     "random_patch": {},
@@ -6882,7 +7074,9 @@
     "cocoa": {},
     "beehive": {},
     "alter_ground": {},
-    "attached_to_leaves": {}
+    "attached_to_leaves": {},
+    "place_on_ground": {},
+    "attached_to_logs": {}
   },
   "worldgen/feature_size_type": {
     "two_layers_feature_size": {},
@@ -6976,52 +7170,6 @@
     "random": {},
     "random_group": {},
     "direct": {}
-  },
-  "cat_variant": {
-    "tabby": {
-      "texture": "minecraft:textures/entity/cat/tabby.png"
-    },
-    "black": {
-      "texture": "minecraft:textures/entity/cat/black.png"
-    },
-    "red": {
-      "texture": "minecraft:textures/entity/cat/red.png"
-    },
-    "siamese": {
-      "texture": "minecraft:textures/entity/cat/siamese.png"
-    },
-    "british_shorthair": {
-      "texture": "minecraft:textures/entity/cat/british_shorthair.png"
-    },
-    "calico": {
-      "texture": "minecraft:textures/entity/cat/calico.png"
-    },
-    "persian": {
-      "texture": "minecraft:textures/entity/cat/persian.png"
-    },
-    "ragdoll": {
-      "texture": "minecraft:textures/entity/cat/ragdoll.png"
-    },
-    "white": {
-      "texture": "minecraft:textures/entity/cat/white.png"
-    },
-    "jellie": {
-      "texture": "minecraft:textures/entity/cat/jellie.png"
-    },
-    "all_black": {
-      "texture": "minecraft:textures/entity/cat/all_black.png"
-    }
-  },
-  "frog_variant": {
-    "temperate": {
-      "texture": "minecraft:textures/entity/frog/temperate_frog.png"
-    },
-    "warm": {
-      "texture": "minecraft:textures/entity/frog/warm_frog.png"
-    },
-    "cold": {
-      "texture": "minecraft:textures/entity/frog/cold_frog.png"
-    }
   },
   "decorated_pot_pattern": {
     "angler": {
@@ -7290,8 +7438,7 @@
     "can_break": {},
     "attribute_modifiers": {},
     "custom_model_data": {},
-    "hide_additional_tooltip": {},
-    "hide_tooltip": {},
+    "tooltip_display": {},
     "repair_cost": {},
     "creative_slot_lock": {},
     "enchantment_glint_override": {},
@@ -7302,12 +7449,14 @@
     "use_cooldown": {},
     "damage_resistant": {},
     "tool": {},
+    "weapon": {},
     "enchantable": {},
     "equippable": {},
     "repairable": {},
     "glider": {},
     "tooltip_style": {},
     "death_protection": {},
+    "blocks_attacks": {},
     "stored_enchantments": {},
     "dyed_color": {},
     "map_color": {},
@@ -7317,6 +7466,7 @@
     "charged_projectiles": {},
     "bundle_contents": {},
     "potion_contents": {},
+    "potion_duration_scale": {},
     "suspicious_stew_effects": {},
     "writable_book_content": {},
     "written_book_content": {},
@@ -7326,8 +7476,10 @@
     "bucket_entity_data": {},
     "block_entity_data": {},
     "instrument": {},
+    "provides_trim_material": {},
     "ominous_bottle_amplifier": {},
     "jukebox_playable": {},
+    "provides_banner_patterns": {},
     "recipes": {},
     "lodestone_tracker": {},
     "firework_explosion": {},
@@ -7341,7 +7493,32 @@
     "block_state": {},
     "bees": {},
     "lock": {},
-    "container_loot": {}
+    "container_loot": {},
+    "break_sound": {},
+    "villager/variant": {},
+    "wolf/variant": {},
+    "wolf/sound_variant": {},
+    "wolf/collar": {},
+    "fox/variant": {},
+    "salmon/size": {},
+    "parrot/variant": {},
+    "tropical_fish/pattern": {},
+    "tropical_fish/base_color": {},
+    "tropical_fish/pattern_color": {},
+    "mooshroom/variant": {},
+    "rabbit/variant": {},
+    "pig/variant": {},
+    "cow/variant": {},
+    "chicken/variant": {},
+    "frog/variant": {},
+    "horse/variant": {},
+    "painting/variant": {},
+    "llama/variant": {},
+    "axolotl/variant": {},
+    "cat/variant": {},
+    "cat/collar": {},
+    "sheep/color": {},
+    "shulker/color": {}
   },
   "entity_sub_predicate_type": {
     "lightning": {},
@@ -7349,23 +7526,9 @@
     "player": {},
     "slime": {},
     "raider": {},
-    "sheep": {},
-    "axolotl": {},
-    "fox": {},
-    "mooshroom": {},
-    "rabbit": {},
-    "horse": {},
-    "llama": {},
-    "villager": {},
-    "parrot": {},
-    "salmon": {},
-    "tropical_fish": {},
-    "painting": {},
-    "cat": {},
-    "frog": {},
-    "wolf": {}
+    "sheep": {}
   },
-  "item_sub_predicate_type": {
+  "data_component_predicate_type": {
     "damage": {},
     "enchantments": {},
     "stored_enchantments": {},
@@ -7748,5 +7911,58 @@
     "stonecutter": {},
     "smithing": {},
     "campfire": {}
+  },
+  "ticket_type": {
+    "start": {
+      "timeout": 0,
+      "persist": false
+    },
+    "dragon": {
+      "timeout": 0,
+      "persist": false
+    },
+    "player_loading": {
+      "timeout": 0,
+      "persist": false
+    },
+    "player_simulation": {
+      "timeout": 0,
+      "persist": false
+    },
+    "forced": {
+      "timeout": 0,
+      "persist": true
+    },
+    "portal": {
+      "timeout": 300,
+      "persist": true
+    },
+    "ender_pearl": {
+      "timeout": 40,
+      "persist": false
+    },
+    "unknown": {
+      "timeout": 1,
+      "persist": false
+    }
+  },
+  "test_environment_definition_type": {
+    "all_of": {},
+    "game_rules": {},
+    "time_of_day": {},
+    "weather": {},
+    "function": {}
+  },
+  "test_instance_type": {
+    "block_based": {},
+    "function": {}
+  },
+  "spawn_condition_type": {
+    "structure": {},
+    "moon_brightness": {},
+    "biome": {}
+  },
+  "test_function": {
+    "always_pass": {}
   }
 }

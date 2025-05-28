@@ -14,6 +14,7 @@ import net.minecraft.sounds.SoundSource;
 import net.minecraft.util.StringRepresentable;
 import net.minecraft.world.BossEvent;
 import net.minecraft.world.InteractionHand;
+import net.minecraft.world.entity.Display;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.HumanoidArm;
 import net.minecraft.world.entity.Pose;
@@ -73,6 +74,7 @@ public class TypesGenerator implements DataGenerator {
         addType(allTypesJson, SoundSource.class);
         addType(allTypesJson, ItemUseAnimation.class);
         addType(allTypesJson, ServerboundClientCommandPacket.Action.class, "client_action");
+        addType(allTypesJson, Display.BillboardConstraints.class, "billboard_constraint");
 
         addStaticConstants(allTypesJson, ClientboundAnimatePacket.class, int.class, Function.identity(), "entity_animation");
         addStaticConstants(allTypesJson, LevelEvent.class, int.class, Function.identity(), "level_event");

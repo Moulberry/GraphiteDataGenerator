@@ -94,7 +94,8 @@
     "legs",
     "chest",
     "head",
-    "body"
+    "body",
+    "saddle"
   ],
   "humanoid_arm": [
     "left",
@@ -320,7 +321,7 @@
     "change_game_mode": 3,
     "win_game": 4,
     "demo_event": 5,
-    "arrow_hit_player": 6,
+    "play_arrow_hit_sound": 6,
     "rain_level_change": 7,
     "thunder_level_change": 8,
     "puffer_fish_sting": 9,

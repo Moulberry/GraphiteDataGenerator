@@ -23,10 +23,12 @@ import net.minecraft.world.entity.monster.Zombie;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.vehicle.AbstractBoat;
 import net.minecraft.world.entity.vehicle.Boat;
+import net.minecraft.world.level.GameType;
 import net.minecraft.world.phys.AABB;
 import net.minecraft.world.phys.Vec3;
 import org.apache.commons.lang3.ClassUtils;
 import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
@@ -87,6 +89,11 @@ public class EntityGenerator implements DataGenerator {
                     @Override
                     public boolean isCreative() {
                         return false;
+                    }
+
+                    @Override
+                    public @Nullable GameType gameMode() {
+                        return GameType.DEFAULT_MODE;
                     }
                 };
             } else {

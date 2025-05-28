@@ -15,12 +15,14 @@ import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.world.entity.EntityEquipment;
 import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.EmptyBlockGetter;
+import net.minecraft.world.level.GameType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
@@ -79,7 +81,12 @@ public class BuiltinGenerator implements DataGenerator {
                         public boolean isCreative() {
                             return false;
                         }
-                    });
+
+                        @Override
+                        public @Nullable GameType gameMode() {
+                            return GameType.DEFAULT_MODE;
+                        }
+                    }, new EntityEquipment());
                     var menu = menuType.create(1, inventory);
                     registryValueJson.addProperty("slot_count", menu.slots.size());
                 }

@@ -41,7 +41,7 @@ public class Generator implements DataGeneratorEntrypoint {
 		pack.addProvider(this.createProvider(new BuiltinGenerator(server.overworld())));
 		pack.addProvider(this.createProvider(new EntityGenerator(server.overworld())));
 		pack.addProvider(this.createProvider(new TypesGenerator()));
-		pack.addProvider(this.createProvider(new ItemsGenerator()));
+		pack.addProvider(this.createProvider(new ItemsGenerator(server.overworld())));
 		pack.addProvider(this.createProvider(new ParticlesGenerator()));
 	}
 
