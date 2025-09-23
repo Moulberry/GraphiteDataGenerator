@@ -1538,6 +1538,30 @@
     "entity.donkey.jump": {
       "location": "minecraft:entity.donkey.jump"
     },
+    "block.dried_ghast.break": {
+      "location": "minecraft:block.dried_ghast.break"
+    },
+    "block.dried_ghast.step": {
+      "location": "minecraft:block.dried_ghast.step"
+    },
+    "block.dried_ghast.fall": {
+      "location": "minecraft:block.dried_ghast.fall"
+    },
+    "block.dried_ghast.ambient": {
+      "location": "minecraft:block.dried_ghast.ambient"
+    },
+    "block.dried_ghast.ambient_water": {
+      "location": "minecraft:block.dried_ghast.ambient_water"
+    },
+    "block.dried_ghast.place": {
+      "location": "minecraft:block.dried_ghast.place"
+    },
+    "block.dried_ghast.place_in_water": {
+      "location": "minecraft:block.dried_ghast.place_in_water"
+    },
+    "block.dried_ghast.transition": {
+      "location": "minecraft:block.dried_ghast.transition"
+    },
     "block.dripstone_block.break": {
       "location": "minecraft:block.dripstone_block.break"
     },
@@ -1552,6 +1576,9 @@
     },
     "block.dripstone_block.fall": {
       "location": "minecraft:block.dripstone_block.fall"
+    },
+    "block.dry_grass.ambient": {
+      "location": "minecraft:block.dry_grass.ambient"
     },
     "block.pointed_dripstone.break": {
       "location": "minecraft:block.pointed_dripstone.break"
@@ -2036,6 +2063,18 @@
     "entity.ghast.warn": {
       "location": "minecraft:entity.ghast.warn"
     },
+    "entity.ghastling.ambient": {
+      "location": "minecraft:entity.ghastling.ambient"
+    },
+    "entity.ghastling.death": {
+      "location": "minecraft:entity.ghastling.death"
+    },
+    "entity.ghastling.hurt": {
+      "location": "minecraft:entity.ghastling.hurt"
+    },
+    "entity.ghastling.spawn": {
+      "location": "minecraft:entity.ghastling.spawn"
+    },
     "block.gilded_blackstone.break": {
       "location": "minecraft:block.gilded_blackstone.break"
     },
@@ -2240,6 +2279,18 @@
     "block.hanging_sign.place": {
       "location": "minecraft:block.hanging_sign.place"
     },
+    "entity.happy_ghast.ambient": {
+      "location": "minecraft:entity.happy_ghast.ambient"
+    },
+    "entity.happy_ghast.death": {
+      "location": "minecraft:entity.happy_ghast.death"
+    },
+    "entity.happy_ghast.hurt": {
+      "location": "minecraft:entity.happy_ghast.hurt"
+    },
+    "entity.happy_ghast.riding": {
+      "location": "minecraft:entity.happy_ghast.riding"
+    },
     "block.heavy_core.break": {
       "location": "minecraft:block.heavy_core.break"
     },
@@ -2333,6 +2384,18 @@
     "block.trial_spawner.eject_item": {
       "location": "minecraft:block.trial_spawner.eject_item"
     },
+    "entity.happy_ghast.equip": {
+      "location": "minecraft:entity.happy_ghast.equip"
+    },
+    "entity.happy_ghast.unequip": {
+      "location": "minecraft:entity.happy_ghast.unequip"
+    },
+    "entity.happy_ghast.harness_goggles_up": {
+      "location": "minecraft:entity.happy_ghast.harness_goggles_up"
+    },
+    "entity.happy_ghast.harness_goggles_down": {
+      "location": "minecraft:entity.happy_ghast.harness_goggles_down"
+    },
     "item.hoe.till": {
       "location": "minecraft:item.hoe.till"
     },
@@ -2416,6 +2479,9 @@
     },
     "entity.horse.armor": {
       "location": "minecraft:entity.horse.armor"
+    },
+    "item.horse_armor.unequip": {
+      "location": "minecraft:item.horse_armor.unequip"
     },
     "entity.horse.breathe": {
       "location": "minecraft:entity.horse.breathe"
@@ -2630,11 +2696,14 @@
     "block.leaf_litter.fall": {
       "location": "minecraft:block.leaf_litter.fall"
     },
-    "entity.leash_knot.break": {
-      "location": "minecraft:entity.leash_knot.break"
+    "item.lead.untied": {
+      "location": "minecraft:item.lead.untied"
     },
-    "entity.leash_knot.place": {
-      "location": "minecraft:entity.leash_knot.place"
+    "item.lead.tied": {
+      "location": "minecraft:item.lead.tied"
+    },
+    "item.lead.break": {
+      "location": "minecraft:item.lead.break"
     },
     "block.lever.click": {
       "location": "minecraft:block.lever.click"
@@ -2674,6 +2743,9 @@
     },
     "entity.llama.swag": {
       "location": "minecraft:entity.llama.swag"
+    },
+    "item.llama_carpet.unequip": {
+      "location": "minecraft:item.llama_carpet.unequip"
     },
     "entity.magma_cube.death_small": {
       "location": "minecraft:entity.magma_cube.death_small"
@@ -2927,6 +2999,9 @@
     "music_disc.far": {
       "location": "minecraft:music_disc.far"
     },
+    "music_disc.lava_chicken": {
+      "location": "minecraft:music_disc.lava_chicken"
+    },
     "music_disc.mall": {
       "location": "minecraft:music_disc.mall"
     },
@@ -2962,6 +3037,9 @@
     },
     "music_disc.precipice": {
       "location": "minecraft:music_disc.precipice"
+    },
+    "music_disc.tears": {
+      "location": "minecraft:music_disc.tears"
     },
     "music.dragon": {
       "location": "minecraft:music.dragon"
@@ -3719,9 +3797,6 @@
     "block.powder_snow.step": {
       "location": "minecraft:block.powder_snow.step"
     },
-    "entity.puffer_fish.ambient": {
-      "location": "minecraft:entity.puffer_fish.ambient"
-    },
     "entity.puffer_fish.blow_out": {
       "location": "minecraft:entity.puffer_fish.blow_out"
     },
@@ -3875,9 +3950,6 @@
     "block.sand.idle": {
       "location": "minecraft:block.sand.idle"
     },
-    "block.sand.wind": {
-      "location": "minecraft:block.sand.wind"
-    },
     "block.scaffolding.break": {
       "location": "minecraft:block.scaffolding.break"
     },
@@ -4000,6 +4072,9 @@
     },
     "entity.sheep.step": {
       "location": "minecraft:entity.sheep.step"
+    },
+    "item.shears.snip": {
+      "location": "minecraft:item.shears.snip"
     },
     "item.shield.block": {
       "location": "minecraft:item.shield.block"
@@ -5287,6 +5362,9 @@
     },
     "event.mob_effect.raid_omen": {
       "location": "minecraft:event.mob_effect.raid_omen"
+    },
+    "item.saddle.unequip": {
+      "location": "minecraft:item.saddle.unequip"
     }
   },
   "mob_effect": {
@@ -5766,6 +5844,9 @@
     "pig_one_cm": {
       "location": "minecraft:pig_one_cm"
     },
+    "happy_ghast_one_cm": {
+      "location": "minecraft:happy_ghast_one_cm"
+    },
     "horse_one_cm": {
       "location": "minecraft:horse_one_cm"
     },
@@ -6165,6 +6246,13 @@
       "syncable": true,
       "description_id": "attribute.name.burning_time"
     },
+    "camera_distance": {
+      "min_value": 0.0,
+      "max_value": 32.0,
+      "default_value": 4.0,
+      "syncable": true,
+      "description_id": "attribute.name.camera_distance"
+    },
     "explosion_knockback_resistance": {
       "min_value": 0.0,
       "max_value": 1.0,
@@ -6332,6 +6420,20 @@
       "default_value": 0.0,
       "syncable": true,
       "description_id": "attribute.name.water_movement_efficiency"
+    },
+    "waypoint_transmit_range": {
+      "min_value": 0.0,
+      "max_value": 6.0E7,
+      "default_value": 0.0,
+      "syncable": false,
+      "description_id": "attribute.name.waypoint_transmit_range"
+    },
+    "waypoint_receive_range": {
+      "min_value": 0.0,
+      "max_value": 6.0E7,
+      "default_value": 0.0,
+      "syncable": false,
+      "description_id": "attribute.name.waypoint_receive_range"
     }
   },
   "position_source_type": {
@@ -6356,6 +6458,7 @@
     "item_stack": {},
     "item_predicate": {},
     "color": {},
+    "hex_color": {},
     "component": {},
     "style": {},
     "message": {},
@@ -6393,6 +6496,7 @@
     "loot_table": {},
     "loot_predicate": {},
     "loot_modifier": {},
+    "dialog": {},
     "uuid": {}
   },
   "stat_type": {
@@ -6506,6 +6610,10 @@
       "valid_range": 1
     },
     "lodestone": {
+      "max_tickets": 0,
+      "valid_range": 1
+    },
+    "test_instance": {
       "max_tickets": 0,
       "valid_range": 1
     },
@@ -6639,12 +6747,14 @@
     "piglin_brute_specific_sensor": {},
     "hoglin_specific_sensor": {},
     "nearest_adult": {},
+    "nearest_adult_any_type": {},
     "axolotl_attackables": {},
     "axolotl_temptations": {},
     "goat_temptations": {},
     "frog_temptations": {},
     "camel_temptations": {},
     "armadillo_temptations": {},
+    "happy_ghast_temptations": {},
     "frog_attackables": {},
     "is_in_water": {},
     "warden_entity_sensor": {},
@@ -7405,6 +7515,7 @@
     "thrown_item_picked_up_by_entity": {},
     "thrown_item_picked_up_by_player": {},
     "player_interacted_with_entity": {},
+    "player_sheared_equipment": {},
     "started_riding": {},
     "lightning_strike": {},
     "using_item": {},
@@ -7961,6 +8072,34 @@
     "structure": {},
     "moon_brightness": {},
     "biome": {}
+  },
+  "dialog_type": {
+    "notice": {},
+    "server_links": {},
+    "dialog_list": {},
+    "multi_action": {},
+    "confirmation": {}
+  },
+  "dialog_action_type": {
+    "open_url": {},
+    "run_command": {},
+    "suggest_command": {},
+    "show_dialog": {},
+    "change_page": {},
+    "copy_to_clipboard": {},
+    "custom": {},
+    "dynamic/run_command": {},
+    "dynamic/custom": {}
+  },
+  "input_control_type": {
+    "boolean": {},
+    "number_range": {},
+    "single_option": {},
+    "text": {}
+  },
+  "dialog_body_type": {
+    "item": {},
+    "plain_message": {}
   },
   "test_function": {
     "always_pass": {}

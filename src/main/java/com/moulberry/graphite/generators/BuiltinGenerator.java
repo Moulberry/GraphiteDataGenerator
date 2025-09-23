@@ -71,7 +71,7 @@ public class BuiltinGenerator implements DataGenerator {
                 String key = DataGenerator.simplifyResourceLocation(registry.getKey(value));
 
                 if (value instanceof MenuType<?> menuType) {
-                    Inventory inventory = new Inventory(new Player(this.serverLevel, BlockPos.ZERO, 0, new GameProfile(UUID.randomUUID(), "Dummy")) {
+                    Inventory inventory = new Inventory(new Player(this.serverLevel, new GameProfile(UUID.randomUUID(), "Dummy")) {
                         @Override
                         public boolean isSpectator() {
                             return false;

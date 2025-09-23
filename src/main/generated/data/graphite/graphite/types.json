@@ -87,16 +87,16 @@
     "red",
     "black"
   ],
-  "equipment_slot": [
-    "mainhand",
-    "offhand",
-    "feet",
-    "legs",
-    "chest",
-    "head",
-    "body",
-    "saddle"
-  ],
+  "equipment_slot": {
+    "mainhand": 0,
+    "offhand": 5,
+    "feet": 1,
+    "legs": 2,
+    "chest": 3,
+    "head": 4,
+    "body": 6,
+    "saddle": 7
+  },
   "humanoid_arm": [
     "left",
     "right"
@@ -110,8 +110,6 @@
     "scale"
   ],
   "move_action": [
-    "press_shift_key",
-    "release_shift_key",
     "stop_sleeping",
     "start_sprinting",
     "stop_sprinting",
@@ -204,7 +202,8 @@
     "neutral",
     "players",
     "ambient",
-    "voice"
+    "voice",
+    "ui"
   ],
   "item_use_animation": [
     "none",
@@ -222,6 +221,18 @@
   "client_action": [
     "perform_respawn",
     "request_stats"
+  ],
+  "billboard_constraint": [
+    "fixed",
+    "vertical",
+    "horizontal",
+    "center"
+  ],
+  "gamemode": [
+    "survival",
+    "creative",
+    "adventure",
+    "spectator"
   ],
   "entity_animation": {
     "swing_main_hand": 0,
@@ -329,5 +340,67 @@
     "immediate_respawn": 11,
     "limited_crafting": 12,
     "level_chunks_load_start": 13
+  },
+  "entity_event": {
+    "jump": 1,
+    "death": 3,
+    "start_attacking": 4,
+    "stop_attacking": 5,
+    "taming_failed": 6,
+    "taming_succeeded": 7,
+    "shake_wetness": 8,
+    "use_item_complete": 9,
+    "eat_grass": 10,
+    "offer_flower": 11,
+    "love_hearts": 12,
+    "villager_angry": 13,
+    "villager_happy": 14,
+    "witch_hat_magic": 15,
+    "zombie_converting": 16,
+    "fireworks_explode": 17,
+    "in_love_hearts": 18,
+    "squid_anim_synch": 19,
+    "silverfish_merge_anim": 20,
+    "guardian_attack_sound": 21,
+    "reduced_debug_info": 22,
+    "full_debug_info": 23,
+    "permission_level_all": 24,
+    "permission_level_moderators": 25,
+    "permission_level_gamemasters": 26,
+    "permission_level_admins": 27,
+    "permission_level_owners": 28,
+    "fishing_rod_reel_in": 31,
+    "armorstand_wobble": 32,
+    "stop_offer_flower": 34,
+    "protected_from_death": 35,
+    "dolphin_looking_for_treasure": 38,
+    "ravager_stunned": 39,
+    "trusting_failed": 40,
+    "trusting_succeeded": 41,
+    "villager_sweat": 42,
+    "fox_eat": 45,
+    "teleport": 46,
+    "mainhand_break": 47,
+    "offhand_break": 48,
+    "head_break": 49,
+    "chest_break": 50,
+    "legs_break": 51,
+    "feet_break": 52,
+    "honey_slide": 53,
+    "honey_jump": 54,
+    "swap_hands": 55,
+    "cancel_shake_wetness": 56,
+    "start_ram": 58,
+    "end_ram": 59,
+    "poof": 60,
+    "tendrils_shiver": 61,
+    "sonic_charge": 62,
+    "sniffer_digging_sound": 63,
+    "armadillo_peek": 64,
+    "body_break": 65,
+    "shake": 66,
+    "drown_particles": 67,
+    "saddle_break": 68,
+    "ravager_roared": 69
   }
 }

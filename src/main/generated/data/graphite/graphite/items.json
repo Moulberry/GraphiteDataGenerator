@@ -6227,7 +6227,7 @@
       "lore": -1978007022,
       "rarity": 75150990,
       "enchantments": -982207288,
-      "attribute_modifiers": -1978007022,
+      "attribute_modifiers": -344872020,
       "tooltip_display": -982207288,
       "repair_cost": -2146075228,
       "equippable": 1248958120,
@@ -8590,7 +8590,7 @@
       "attribute_modifiers": -1978007022,
       "tooltip_display": -982207288,
       "repair_cost": -2146075228,
-      "equippable": 1588568212,
+      "equippable": -513467882,
       "break_sound": 123447120
     }
   },
@@ -8609,7 +8609,7 @@
       "attribute_modifiers": -1978007022,
       "tooltip_display": -982207288,
       "repair_cost": -2146075228,
-      "equippable": -201732235,
+      "equippable": 93858329,
       "break_sound": 123447120
     }
   },
@@ -8628,7 +8628,7 @@
       "attribute_modifiers": -1978007022,
       "tooltip_display": -982207288,
       "repair_cost": -2146075228,
-      "equippable": 1112414113,
+      "equippable": 1064279488,
       "break_sound": 123447120
     }
   },
@@ -8647,7 +8647,7 @@
       "attribute_modifiers": -1978007022,
       "tooltip_display": -982207288,
       "repair_cost": -2146075228,
-      "equippable": -422268964,
+      "equippable": 1128151398,
       "break_sound": 123447120
     }
   },
@@ -8666,7 +8666,7 @@
       "attribute_modifiers": -1978007022,
       "tooltip_display": -982207288,
       "repair_cost": -2146075228,
-      "equippable": 1347462969,
+      "equippable": -258800334,
       "break_sound": 123447120
     }
   },
@@ -8685,7 +8685,7 @@
       "attribute_modifiers": -1978007022,
       "tooltip_display": -982207288,
       "repair_cost": -2146075228,
-      "equippable": -1353770893,
+      "equippable": 372856167,
       "break_sound": 123447120
     }
   },
@@ -8704,7 +8704,7 @@
       "attribute_modifiers": -1978007022,
       "tooltip_display": -982207288,
       "repair_cost": -2146075228,
-      "equippable": -326786405,
+      "equippable": -1443257912,
       "break_sound": 123447120
     }
   },
@@ -8723,7 +8723,7 @@
       "attribute_modifiers": -1978007022,
       "tooltip_display": -982207288,
       "repair_cost": -2146075228,
-      "equippable": 1685141864,
+      "equippable": 1376429131,
       "break_sound": 123447120
     }
   },
@@ -8742,7 +8742,7 @@
       "attribute_modifiers": -1978007022,
       "tooltip_display": -982207288,
       "repair_cost": -2146075228,
-      "equippable": -1730251985,
+      "equippable": -654635246,
       "break_sound": 123447120
     }
   },
@@ -8761,7 +8761,7 @@
       "attribute_modifiers": -1978007022,
       "tooltip_display": -982207288,
       "repair_cost": -2146075228,
-      "equippable": 55768169,
+      "equippable": 335284737,
       "break_sound": 123447120
     }
   },
@@ -8780,7 +8780,7 @@
       "attribute_modifiers": -1978007022,
       "tooltip_display": -982207288,
       "repair_cost": -2146075228,
-      "equippable": -1541314747,
+      "equippable": 1573948688,
       "break_sound": 123447120
     }
   },
@@ -8799,7 +8799,7 @@
       "attribute_modifiers": -1978007022,
       "tooltip_display": -982207288,
       "repair_cost": -2146075228,
-      "equippable": 444327323,
+      "equippable": -909143489,
       "break_sound": 123447120
     }
   },
@@ -8818,7 +8818,7 @@
       "attribute_modifiers": -1978007022,
       "tooltip_display": -982207288,
       "repair_cost": -2146075228,
-      "equippable": -866636111,
+      "equippable": 1207021456,
       "break_sound": 123447120
     }
   },
@@ -8837,7 +8837,7 @@
       "attribute_modifiers": -1978007022,
       "tooltip_display": -982207288,
       "repair_cost": -2146075228,
-      "equippable": -208852625,
+      "equippable": -1252324562,
       "break_sound": 123447120
     }
   },
@@ -8856,7 +8856,7 @@
       "attribute_modifiers": -1978007022,
       "tooltip_display": -982207288,
       "repair_cost": -2146075228,
-      "equippable": 2008514539,
+      "equippable": 1269858296,
       "break_sound": 123447120
     }
   },
@@ -8875,7 +8875,7 @@
       "attribute_modifiers": -1978007022,
       "tooltip_display": -982207288,
       "repair_cost": -2146075228,
-      "equippable": -374004316,
+      "equippable": -751909267,
       "break_sound": 123447120
     }
   },
@@ -11182,8 +11182,26 @@
       "break_sound": 123447120
     }
   },
-  "dead_tube_coral_block": {
+  "dried_ghast": {
     "id": 619,
+    "translationKey": "block.minecraft.dried_ghast",
+    "maxStackSize": 64,
+    "correspondingBlock": "dried_ghast",
+    "defaultComponentHashes": {
+      "max_stack_size": 733160003,
+      "item_name": -1318917180,
+      "item_model": -363629708,
+      "lore": -1978007022,
+      "rarity": 75150990,
+      "enchantments": -982207288,
+      "attribute_modifiers": -1978007022,
+      "tooltip_display": -982207288,
+      "repair_cost": -2146075228,
+      "break_sound": 123447120
+    }
+  },
+  "dead_tube_coral_block": {
+    "id": 620,
     "translationKey": "block.minecraft.dead_tube_coral_block",
     "maxStackSize": 64,
     "correspondingBlock": "dead_tube_coral_block",
@@ -11201,7 +11219,7 @@
     }
   },
   "dead_brain_coral_block": {
-    "id": 620,
+    "id": 621,
     "translationKey": "block.minecraft.dead_brain_coral_block",
     "maxStackSize": 64,
     "correspondingBlock": "dead_brain_coral_block",
@@ -11219,7 +11237,7 @@
     }
   },
   "dead_bubble_coral_block": {
-    "id": 621,
+    "id": 622,
     "translationKey": "block.minecraft.dead_bubble_coral_block",
     "maxStackSize": 64,
     "correspondingBlock": "dead_bubble_coral_block",
@@ -11237,7 +11255,7 @@
     }
   },
   "dead_fire_coral_block": {
-    "id": 622,
+    "id": 623,
     "translationKey": "block.minecraft.dead_fire_coral_block",
     "maxStackSize": 64,
     "correspondingBlock": "dead_fire_coral_block",
@@ -11255,7 +11273,7 @@
     }
   },
   "dead_horn_coral_block": {
-    "id": 623,
+    "id": 624,
     "translationKey": "block.minecraft.dead_horn_coral_block",
     "maxStackSize": 64,
     "correspondingBlock": "dead_horn_coral_block",
@@ -11273,7 +11291,7 @@
     }
   },
   "tube_coral_block": {
-    "id": 624,
+    "id": 625,
     "translationKey": "block.minecraft.tube_coral_block",
     "maxStackSize": 64,
     "correspondingBlock": "tube_coral_block",
@@ -11291,7 +11309,7 @@
     }
   },
   "brain_coral_block": {
-    "id": 625,
+    "id": 626,
     "translationKey": "block.minecraft.brain_coral_block",
     "maxStackSize": 64,
     "correspondingBlock": "brain_coral_block",
@@ -11309,7 +11327,7 @@
     }
   },
   "bubble_coral_block": {
-    "id": 626,
+    "id": 627,
     "translationKey": "block.minecraft.bubble_coral_block",
     "maxStackSize": 64,
     "correspondingBlock": "bubble_coral_block",
@@ -11327,7 +11345,7 @@
     }
   },
   "fire_coral_block": {
-    "id": 627,
+    "id": 628,
     "translationKey": "block.minecraft.fire_coral_block",
     "maxStackSize": 64,
     "correspondingBlock": "fire_coral_block",
@@ -11345,7 +11363,7 @@
     }
   },
   "horn_coral_block": {
-    "id": 628,
+    "id": 629,
     "translationKey": "block.minecraft.horn_coral_block",
     "maxStackSize": 64,
     "correspondingBlock": "horn_coral_block",
@@ -11363,7 +11381,7 @@
     }
   },
   "tube_coral": {
-    "id": 629,
+    "id": 630,
     "translationKey": "block.minecraft.tube_coral",
     "maxStackSize": 64,
     "correspondingBlock": "tube_coral",
@@ -11381,7 +11399,7 @@
     }
   },
   "brain_coral": {
-    "id": 630,
+    "id": 631,
     "translationKey": "block.minecraft.brain_coral",
     "maxStackSize": 64,
     "correspondingBlock": "brain_coral",
@@ -11399,7 +11417,7 @@
     }
   },
   "bubble_coral": {
-    "id": 631,
+    "id": 632,
     "translationKey": "block.minecraft.bubble_coral",
     "maxStackSize": 64,
     "correspondingBlock": "bubble_coral",
@@ -11417,7 +11435,7 @@
     }
   },
   "fire_coral": {
-    "id": 632,
+    "id": 633,
     "translationKey": "block.minecraft.fire_coral",
     "maxStackSize": 64,
     "correspondingBlock": "fire_coral",
@@ -11435,7 +11453,7 @@
     }
   },
   "horn_coral": {
-    "id": 633,
+    "id": 634,
     "translationKey": "block.minecraft.horn_coral",
     "maxStackSize": 64,
     "correspondingBlock": "horn_coral",
@@ -11453,7 +11471,7 @@
     }
   },
   "dead_brain_coral": {
-    "id": 634,
+    "id": 635,
     "translationKey": "block.minecraft.dead_brain_coral",
     "maxStackSize": 64,
     "correspondingBlock": "dead_brain_coral",
@@ -11471,7 +11489,7 @@
     }
   },
   "dead_bubble_coral": {
-    "id": 635,
+    "id": 636,
     "translationKey": "block.minecraft.dead_bubble_coral",
     "maxStackSize": 64,
     "correspondingBlock": "dead_bubble_coral",
@@ -11489,7 +11507,7 @@
     }
   },
   "dead_fire_coral": {
-    "id": 636,
+    "id": 637,
     "translationKey": "block.minecraft.dead_fire_coral",
     "maxStackSize": 64,
     "correspondingBlock": "dead_fire_coral",
@@ -11507,7 +11525,7 @@
     }
   },
   "dead_horn_coral": {
-    "id": 637,
+    "id": 638,
     "translationKey": "block.minecraft.dead_horn_coral",
     "maxStackSize": 64,
     "correspondingBlock": "dead_horn_coral",
@@ -11525,7 +11543,7 @@
     }
   },
   "dead_tube_coral": {
-    "id": 638,
+    "id": 639,
     "translationKey": "block.minecraft.dead_tube_coral",
     "maxStackSize": 64,
     "correspondingBlock": "dead_tube_coral",
@@ -11543,7 +11561,7 @@
     }
   },
   "tube_coral_fan": {
-    "id": 639,
+    "id": 640,
     "translationKey": "block.minecraft.tube_coral_fan",
     "maxStackSize": 64,
     "correspondingBlock": "tube_coral_fan",
@@ -11561,7 +11579,7 @@
     }
   },
   "brain_coral_fan": {
-    "id": 640,
+    "id": 641,
     "translationKey": "block.minecraft.brain_coral_fan",
     "maxStackSize": 64,
     "correspondingBlock": "brain_coral_fan",
@@ -11579,7 +11597,7 @@
     }
   },
   "bubble_coral_fan": {
-    "id": 641,
+    "id": 642,
     "translationKey": "block.minecraft.bubble_coral_fan",
     "maxStackSize": 64,
     "correspondingBlock": "bubble_coral_fan",
@@ -11597,7 +11615,7 @@
     }
   },
   "fire_coral_fan": {
-    "id": 642,
+    "id": 643,
     "translationKey": "block.minecraft.fire_coral_fan",
     "maxStackSize": 64,
     "correspondingBlock": "fire_coral_fan",
@@ -11615,7 +11633,7 @@
     }
   },
   "horn_coral_fan": {
-    "id": 643,
+    "id": 644,
     "translationKey": "block.minecraft.horn_coral_fan",
     "maxStackSize": 64,
     "correspondingBlock": "horn_coral_fan",
@@ -11633,7 +11651,7 @@
     }
   },
   "dead_tube_coral_fan": {
-    "id": 644,
+    "id": 645,
     "translationKey": "block.minecraft.dead_tube_coral_fan",
     "maxStackSize": 64,
     "correspondingBlock": "dead_tube_coral_fan",
@@ -11651,7 +11669,7 @@
     }
   },
   "dead_brain_coral_fan": {
-    "id": 645,
+    "id": 646,
     "translationKey": "block.minecraft.dead_brain_coral_fan",
     "maxStackSize": 64,
     "correspondingBlock": "dead_brain_coral_fan",
@@ -11669,7 +11687,7 @@
     }
   },
   "dead_bubble_coral_fan": {
-    "id": 646,
+    "id": 647,
     "translationKey": "block.minecraft.dead_bubble_coral_fan",
     "maxStackSize": 64,
     "correspondingBlock": "dead_bubble_coral_fan",
@@ -11687,7 +11705,7 @@
     }
   },
   "dead_fire_coral_fan": {
-    "id": 647,
+    "id": 648,
     "translationKey": "block.minecraft.dead_fire_coral_fan",
     "maxStackSize": 64,
     "correspondingBlock": "dead_fire_coral_fan",
@@ -11705,7 +11723,7 @@
     }
   },
   "dead_horn_coral_fan": {
-    "id": 648,
+    "id": 649,
     "translationKey": "block.minecraft.dead_horn_coral_fan",
     "maxStackSize": 64,
     "correspondingBlock": "dead_horn_coral_fan",
@@ -11723,7 +11741,7 @@
     }
   },
   "blue_ice": {
-    "id": 649,
+    "id": 650,
     "translationKey": "block.minecraft.blue_ice",
     "maxStackSize": 64,
     "correspondingBlock": "blue_ice",
@@ -11741,7 +11759,7 @@
     }
   },
   "conduit": {
-    "id": 650,
+    "id": 651,
     "translationKey": "block.minecraft.conduit",
     "maxStackSize": 64,
     "correspondingBlock": "conduit",
@@ -11759,7 +11777,7 @@
     }
   },
   "polished_granite_stairs": {
-    "id": 651,
+    "id": 652,
     "translationKey": "block.minecraft.polished_granite_stairs",
     "maxStackSize": 64,
     "correspondingBlock": "polished_granite_stairs",
@@ -11777,7 +11795,7 @@
     }
   },
   "smooth_red_sandstone_stairs": {
-    "id": 652,
+    "id": 653,
     "translationKey": "block.minecraft.smooth_red_sandstone_stairs",
     "maxStackSize": 64,
     "correspondingBlock": "smooth_red_sandstone_stairs",
@@ -11795,7 +11813,7 @@
     }
   },
   "mossy_stone_brick_stairs": {
-    "id": 653,
+    "id": 654,
     "translationKey": "block.minecraft.mossy_stone_brick_stairs",
     "maxStackSize": 64,
     "correspondingBlock": "mossy_stone_brick_stairs",
@@ -11813,7 +11831,7 @@
     }
   },
   "polished_diorite_stairs": {
-    "id": 654,
+    "id": 655,
     "translationKey": "block.minecraft.polished_diorite_stairs",
     "maxStackSize": 64,
     "correspondingBlock": "polished_diorite_stairs",
@@ -11831,7 +11849,7 @@
     }
   },
   "mossy_cobblestone_stairs": {
-    "id": 655,
+    "id": 656,
     "translationKey": "block.minecraft.mossy_cobblestone_stairs",
     "maxStackSize": 64,
     "correspondingBlock": "mossy_cobblestone_stairs",
@@ -11849,7 +11867,7 @@
     }
   },
   "end_stone_brick_stairs": {
-    "id": 656,
+    "id": 657,
     "translationKey": "block.minecraft.end_stone_brick_stairs",
     "maxStackSize": 64,
     "correspondingBlock": "end_stone_brick_stairs",
@@ -11867,7 +11885,7 @@
     }
   },
   "stone_stairs": {
-    "id": 657,
+    "id": 658,
     "translationKey": "block.minecraft.stone_stairs",
     "maxStackSize": 64,
     "correspondingBlock": "stone_stairs",
@@ -11885,7 +11903,7 @@
     }
   },
   "smooth_sandstone_stairs": {
-    "id": 658,
+    "id": 659,
     "translationKey": "block.minecraft.smooth_sandstone_stairs",
     "maxStackSize": 64,
     "correspondingBlock": "smooth_sandstone_stairs",
@@ -11903,7 +11921,7 @@
     }
   },
   "smooth_quartz_stairs": {
-    "id": 659,
+    "id": 660,
     "translationKey": "block.minecraft.smooth_quartz_stairs",
     "maxStackSize": 64,
     "correspondingBlock": "smooth_quartz_stairs",
@@ -11921,7 +11939,7 @@
     }
   },
   "granite_stairs": {
-    "id": 660,
+    "id": 661,
     "translationKey": "block.minecraft.granite_stairs",
     "maxStackSize": 64,
     "correspondingBlock": "granite_stairs",
@@ -11939,7 +11957,7 @@
     }
   },
   "andesite_stairs": {
-    "id": 661,
+    "id": 662,
     "translationKey": "block.minecraft.andesite_stairs",
     "maxStackSize": 64,
     "correspondingBlock": "andesite_stairs",
@@ -11957,7 +11975,7 @@
     }
   },
   "red_nether_brick_stairs": {
-    "id": 662,
+    "id": 663,
     "translationKey": "block.minecraft.red_nether_brick_stairs",
     "maxStackSize": 64,
     "correspondingBlock": "red_nether_brick_stairs",
@@ -11975,7 +11993,7 @@
     }
   },
   "polished_andesite_stairs": {
-    "id": 663,
+    "id": 664,
     "translationKey": "block.minecraft.polished_andesite_stairs",
     "maxStackSize": 64,
     "correspondingBlock": "polished_andesite_stairs",
@@ -11993,7 +12011,7 @@
     }
   },
   "diorite_stairs": {
-    "id": 664,
+    "id": 665,
     "translationKey": "block.minecraft.diorite_stairs",
     "maxStackSize": 64,
     "correspondingBlock": "diorite_stairs",
@@ -12011,7 +12029,7 @@
     }
   },
   "cobbled_deepslate_stairs": {
-    "id": 665,
+    "id": 666,
     "translationKey": "block.minecraft.cobbled_deepslate_stairs",
     "maxStackSize": 64,
     "correspondingBlock": "cobbled_deepslate_stairs",
@@ -12029,7 +12047,7 @@
     }
   },
   "polished_deepslate_stairs": {
-    "id": 666,
+    "id": 667,
     "translationKey": "block.minecraft.polished_deepslate_stairs",
     "maxStackSize": 64,
     "correspondingBlock": "polished_deepslate_stairs",
@@ -12047,7 +12065,7 @@
     }
   },
   "deepslate_brick_stairs": {
-    "id": 667,
+    "id": 668,
     "translationKey": "block.minecraft.deepslate_brick_stairs",
     "maxStackSize": 64,
     "correspondingBlock": "deepslate_brick_stairs",
@@ -12065,7 +12083,7 @@
     }
   },
   "deepslate_tile_stairs": {
-    "id": 668,
+    "id": 669,
     "translationKey": "block.minecraft.deepslate_tile_stairs",
     "maxStackSize": 64,
     "correspondingBlock": "deepslate_tile_stairs",
@@ -12083,7 +12101,7 @@
     }
   },
   "polished_granite_slab": {
-    "id": 669,
+    "id": 670,
     "translationKey": "block.minecraft.polished_granite_slab",
     "maxStackSize": 64,
     "correspondingBlock": "polished_granite_slab",
@@ -12101,7 +12119,7 @@
     }
   },
   "smooth_red_sandstone_slab": {
-    "id": 670,
+    "id": 671,
     "translationKey": "block.minecraft.smooth_red_sandstone_slab",
     "maxStackSize": 64,
     "correspondingBlock": "smooth_red_sandstone_slab",
@@ -12119,7 +12137,7 @@
     }
   },
   "mossy_stone_brick_slab": {
-    "id": 671,
+    "id": 672,
     "translationKey": "block.minecraft.mossy_stone_brick_slab",
     "maxStackSize": 64,
     "correspondingBlock": "mossy_stone_brick_slab",
@@ -12137,7 +12155,7 @@
     }
   },
   "polished_diorite_slab": {
-    "id": 672,
+    "id": 673,
     "translationKey": "block.minecraft.polished_diorite_slab",
     "maxStackSize": 64,
     "correspondingBlock": "polished_diorite_slab",
@@ -12155,7 +12173,7 @@
     }
   },
   "mossy_cobblestone_slab": {
-    "id": 673,
+    "id": 674,
     "translationKey": "block.minecraft.mossy_cobblestone_slab",
     "maxStackSize": 64,
     "correspondingBlock": "mossy_cobblestone_slab",
@@ -12173,7 +12191,7 @@
     }
   },
   "end_stone_brick_slab": {
-    "id": 674,
+    "id": 675,
     "translationKey": "block.minecraft.end_stone_brick_slab",
     "maxStackSize": 64,
     "correspondingBlock": "end_stone_brick_slab",
@@ -12191,7 +12209,7 @@
     }
   },
   "smooth_sandstone_slab": {
-    "id": 675,
+    "id": 676,
     "translationKey": "block.minecraft.smooth_sandstone_slab",
     "maxStackSize": 64,
     "correspondingBlock": "smooth_sandstone_slab",
@@ -12209,7 +12227,7 @@
     }
   },
   "smooth_quartz_slab": {
-    "id": 676,
+    "id": 677,
     "translationKey": "block.minecraft.smooth_quartz_slab",
     "maxStackSize": 64,
     "correspondingBlock": "smooth_quartz_slab",
@@ -12227,7 +12245,7 @@
     }
   },
   "granite_slab": {
-    "id": 677,
+    "id": 678,
     "translationKey": "block.minecraft.granite_slab",
     "maxStackSize": 64,
     "correspondingBlock": "granite_slab",
@@ -12245,7 +12263,7 @@
     }
   },
   "andesite_slab": {
-    "id": 678,
+    "id": 679,
     "translationKey": "block.minecraft.andesite_slab",
     "maxStackSize": 64,
     "correspondingBlock": "andesite_slab",
@@ -12263,7 +12281,7 @@
     }
   },
   "red_nether_brick_slab": {
-    "id": 679,
+    "id": 680,
     "translationKey": "block.minecraft.red_nether_brick_slab",
     "maxStackSize": 64,
     "correspondingBlock": "red_nether_brick_slab",
@@ -12281,7 +12299,7 @@
     }
   },
   "polished_andesite_slab": {
-    "id": 680,
+    "id": 681,
     "translationKey": "block.minecraft.polished_andesite_slab",
     "maxStackSize": 64,
     "correspondingBlock": "polished_andesite_slab",
@@ -12299,7 +12317,7 @@
     }
   },
   "diorite_slab": {
-    "id": 681,
+    "id": 682,
     "translationKey": "block.minecraft.diorite_slab",
     "maxStackSize": 64,
     "correspondingBlock": "diorite_slab",
@@ -12317,7 +12335,7 @@
     }
   },
   "cobbled_deepslate_slab": {
-    "id": 682,
+    "id": 683,
     "translationKey": "block.minecraft.cobbled_deepslate_slab",
     "maxStackSize": 64,
     "correspondingBlock": "cobbled_deepslate_slab",
@@ -12335,7 +12353,7 @@
     }
   },
   "polished_deepslate_slab": {
-    "id": 683,
+    "id": 684,
     "translationKey": "block.minecraft.polished_deepslate_slab",
     "maxStackSize": 64,
     "correspondingBlock": "polished_deepslate_slab",
@@ -12353,7 +12371,7 @@
     }
   },
   "deepslate_brick_slab": {
-    "id": 684,
+    "id": 685,
     "translationKey": "block.minecraft.deepslate_brick_slab",
     "maxStackSize": 64,
     "correspondingBlock": "deepslate_brick_slab",
@@ -12371,7 +12389,7 @@
     }
   },
   "deepslate_tile_slab": {
-    "id": 685,
+    "id": 686,
     "translationKey": "block.minecraft.deepslate_tile_slab",
     "maxStackSize": 64,
     "correspondingBlock": "deepslate_tile_slab",
@@ -12389,7 +12407,7 @@
     }
   },
   "scaffolding": {
-    "id": 686,
+    "id": 687,
     "translationKey": "block.minecraft.scaffolding",
     "maxStackSize": 64,
     "correspondingBlock": "scaffolding",
@@ -12407,7 +12425,7 @@
     }
   },
   "redstone": {
-    "id": 687,
+    "id": 688,
     "translationKey": "item.minecraft.redstone",
     "maxStackSize": 64,
     "correspondingBlock": "redstone_wire",
@@ -12426,7 +12444,7 @@
     }
   },
   "redstone_torch": {
-    "id": 688,
+    "id": 689,
     "translationKey": "block.minecraft.redstone_torch",
     "maxStackSize": 64,
     "correspondingBlock": "redstone_torch",
@@ -12444,7 +12462,7 @@
     }
   },
   "redstone_block": {
-    "id": 689,
+    "id": 690,
     "translationKey": "block.minecraft.redstone_block",
     "maxStackSize": 64,
     "correspondingBlock": "redstone_block",
@@ -12462,7 +12480,7 @@
     }
   },
   "repeater": {
-    "id": 690,
+    "id": 691,
     "translationKey": "block.minecraft.repeater",
     "maxStackSize": 64,
     "correspondingBlock": "repeater",
@@ -12480,7 +12498,7 @@
     }
   },
   "comparator": {
-    "id": 691,
+    "id": 692,
     "translationKey": "block.minecraft.comparator",
     "maxStackSize": 64,
     "correspondingBlock": "comparator",
@@ -12498,7 +12516,7 @@
     }
   },
   "piston": {
-    "id": 692,
+    "id": 693,
     "translationKey": "block.minecraft.piston",
     "maxStackSize": 64,
     "correspondingBlock": "piston",
@@ -12516,7 +12534,7 @@
     }
   },
   "sticky_piston": {
-    "id": 693,
+    "id": 694,
     "translationKey": "block.minecraft.sticky_piston",
     "maxStackSize": 64,
     "correspondingBlock": "sticky_piston",
@@ -12534,7 +12552,7 @@
     }
   },
   "slime_block": {
-    "id": 694,
+    "id": 695,
     "translationKey": "block.minecraft.slime_block",
     "maxStackSize": 64,
     "correspondingBlock": "slime_block",
@@ -12552,7 +12570,7 @@
     }
   },
   "honey_block": {
-    "id": 695,
+    "id": 696,
     "translationKey": "block.minecraft.honey_block",
     "maxStackSize": 64,
     "correspondingBlock": "honey_block",
@@ -12570,7 +12588,7 @@
     }
   },
   "observer": {
-    "id": 696,
+    "id": 697,
     "translationKey": "block.minecraft.observer",
     "maxStackSize": 64,
     "correspondingBlock": "observer",
@@ -12588,7 +12606,7 @@
     }
   },
   "hopper": {
-    "id": 697,
+    "id": 698,
     "translationKey": "block.minecraft.hopper",
     "maxStackSize": 64,
     "correspondingBlock": "hopper",
@@ -12607,7 +12625,7 @@
     }
   },
   "dispenser": {
-    "id": 698,
+    "id": 699,
     "translationKey": "block.minecraft.dispenser",
     "maxStackSize": 64,
     "correspondingBlock": "dispenser",
@@ -12626,7 +12644,7 @@
     }
   },
   "dropper": {
-    "id": 699,
+    "id": 700,
     "translationKey": "block.minecraft.dropper",
     "maxStackSize": 64,
     "correspondingBlock": "dropper",
@@ -12645,7 +12663,7 @@
     }
   },
   "lectern": {
-    "id": 700,
+    "id": 701,
     "translationKey": "block.minecraft.lectern",
     "maxStackSize": 64,
     "correspondingBlock": "lectern",
@@ -12663,7 +12681,7 @@
     }
   },
   "target": {
-    "id": 701,
+    "id": 702,
     "translationKey": "block.minecraft.target",
     "maxStackSize": 64,
     "correspondingBlock": "target",
@@ -12681,7 +12699,7 @@
     }
   },
   "lever": {
-    "id": 702,
+    "id": 703,
     "translationKey": "block.minecraft.lever",
     "maxStackSize": 64,
     "correspondingBlock": "lever",
@@ -12699,7 +12717,7 @@
     }
   },
   "lightning_rod": {
-    "id": 703,
+    "id": 704,
     "translationKey": "block.minecraft.lightning_rod",
     "maxStackSize": 64,
     "correspondingBlock": "lightning_rod",
@@ -12717,7 +12735,7 @@
     }
   },
   "daylight_detector": {
-    "id": 704,
+    "id": 705,
     "translationKey": "block.minecraft.daylight_detector",
     "maxStackSize": 64,
     "correspondingBlock": "daylight_detector",
@@ -12735,7 +12753,7 @@
     }
   },
   "sculk_sensor": {
-    "id": 705,
+    "id": 706,
     "translationKey": "block.minecraft.sculk_sensor",
     "maxStackSize": 64,
     "correspondingBlock": "sculk_sensor",
@@ -12753,7 +12771,7 @@
     }
   },
   "calibrated_sculk_sensor": {
-    "id": 706,
+    "id": 707,
     "translationKey": "block.minecraft.calibrated_sculk_sensor",
     "maxStackSize": 64,
     "correspondingBlock": "calibrated_sculk_sensor",
@@ -12771,7 +12789,7 @@
     }
   },
   "tripwire_hook": {
-    "id": 707,
+    "id": 708,
     "translationKey": "block.minecraft.tripwire_hook",
     "maxStackSize": 64,
     "correspondingBlock": "tripwire_hook",
@@ -12789,7 +12807,7 @@
     }
   },
   "trapped_chest": {
-    "id": 708,
+    "id": 709,
     "translationKey": "block.minecraft.trapped_chest",
     "maxStackSize": 64,
     "correspondingBlock": "trapped_chest",
@@ -12808,7 +12826,7 @@
     }
   },
   "tnt": {
-    "id": 709,
+    "id": 710,
     "translationKey": "block.minecraft.tnt",
     "maxStackSize": 64,
     "correspondingBlock": "tnt",
@@ -12826,7 +12844,7 @@
     }
   },
   "redstone_lamp": {
-    "id": 710,
+    "id": 711,
     "translationKey": "block.minecraft.redstone_lamp",
     "maxStackSize": 64,
     "correspondingBlock": "redstone_lamp",
@@ -12844,7 +12862,7 @@
     }
   },
   "note_block": {
-    "id": 711,
+    "id": 712,
     "translationKey": "block.minecraft.note_block",
     "maxStackSize": 64,
     "correspondingBlock": "note_block",
@@ -12862,7 +12880,7 @@
     }
   },
   "stone_button": {
-    "id": 712,
+    "id": 713,
     "translationKey": "block.minecraft.stone_button",
     "maxStackSize": 64,
     "correspondingBlock": "stone_button",
@@ -12880,7 +12898,7 @@
     }
   },
   "polished_blackstone_button": {
-    "id": 713,
+    "id": 714,
     "translationKey": "block.minecraft.polished_blackstone_button",
     "maxStackSize": 64,
     "correspondingBlock": "polished_blackstone_button",
@@ -12898,7 +12916,7 @@
     }
   },
   "oak_button": {
-    "id": 714,
+    "id": 715,
     "translationKey": "block.minecraft.oak_button",
     "maxStackSize": 64,
     "correspondingBlock": "oak_button",
@@ -12916,7 +12934,7 @@
     }
   },
   "spruce_button": {
-    "id": 715,
+    "id": 716,
     "translationKey": "block.minecraft.spruce_button",
     "maxStackSize": 64,
     "correspondingBlock": "spruce_button",
@@ -12934,7 +12952,7 @@
     }
   },
   "birch_button": {
-    "id": 716,
+    "id": 717,
     "translationKey": "block.minecraft.birch_button",
     "maxStackSize": 64,
     "correspondingBlock": "birch_button",
@@ -12952,7 +12970,7 @@
     }
   },
   "jungle_button": {
-    "id": 717,
+    "id": 718,
     "translationKey": "block.minecraft.jungle_button",
     "maxStackSize": 64,
     "correspondingBlock": "jungle_button",
@@ -12970,7 +12988,7 @@
     }
   },
   "acacia_button": {
-    "id": 718,
+    "id": 719,
     "translationKey": "block.minecraft.acacia_button",
     "maxStackSize": 64,
     "correspondingBlock": "acacia_button",
@@ -12988,7 +13006,7 @@
     }
   },
   "cherry_button": {
-    "id": 719,
+    "id": 720,
     "translationKey": "block.minecraft.cherry_button",
     "maxStackSize": 64,
     "correspondingBlock": "cherry_button",
@@ -13006,7 +13024,7 @@
     }
   },
   "dark_oak_button": {
-    "id": 720,
+    "id": 721,
     "translationKey": "block.minecraft.dark_oak_button",
     "maxStackSize": 64,
     "correspondingBlock": "dark_oak_button",
@@ -13024,7 +13042,7 @@
     }
   },
   "pale_oak_button": {
-    "id": 721,
+    "id": 722,
     "translationKey": "block.minecraft.pale_oak_button",
     "maxStackSize": 64,
     "correspondingBlock": "pale_oak_button",
@@ -13042,7 +13060,7 @@
     }
   },
   "mangrove_button": {
-    "id": 722,
+    "id": 723,
     "translationKey": "block.minecraft.mangrove_button",
     "maxStackSize": 64,
     "correspondingBlock": "mangrove_button",
@@ -13060,7 +13078,7 @@
     }
   },
   "bamboo_button": {
-    "id": 723,
+    "id": 724,
     "translationKey": "block.minecraft.bamboo_button",
     "maxStackSize": 64,
     "correspondingBlock": "bamboo_button",
@@ -13078,7 +13096,7 @@
     }
   },
   "crimson_button": {
-    "id": 724,
+    "id": 725,
     "translationKey": "block.minecraft.crimson_button",
     "maxStackSize": 64,
     "correspondingBlock": "crimson_button",
@@ -13096,7 +13114,7 @@
     }
   },
   "warped_button": {
-    "id": 725,
+    "id": 726,
     "translationKey": "block.minecraft.warped_button",
     "maxStackSize": 64,
     "correspondingBlock": "warped_button",
@@ -13114,7 +13132,7 @@
     }
   },
   "stone_pressure_plate": {
-    "id": 726,
+    "id": 727,
     "translationKey": "block.minecraft.stone_pressure_plate",
     "maxStackSize": 64,
     "correspondingBlock": "stone_pressure_plate",
@@ -13132,7 +13150,7 @@
     }
   },
   "polished_blackstone_pressure_plate": {
-    "id": 727,
+    "id": 728,
     "translationKey": "block.minecraft.polished_blackstone_pressure_plate",
     "maxStackSize": 64,
     "correspondingBlock": "polished_blackstone_pressure_plate",
@@ -13150,7 +13168,7 @@
     }
   },
   "light_weighted_pressure_plate": {
-    "id": 728,
+    "id": 729,
     "translationKey": "block.minecraft.light_weighted_pressure_plate",
     "maxStackSize": 64,
     "correspondingBlock": "light_weighted_pressure_plate",
@@ -13168,7 +13186,7 @@
     }
   },
   "heavy_weighted_pressure_plate": {
-    "id": 729,
+    "id": 730,
     "translationKey": "block.minecraft.heavy_weighted_pressure_plate",
     "maxStackSize": 64,
     "correspondingBlock": "heavy_weighted_pressure_plate",
@@ -13186,7 +13204,7 @@
     }
   },
   "oak_pressure_plate": {
-    "id": 730,
+    "id": 731,
     "translationKey": "block.minecraft.oak_pressure_plate",
     "maxStackSize": 64,
     "correspondingBlock": "oak_pressure_plate",
@@ -13204,7 +13222,7 @@
     }
   },
   "spruce_pressure_plate": {
-    "id": 731,
+    "id": 732,
     "translationKey": "block.minecraft.spruce_pressure_plate",
     "maxStackSize": 64,
     "correspondingBlock": "spruce_pressure_plate",
@@ -13222,7 +13240,7 @@
     }
   },
   "birch_pressure_plate": {
-    "id": 732,
+    "id": 733,
     "translationKey": "block.minecraft.birch_pressure_plate",
     "maxStackSize": 64,
     "correspondingBlock": "birch_pressure_plate",
@@ -13240,7 +13258,7 @@
     }
   },
   "jungle_pressure_plate": {
-    "id": 733,
+    "id": 734,
     "translationKey": "block.minecraft.jungle_pressure_plate",
     "maxStackSize": 64,
     "correspondingBlock": "jungle_pressure_plate",
@@ -13258,7 +13276,7 @@
     }
   },
   "acacia_pressure_plate": {
-    "id": 734,
+    "id": 735,
     "translationKey": "block.minecraft.acacia_pressure_plate",
     "maxStackSize": 64,
     "correspondingBlock": "acacia_pressure_plate",
@@ -13276,7 +13294,7 @@
     }
   },
   "cherry_pressure_plate": {
-    "id": 735,
+    "id": 736,
     "translationKey": "block.minecraft.cherry_pressure_plate",
     "maxStackSize": 64,
     "correspondingBlock": "cherry_pressure_plate",
@@ -13294,7 +13312,7 @@
     }
   },
   "dark_oak_pressure_plate": {
-    "id": 736,
+    "id": 737,
     "translationKey": "block.minecraft.dark_oak_pressure_plate",
     "maxStackSize": 64,
     "correspondingBlock": "dark_oak_pressure_plate",
@@ -13312,7 +13330,7 @@
     }
   },
   "pale_oak_pressure_plate": {
-    "id": 737,
+    "id": 738,
     "translationKey": "block.minecraft.pale_oak_pressure_plate",
     "maxStackSize": 64,
     "correspondingBlock": "pale_oak_pressure_plate",
@@ -13330,7 +13348,7 @@
     }
   },
   "mangrove_pressure_plate": {
-    "id": 738,
+    "id": 739,
     "translationKey": "block.minecraft.mangrove_pressure_plate",
     "maxStackSize": 64,
     "correspondingBlock": "mangrove_pressure_plate",
@@ -13348,7 +13366,7 @@
     }
   },
   "bamboo_pressure_plate": {
-    "id": 739,
+    "id": 740,
     "translationKey": "block.minecraft.bamboo_pressure_plate",
     "maxStackSize": 64,
     "correspondingBlock": "bamboo_pressure_plate",
@@ -13366,7 +13384,7 @@
     }
   },
   "crimson_pressure_plate": {
-    "id": 740,
+    "id": 741,
     "translationKey": "block.minecraft.crimson_pressure_plate",
     "maxStackSize": 64,
     "correspondingBlock": "crimson_pressure_plate",
@@ -13384,7 +13402,7 @@
     }
   },
   "warped_pressure_plate": {
-    "id": 741,
+    "id": 742,
     "translationKey": "block.minecraft.warped_pressure_plate",
     "maxStackSize": 64,
     "correspondingBlock": "warped_pressure_plate",
@@ -13402,7 +13420,7 @@
     }
   },
   "iron_door": {
-    "id": 742,
+    "id": 743,
     "translationKey": "block.minecraft.iron_door",
     "maxStackSize": 64,
     "correspondingBlock": "iron_door",
@@ -13420,7 +13438,7 @@
     }
   },
   "oak_door": {
-    "id": 743,
+    "id": 744,
     "translationKey": "block.minecraft.oak_door",
     "maxStackSize": 64,
     "correspondingBlock": "oak_door",
@@ -13438,7 +13456,7 @@
     }
   },
   "spruce_door": {
-    "id": 744,
+    "id": 745,
     "translationKey": "block.minecraft.spruce_door",
     "maxStackSize": 64,
     "correspondingBlock": "spruce_door",
@@ -13456,7 +13474,7 @@
     }
   },
   "birch_door": {
-    "id": 745,
+    "id": 746,
     "translationKey": "block.minecraft.birch_door",
     "maxStackSize": 64,
     "correspondingBlock": "birch_door",
@@ -13474,7 +13492,7 @@
     }
   },
   "jungle_door": {
-    "id": 746,
+    "id": 747,
     "translationKey": "block.minecraft.jungle_door",
     "maxStackSize": 64,
     "correspondingBlock": "jungle_door",
@@ -13492,7 +13510,7 @@
     }
   },
   "acacia_door": {
-    "id": 747,
+    "id": 748,
     "translationKey": "block.minecraft.acacia_door",
     "maxStackSize": 64,
     "correspondingBlock": "acacia_door",
@@ -13510,7 +13528,7 @@
     }
   },
   "cherry_door": {
-    "id": 748,
+    "id": 749,
     "translationKey": "block.minecraft.cherry_door",
     "maxStackSize": 64,
     "correspondingBlock": "cherry_door",
@@ -13528,7 +13546,7 @@
     }
   },
   "dark_oak_door": {
-    "id": 749,
+    "id": 750,
     "translationKey": "block.minecraft.dark_oak_door",
     "maxStackSize": 64,
     "correspondingBlock": "dark_oak_door",
@@ -13546,7 +13564,7 @@
     }
   },
   "pale_oak_door": {
-    "id": 750,
+    "id": 751,
     "translationKey": "block.minecraft.pale_oak_door",
     "maxStackSize": 64,
     "correspondingBlock": "pale_oak_door",
@@ -13564,7 +13582,7 @@
     }
   },
   "mangrove_door": {
-    "id": 751,
+    "id": 752,
     "translationKey": "block.minecraft.mangrove_door",
     "maxStackSize": 64,
     "correspondingBlock": "mangrove_door",
@@ -13582,7 +13600,7 @@
     }
   },
   "bamboo_door": {
-    "id": 752,
+    "id": 753,
     "translationKey": "block.minecraft.bamboo_door",
     "maxStackSize": 64,
     "correspondingBlock": "bamboo_door",
@@ -13600,7 +13618,7 @@
     }
   },
   "crimson_door": {
-    "id": 753,
+    "id": 754,
     "translationKey": "block.minecraft.crimson_door",
     "maxStackSize": 64,
     "correspondingBlock": "crimson_door",
@@ -13618,7 +13636,7 @@
     }
   },
   "warped_door": {
-    "id": 754,
+    "id": 755,
     "translationKey": "block.minecraft.warped_door",
     "maxStackSize": 64,
     "correspondingBlock": "warped_door",
@@ -13636,7 +13654,7 @@
     }
   },
   "copper_door": {
-    "id": 755,
+    "id": 756,
     "translationKey": "block.minecraft.copper_door",
     "maxStackSize": 64,
     "correspondingBlock": "copper_door",
@@ -13654,7 +13672,7 @@
     }
   },
   "exposed_copper_door": {
-    "id": 756,
+    "id": 757,
     "translationKey": "block.minecraft.exposed_copper_door",
     "maxStackSize": 64,
     "correspondingBlock": "exposed_copper_door",
@@ -13672,7 +13690,7 @@
     }
   },
   "weathered_copper_door": {
-    "id": 757,
+    "id": 758,
     "translationKey": "block.minecraft.weathered_copper_door",
     "maxStackSize": 64,
     "correspondingBlock": "weathered_copper_door",
@@ -13690,7 +13708,7 @@
     }
   },
   "oxidized_copper_door": {
-    "id": 758,
+    "id": 759,
     "translationKey": "block.minecraft.oxidized_copper_door",
     "maxStackSize": 64,
     "correspondingBlock": "oxidized_copper_door",
@@ -13708,7 +13726,7 @@
     }
   },
   "waxed_copper_door": {
-    "id": 759,
+    "id": 760,
     "translationKey": "block.minecraft.waxed_copper_door",
     "maxStackSize": 64,
     "correspondingBlock": "waxed_copper_door",
@@ -13726,7 +13744,7 @@
     }
   },
   "waxed_exposed_copper_door": {
-    "id": 760,
+    "id": 761,
     "translationKey": "block.minecraft.waxed_exposed_copper_door",
     "maxStackSize": 64,
     "correspondingBlock": "waxed_exposed_copper_door",
@@ -13744,7 +13762,7 @@
     }
   },
   "waxed_weathered_copper_door": {
-    "id": 761,
+    "id": 762,
     "translationKey": "block.minecraft.waxed_weathered_copper_door",
     "maxStackSize": 64,
     "correspondingBlock": "waxed_weathered_copper_door",
@@ -13762,7 +13780,7 @@
     }
   },
   "waxed_oxidized_copper_door": {
-    "id": 762,
+    "id": 763,
     "translationKey": "block.minecraft.waxed_oxidized_copper_door",
     "maxStackSize": 64,
     "correspondingBlock": "waxed_oxidized_copper_door",
@@ -13780,7 +13798,7 @@
     }
   },
   "iron_trapdoor": {
-    "id": 763,
+    "id": 764,
     "translationKey": "block.minecraft.iron_trapdoor",
     "maxStackSize": 64,
     "correspondingBlock": "iron_trapdoor",
@@ -13798,7 +13816,7 @@
     }
   },
   "oak_trapdoor": {
-    "id": 764,
+    "id": 765,
     "translationKey": "block.minecraft.oak_trapdoor",
     "maxStackSize": 64,
     "correspondingBlock": "oak_trapdoor",
@@ -13816,7 +13834,7 @@
     }
   },
   "spruce_trapdoor": {
-    "id": 765,
+    "id": 766,
     "translationKey": "block.minecraft.spruce_trapdoor",
     "maxStackSize": 64,
     "correspondingBlock": "spruce_trapdoor",
@@ -13834,7 +13852,7 @@
     }
   },
   "birch_trapdoor": {
-    "id": 766,
+    "id": 767,
     "translationKey": "block.minecraft.birch_trapdoor",
     "maxStackSize": 64,
     "correspondingBlock": "birch_trapdoor",
@@ -13852,7 +13870,7 @@
     }
   },
   "jungle_trapdoor": {
-    "id": 767,
+    "id": 768,
     "translationKey": "block.minecraft.jungle_trapdoor",
     "maxStackSize": 64,
     "correspondingBlock": "jungle_trapdoor",
@@ -13870,7 +13888,7 @@
     }
   },
   "acacia_trapdoor": {
-    "id": 768,
+    "id": 769,
     "translationKey": "block.minecraft.acacia_trapdoor",
     "maxStackSize": 64,
     "correspondingBlock": "acacia_trapdoor",
@@ -13888,7 +13906,7 @@
     }
   },
   "cherry_trapdoor": {
-    "id": 769,
+    "id": 770,
     "translationKey": "block.minecraft.cherry_trapdoor",
     "maxStackSize": 64,
     "correspondingBlock": "cherry_trapdoor",
@@ -13906,7 +13924,7 @@
     }
   },
   "dark_oak_trapdoor": {
-    "id": 770,
+    "id": 771,
     "translationKey": "block.minecraft.dark_oak_trapdoor",
     "maxStackSize": 64,
     "correspondingBlock": "dark_oak_trapdoor",
@@ -13924,7 +13942,7 @@
     }
   },
   "pale_oak_trapdoor": {
-    "id": 771,
+    "id": 772,
     "translationKey": "block.minecraft.pale_oak_trapdoor",
     "maxStackSize": 64,
     "correspondingBlock": "pale_oak_trapdoor",
@@ -13942,7 +13960,7 @@
     }
   },
   "mangrove_trapdoor": {
-    "id": 772,
+    "id": 773,
     "translationKey": "block.minecraft.mangrove_trapdoor",
     "maxStackSize": 64,
     "correspondingBlock": "mangrove_trapdoor",
@@ -13960,7 +13978,7 @@
     }
   },
   "bamboo_trapdoor": {
-    "id": 773,
+    "id": 774,
     "translationKey": "block.minecraft.bamboo_trapdoor",
     "maxStackSize": 64,
     "correspondingBlock": "bamboo_trapdoor",
@@ -13978,7 +13996,7 @@
     }
   },
   "crimson_trapdoor": {
-    "id": 774,
+    "id": 775,
     "translationKey": "block.minecraft.crimson_trapdoor",
     "maxStackSize": 64,
     "correspondingBlock": "crimson_trapdoor",
@@ -13996,7 +14014,7 @@
     }
   },
   "warped_trapdoor": {
-    "id": 775,
+    "id": 776,
     "translationKey": "block.minecraft.warped_trapdoor",
     "maxStackSize": 64,
     "correspondingBlock": "warped_trapdoor",
@@ -14014,7 +14032,7 @@
     }
   },
   "copper_trapdoor": {
-    "id": 776,
+    "id": 777,
     "translationKey": "block.minecraft.copper_trapdoor",
     "maxStackSize": 64,
     "correspondingBlock": "copper_trapdoor",
@@ -14032,7 +14050,7 @@
     }
   },
   "exposed_copper_trapdoor": {
-    "id": 777,
+    "id": 778,
     "translationKey": "block.minecraft.exposed_copper_trapdoor",
     "maxStackSize": 64,
     "correspondingBlock": "exposed_copper_trapdoor",
@@ -14050,7 +14068,7 @@
     }
   },
   "weathered_copper_trapdoor": {
-    "id": 778,
+    "id": 779,
     "translationKey": "block.minecraft.weathered_copper_trapdoor",
     "maxStackSize": 64,
     "correspondingBlock": "weathered_copper_trapdoor",
@@ -14068,7 +14086,7 @@
     }
   },
   "oxidized_copper_trapdoor": {
-    "id": 779,
+    "id": 780,
     "translationKey": "block.minecraft.oxidized_copper_trapdoor",
     "maxStackSize": 64,
     "correspondingBlock": "oxidized_copper_trapdoor",
@@ -14086,7 +14104,7 @@
     }
   },
   "waxed_copper_trapdoor": {
-    "id": 780,
+    "id": 781,
     "translationKey": "block.minecraft.waxed_copper_trapdoor",
     "maxStackSize": 64,
     "correspondingBlock": "waxed_copper_trapdoor",
@@ -14104,7 +14122,7 @@
     }
   },
   "waxed_exposed_copper_trapdoor": {
-    "id": 781,
+    "id": 782,
     "translationKey": "block.minecraft.waxed_exposed_copper_trapdoor",
     "maxStackSize": 64,
     "correspondingBlock": "waxed_exposed_copper_trapdoor",
@@ -14122,7 +14140,7 @@
     }
   },
   "waxed_weathered_copper_trapdoor": {
-    "id": 782,
+    "id": 783,
     "translationKey": "block.minecraft.waxed_weathered_copper_trapdoor",
     "maxStackSize": 64,
     "correspondingBlock": "waxed_weathered_copper_trapdoor",
@@ -14140,7 +14158,7 @@
     }
   },
   "waxed_oxidized_copper_trapdoor": {
-    "id": 783,
+    "id": 784,
     "translationKey": "block.minecraft.waxed_oxidized_copper_trapdoor",
     "maxStackSize": 64,
     "correspondingBlock": "waxed_oxidized_copper_trapdoor",
@@ -14158,7 +14176,7 @@
     }
   },
   "oak_fence_gate": {
-    "id": 784,
+    "id": 785,
     "translationKey": "block.minecraft.oak_fence_gate",
     "maxStackSize": 64,
     "correspondingBlock": "oak_fence_gate",
@@ -14176,7 +14194,7 @@
     }
   },
   "spruce_fence_gate": {
-    "id": 785,
+    "id": 786,
     "translationKey": "block.minecraft.spruce_fence_gate",
     "maxStackSize": 64,
     "correspondingBlock": "spruce_fence_gate",
@@ -14194,7 +14212,7 @@
     }
   },
   "birch_fence_gate": {
-    "id": 786,
+    "id": 787,
     "translationKey": "block.minecraft.birch_fence_gate",
     "maxStackSize": 64,
     "correspondingBlock": "birch_fence_gate",
@@ -14212,7 +14230,7 @@
     }
   },
   "jungle_fence_gate": {
-    "id": 787,
+    "id": 788,
     "translationKey": "block.minecraft.jungle_fence_gate",
     "maxStackSize": 64,
     "correspondingBlock": "jungle_fence_gate",
@@ -14230,7 +14248,7 @@
     }
   },
   "acacia_fence_gate": {
-    "id": 788,
+    "id": 789,
     "translationKey": "block.minecraft.acacia_fence_gate",
     "maxStackSize": 64,
     "correspondingBlock": "acacia_fence_gate",
@@ -14248,7 +14266,7 @@
     }
   },
   "cherry_fence_gate": {
-    "id": 789,
+    "id": 790,
     "translationKey": "block.minecraft.cherry_fence_gate",
     "maxStackSize": 64,
     "correspondingBlock": "cherry_fence_gate",
@@ -14266,7 +14284,7 @@
     }
   },
   "dark_oak_fence_gate": {
-    "id": 790,
+    "id": 791,
     "translationKey": "block.minecraft.dark_oak_fence_gate",
     "maxStackSize": 64,
     "correspondingBlock": "dark_oak_fence_gate",
@@ -14284,7 +14302,7 @@
     }
   },
   "pale_oak_fence_gate": {
-    "id": 791,
+    "id": 792,
     "translationKey": "block.minecraft.pale_oak_fence_gate",
     "maxStackSize": 64,
     "correspondingBlock": "pale_oak_fence_gate",
@@ -14302,7 +14320,7 @@
     }
   },
   "mangrove_fence_gate": {
-    "id": 792,
+    "id": 793,
     "translationKey": "block.minecraft.mangrove_fence_gate",
     "maxStackSize": 64,
     "correspondingBlock": "mangrove_fence_gate",
@@ -14320,7 +14338,7 @@
     }
   },
   "bamboo_fence_gate": {
-    "id": 793,
+    "id": 794,
     "translationKey": "block.minecraft.bamboo_fence_gate",
     "maxStackSize": 64,
     "correspondingBlock": "bamboo_fence_gate",
@@ -14338,7 +14356,7 @@
     }
   },
   "crimson_fence_gate": {
-    "id": 794,
+    "id": 795,
     "translationKey": "block.minecraft.crimson_fence_gate",
     "maxStackSize": 64,
     "correspondingBlock": "crimson_fence_gate",
@@ -14356,7 +14374,7 @@
     }
   },
   "warped_fence_gate": {
-    "id": 795,
+    "id": 796,
     "translationKey": "block.minecraft.warped_fence_gate",
     "maxStackSize": 64,
     "correspondingBlock": "warped_fence_gate",
@@ -14374,7 +14392,7 @@
     }
   },
   "powered_rail": {
-    "id": 796,
+    "id": 797,
     "translationKey": "block.minecraft.powered_rail",
     "maxStackSize": 64,
     "correspondingBlock": "powered_rail",
@@ -14392,7 +14410,7 @@
     }
   },
   "detector_rail": {
-    "id": 797,
+    "id": 798,
     "translationKey": "block.minecraft.detector_rail",
     "maxStackSize": 64,
     "correspondingBlock": "detector_rail",
@@ -14410,7 +14428,7 @@
     }
   },
   "rail": {
-    "id": 798,
+    "id": 799,
     "translationKey": "block.minecraft.rail",
     "maxStackSize": 64,
     "correspondingBlock": "rail",
@@ -14428,7 +14446,7 @@
     }
   },
   "activator_rail": {
-    "id": 799,
+    "id": 800,
     "translationKey": "block.minecraft.activator_rail",
     "maxStackSize": 64,
     "correspondingBlock": "activator_rail",
@@ -14446,7 +14464,7 @@
     }
   },
   "saddle": {
-    "id": 800,
+    "id": 801,
     "translationKey": "item.minecraft.saddle",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -14459,12 +14477,300 @@
       "attribute_modifiers": -1978007022,
       "tooltip_display": -982207288,
       "repair_cost": -2146075228,
-      "equippable": 1385120989,
+      "equippable": 392430939,
+      "break_sound": 123447120
+    }
+  },
+  "white_harness": {
+    "id": 802,
+    "translationKey": "item.minecraft.white_harness",
+    "maxStackSize": 1,
+    "defaultComponentHashes": {
+      "max_stack_size": 1565579036,
+      "item_name": -398876223,
+      "item_model": -463099058,
+      "lore": -1978007022,
+      "rarity": 75150990,
+      "enchantments": -982207288,
+      "attribute_modifiers": -1978007022,
+      "tooltip_display": -982207288,
+      "repair_cost": -2146075228,
+      "equippable": 1590307900,
+      "break_sound": 123447120
+    }
+  },
+  "orange_harness": {
+    "id": 803,
+    "translationKey": "item.minecraft.orange_harness",
+    "maxStackSize": 1,
+    "defaultComponentHashes": {
+      "max_stack_size": 1565579036,
+      "item_name": -613569846,
+      "item_model": 987572557,
+      "lore": -1978007022,
+      "rarity": 75150990,
+      "enchantments": -982207288,
+      "attribute_modifiers": -1978007022,
+      "tooltip_display": -982207288,
+      "repair_cost": -2146075228,
+      "equippable": -691539824,
+      "break_sound": 123447120
+    }
+  },
+  "magenta_harness": {
+    "id": 804,
+    "translationKey": "item.minecraft.magenta_harness",
+    "maxStackSize": 1,
+    "defaultComponentHashes": {
+      "max_stack_size": 1565579036,
+      "item_name": -468289536,
+      "item_model": 35732613,
+      "lore": -1978007022,
+      "rarity": 75150990,
+      "enchantments": -982207288,
+      "attribute_modifiers": -1978007022,
+      "tooltip_display": -982207288,
+      "repair_cost": -2146075228,
+      "equippable": 816351048,
+      "break_sound": 123447120
+    }
+  },
+  "light_blue_harness": {
+    "id": 805,
+    "translationKey": "item.minecraft.light_blue_harness",
+    "maxStackSize": 1,
+    "defaultComponentHashes": {
+      "max_stack_size": 1565579036,
+      "item_name": -578344547,
+      "item_model": -1274231618,
+      "lore": -1978007022,
+      "rarity": 75150990,
+      "enchantments": -982207288,
+      "attribute_modifiers": -1978007022,
+      "tooltip_display": -982207288,
+      "repair_cost": -2146075228,
+      "equippable": 1115246048,
+      "break_sound": 123447120
+    }
+  },
+  "yellow_harness": {
+    "id": 806,
+    "translationKey": "item.minecraft.yellow_harness",
+    "maxStackSize": 1,
+    "defaultComponentHashes": {
+      "max_stack_size": 1565579036,
+      "item_name": -1472008854,
+      "item_model": -1692402571,
+      "lore": -1978007022,
+      "rarity": 75150990,
+      "enchantments": -982207288,
+      "attribute_modifiers": -1978007022,
+      "tooltip_display": -982207288,
+      "repair_cost": -2146075228,
+      "equippable": 969751109,
+      "break_sound": 123447120
+    }
+  },
+  "lime_harness": {
+    "id": 807,
+    "translationKey": "item.minecraft.lime_harness",
+    "maxStackSize": 1,
+    "defaultComponentHashes": {
+      "max_stack_size": 1565579036,
+      "item_name": 1919455067,
+      "item_model": 70509877,
+      "lore": -1978007022,
+      "rarity": 75150990,
+      "enchantments": -982207288,
+      "attribute_modifiers": -1978007022,
+      "tooltip_display": -982207288,
+      "repair_cost": -2146075228,
+      "equippable": 1321791062,
+      "break_sound": 123447120
+    }
+  },
+  "pink_harness": {
+    "id": 808,
+    "translationKey": "item.minecraft.pink_harness",
+    "maxStackSize": 1,
+    "defaultComponentHashes": {
+      "max_stack_size": 1565579036,
+      "item_name": -1530891207,
+      "item_model": -1566131532,
+      "lore": -1978007022,
+      "rarity": 75150990,
+      "enchantments": -982207288,
+      "attribute_modifiers": -1978007022,
+      "tooltip_display": -982207288,
+      "repair_cost": -2146075228,
+      "equippable": 137303675,
+      "break_sound": 123447120
+    }
+  },
+  "gray_harness": {
+    "id": 809,
+    "translationKey": "item.minecraft.gray_harness",
+    "maxStackSize": 1,
+    "defaultComponentHashes": {
+      "max_stack_size": 1565579036,
+      "item_name": -616358155,
+      "item_model": 31895121,
+      "lore": -1978007022,
+      "rarity": 75150990,
+      "enchantments": -982207288,
+      "attribute_modifiers": -1978007022,
+      "tooltip_display": -982207288,
+      "repair_cost": -2146075228,
+      "equippable": -1542070858,
+      "break_sound": 123447120
+    }
+  },
+  "light_gray_harness": {
+    "id": 810,
+    "translationKey": "item.minecraft.light_gray_harness",
+    "maxStackSize": 1,
+    "defaultComponentHashes": {
+      "max_stack_size": 1565579036,
+      "item_name": 1459693066,
+      "item_model": 238562279,
+      "lore": -1978007022,
+      "rarity": 75150990,
+      "enchantments": -982207288,
+      "attribute_modifiers": -1978007022,
+      "tooltip_display": -982207288,
+      "repair_cost": -2146075228,
+      "equippable": -1168706730,
+      "break_sound": 123447120
+    }
+  },
+  "cyan_harness": {
+    "id": 811,
+    "translationKey": "item.minecraft.cyan_harness",
+    "maxStackSize": 1,
+    "defaultComponentHashes": {
+      "max_stack_size": 1565579036,
+      "item_name": 437945214,
+      "item_model": 919064180,
+      "lore": -1978007022,
+      "rarity": 75150990,
+      "enchantments": -982207288,
+      "attribute_modifiers": -1978007022,
+      "tooltip_display": -982207288,
+      "repair_cost": -2146075228,
+      "equippable": -1921734421,
+      "break_sound": 123447120
+    }
+  },
+  "purple_harness": {
+    "id": 812,
+    "translationKey": "item.minecraft.purple_harness",
+    "maxStackSize": 1,
+    "defaultComponentHashes": {
+      "max_stack_size": 1565579036,
+      "item_name": -950661838,
+      "item_model": -1063343112,
+      "lore": -1978007022,
+      "rarity": 75150990,
+      "enchantments": -982207288,
+      "attribute_modifiers": -1978007022,
+      "tooltip_display": -982207288,
+      "repair_cost": -2146075228,
+      "equippable": 548291347,
+      "break_sound": 123447120
+    }
+  },
+  "blue_harness": {
+    "id": 813,
+    "translationKey": "item.minecraft.blue_harness",
+    "maxStackSize": 1,
+    "defaultComponentHashes": {
+      "max_stack_size": 1565579036,
+      "item_name": 1371869538,
+      "item_model": -1143848696,
+      "lore": -1978007022,
+      "rarity": 75150990,
+      "enchantments": -982207288,
+      "attribute_modifiers": -1978007022,
+      "tooltip_display": -982207288,
+      "repair_cost": -2146075228,
+      "equippable": 1547330304,
+      "break_sound": 123447120
+    }
+  },
+  "brown_harness": {
+    "id": 814,
+    "translationKey": "item.minecraft.brown_harness",
+    "maxStackSize": 1,
+    "defaultComponentHashes": {
+      "max_stack_size": 1565579036,
+      "item_name": 1873776328,
+      "item_model": 1679671831,
+      "lore": -1978007022,
+      "rarity": 75150990,
+      "enchantments": -982207288,
+      "attribute_modifiers": -1978007022,
+      "tooltip_display": -982207288,
+      "repair_cost": -2146075228,
+      "equippable": -1413211552,
+      "break_sound": 123447120
+    }
+  },
+  "green_harness": {
+    "id": 815,
+    "translationKey": "item.minecraft.green_harness",
+    "maxStackSize": 1,
+    "defaultComponentHashes": {
+      "max_stack_size": 1565579036,
+      "item_name": 47547434,
+      "item_model": -1193730889,
+      "lore": -1978007022,
+      "rarity": 75150990,
+      "enchantments": -982207288,
+      "attribute_modifiers": -1978007022,
+      "tooltip_display": -982207288,
+      "repair_cost": -2146075228,
+      "equippable": 825468585,
+      "break_sound": 123447120
+    }
+  },
+  "red_harness": {
+    "id": 816,
+    "translationKey": "item.minecraft.red_harness",
+    "maxStackSize": 1,
+    "defaultComponentHashes": {
+      "max_stack_size": 1565579036,
+      "item_name": -1348083825,
+      "item_model": -207462532,
+      "lore": -1978007022,
+      "rarity": 75150990,
+      "enchantments": -982207288,
+      "attribute_modifiers": -1978007022,
+      "tooltip_display": -982207288,
+      "repair_cost": -2146075228,
+      "equippable": -144499665,
+      "break_sound": 123447120
+    }
+  },
+  "black_harness": {
+    "id": 817,
+    "translationKey": "item.minecraft.black_harness",
+    "maxStackSize": 1,
+    "defaultComponentHashes": {
+      "max_stack_size": 1565579036,
+      "item_name": 1960761528,
+      "item_model": 19912357,
+      "lore": -1978007022,
+      "rarity": 75150990,
+      "enchantments": -982207288,
+      "attribute_modifiers": -1978007022,
+      "tooltip_display": -982207288,
+      "repair_cost": -2146075228,
+      "equippable": 2019521404,
       "break_sound": 123447120
     }
   },
   "minecart": {
-    "id": 801,
+    "id": 818,
     "translationKey": "item.minecraft.minecart",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -14481,7 +14787,7 @@
     }
   },
   "chest_minecart": {
-    "id": 802,
+    "id": 819,
     "translationKey": "item.minecraft.chest_minecart",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -14498,7 +14804,7 @@
     }
   },
   "furnace_minecart": {
-    "id": 803,
+    "id": 820,
     "translationKey": "item.minecraft.furnace_minecart",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -14515,7 +14821,7 @@
     }
   },
   "tnt_minecart": {
-    "id": 804,
+    "id": 821,
     "translationKey": "item.minecraft.tnt_minecart",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -14532,7 +14838,7 @@
     }
   },
   "hopper_minecart": {
-    "id": 805,
+    "id": 822,
     "translationKey": "item.minecraft.hopper_minecart",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -14549,7 +14855,7 @@
     }
   },
   "carrot_on_a_stick": {
-    "id": 806,
+    "id": 823,
     "translationKey": "item.minecraft.carrot_on_a_stick",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -14568,7 +14874,7 @@
     }
   },
   "warped_fungus_on_a_stick": {
-    "id": 807,
+    "id": 824,
     "translationKey": "item.minecraft.warped_fungus_on_a_stick",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -14587,7 +14893,7 @@
     }
   },
   "phantom_membrane": {
-    "id": 808,
+    "id": 825,
     "translationKey": "item.minecraft.phantom_membrane",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -14604,7 +14910,7 @@
     }
   },
   "elytra": {
-    "id": 809,
+    "id": 826,
     "translationKey": "item.minecraft.elytra",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -14626,7 +14932,7 @@
     }
   },
   "oak_boat": {
-    "id": 810,
+    "id": 827,
     "translationKey": "item.minecraft.oak_boat",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -14643,7 +14949,7 @@
     }
   },
   "oak_chest_boat": {
-    "id": 811,
+    "id": 828,
     "translationKey": "item.minecraft.oak_chest_boat",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -14660,7 +14966,7 @@
     }
   },
   "spruce_boat": {
-    "id": 812,
+    "id": 829,
     "translationKey": "item.minecraft.spruce_boat",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -14677,7 +14983,7 @@
     }
   },
   "spruce_chest_boat": {
-    "id": 813,
+    "id": 830,
     "translationKey": "item.minecraft.spruce_chest_boat",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -14694,7 +15000,7 @@
     }
   },
   "birch_boat": {
-    "id": 814,
+    "id": 831,
     "translationKey": "item.minecraft.birch_boat",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -14711,7 +15017,7 @@
     }
   },
   "birch_chest_boat": {
-    "id": 815,
+    "id": 832,
     "translationKey": "item.minecraft.birch_chest_boat",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -14728,7 +15034,7 @@
     }
   },
   "jungle_boat": {
-    "id": 816,
+    "id": 833,
     "translationKey": "item.minecraft.jungle_boat",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -14745,7 +15051,7 @@
     }
   },
   "jungle_chest_boat": {
-    "id": 817,
+    "id": 834,
     "translationKey": "item.minecraft.jungle_chest_boat",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -14762,7 +15068,7 @@
     }
   },
   "acacia_boat": {
-    "id": 818,
+    "id": 835,
     "translationKey": "item.minecraft.acacia_boat",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -14779,7 +15085,7 @@
     }
   },
   "acacia_chest_boat": {
-    "id": 819,
+    "id": 836,
     "translationKey": "item.minecraft.acacia_chest_boat",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -14796,7 +15102,7 @@
     }
   },
   "cherry_boat": {
-    "id": 820,
+    "id": 837,
     "translationKey": "item.minecraft.cherry_boat",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -14813,7 +15119,7 @@
     }
   },
   "cherry_chest_boat": {
-    "id": 821,
+    "id": 838,
     "translationKey": "item.minecraft.cherry_chest_boat",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -14830,7 +15136,7 @@
     }
   },
   "dark_oak_boat": {
-    "id": 822,
+    "id": 839,
     "translationKey": "item.minecraft.dark_oak_boat",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -14847,7 +15153,7 @@
     }
   },
   "dark_oak_chest_boat": {
-    "id": 823,
+    "id": 840,
     "translationKey": "item.minecraft.dark_oak_chest_boat",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -14864,7 +15170,7 @@
     }
   },
   "pale_oak_boat": {
-    "id": 824,
+    "id": 841,
     "translationKey": "item.minecraft.pale_oak_boat",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -14881,7 +15187,7 @@
     }
   },
   "pale_oak_chest_boat": {
-    "id": 825,
+    "id": 842,
     "translationKey": "item.minecraft.pale_oak_chest_boat",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -14898,7 +15204,7 @@
     }
   },
   "mangrove_boat": {
-    "id": 826,
+    "id": 843,
     "translationKey": "item.minecraft.mangrove_boat",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -14915,7 +15221,7 @@
     }
   },
   "mangrove_chest_boat": {
-    "id": 827,
+    "id": 844,
     "translationKey": "item.minecraft.mangrove_chest_boat",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -14932,7 +15238,7 @@
     }
   },
   "bamboo_raft": {
-    "id": 828,
+    "id": 845,
     "translationKey": "item.minecraft.bamboo_raft",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -14949,7 +15255,7 @@
     }
   },
   "bamboo_chest_raft": {
-    "id": 829,
+    "id": 846,
     "translationKey": "item.minecraft.bamboo_chest_raft",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -14966,7 +15272,7 @@
     }
   },
   "structure_block": {
-    "id": 830,
+    "id": 847,
     "translationKey": "block.minecraft.structure_block",
     "maxStackSize": 64,
     "correspondingBlock": "structure_block",
@@ -14984,7 +15290,7 @@
     }
   },
   "jigsaw": {
-    "id": 831,
+    "id": 848,
     "translationKey": "block.minecraft.jigsaw",
     "maxStackSize": 64,
     "correspondingBlock": "jigsaw",
@@ -15002,7 +15308,7 @@
     }
   },
   "test_block": {
-    "id": 832,
+    "id": 849,
     "translationKey": "block.minecraft.test_block",
     "maxStackSize": 64,
     "correspondingBlock": "test_block",
@@ -15021,7 +15327,7 @@
     }
   },
   "test_instance_block": {
-    "id": 833,
+    "id": 850,
     "translationKey": "block.minecraft.test_instance_block",
     "maxStackSize": 64,
     "correspondingBlock": "test_instance_block",
@@ -15039,7 +15345,7 @@
     }
   },
   "turtle_helmet": {
-    "id": 834,
+    "id": 851,
     "translationKey": "item.minecraft.turtle_helmet",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -15061,7 +15367,7 @@
     }
   },
   "turtle_scute": {
-    "id": 835,
+    "id": 852,
     "translationKey": "item.minecraft.turtle_scute",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -15078,7 +15384,7 @@
     }
   },
   "armadillo_scute": {
-    "id": 836,
+    "id": 853,
     "translationKey": "item.minecraft.armadillo_scute",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -15095,7 +15401,7 @@
     }
   },
   "wolf_armor": {
-    "id": 837,
+    "id": 854,
     "translationKey": "item.minecraft.wolf_armor",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -15110,13 +15416,13 @@
       "attribute_modifiers": -453527020,
       "tooltip_display": -982207288,
       "repair_cost": -2146075228,
-      "equippable": 637735990,
+      "equippable": 89802684,
       "repairable": -125788965,
       "break_sound": -1483293464
     }
   },
   "flint_and_steel": {
-    "id": 838,
+    "id": 855,
     "translationKey": "item.minecraft.flint_and_steel",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -15135,7 +15441,7 @@
     }
   },
   "bowl": {
-    "id": 839,
+    "id": 856,
     "translationKey": "item.minecraft.bowl",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -15152,7 +15458,7 @@
     }
   },
   "apple": {
-    "id": 840,
+    "id": 857,
     "translationKey": "item.minecraft.apple",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -15171,7 +15477,7 @@
     }
   },
   "bow": {
-    "id": 841,
+    "id": 858,
     "translationKey": "item.minecraft.bow",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -15191,7 +15497,7 @@
     }
   },
   "arrow": {
-    "id": 842,
+    "id": 859,
     "translationKey": "item.minecraft.arrow",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -15208,7 +15514,7 @@
     }
   },
   "coal": {
-    "id": 843,
+    "id": 860,
     "translationKey": "item.minecraft.coal",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -15225,7 +15531,7 @@
     }
   },
   "charcoal": {
-    "id": 844,
+    "id": 861,
     "translationKey": "item.minecraft.charcoal",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -15242,7 +15548,7 @@
     }
   },
   "diamond": {
-    "id": 845,
+    "id": 862,
     "translationKey": "item.minecraft.diamond",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -15260,7 +15566,7 @@
     }
   },
   "emerald": {
-    "id": 846,
+    "id": 863,
     "translationKey": "item.minecraft.emerald",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -15278,7 +15584,7 @@
     }
   },
   "lapis_lazuli": {
-    "id": 847,
+    "id": 864,
     "translationKey": "item.minecraft.lapis_lazuli",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -15296,7 +15602,7 @@
     }
   },
   "quartz": {
-    "id": 848,
+    "id": 865,
     "translationKey": "item.minecraft.quartz",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -15314,7 +15620,7 @@
     }
   },
   "amethyst_shard": {
-    "id": 849,
+    "id": 866,
     "translationKey": "item.minecraft.amethyst_shard",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -15332,7 +15638,7 @@
     }
   },
   "raw_iron": {
-    "id": 850,
+    "id": 867,
     "translationKey": "item.minecraft.raw_iron",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -15349,7 +15655,7 @@
     }
   },
   "iron_ingot": {
-    "id": 851,
+    "id": 868,
     "translationKey": "item.minecraft.iron_ingot",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -15367,7 +15673,7 @@
     }
   },
   "raw_copper": {
-    "id": 852,
+    "id": 869,
     "translationKey": "item.minecraft.raw_copper",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -15384,7 +15690,7 @@
     }
   },
   "copper_ingot": {
-    "id": 853,
+    "id": 870,
     "translationKey": "item.minecraft.copper_ingot",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -15402,7 +15708,7 @@
     }
   },
   "raw_gold": {
-    "id": 854,
+    "id": 871,
     "translationKey": "item.minecraft.raw_gold",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -15419,7 +15725,7 @@
     }
   },
   "gold_ingot": {
-    "id": 855,
+    "id": 872,
     "translationKey": "item.minecraft.gold_ingot",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -15437,7 +15743,7 @@
     }
   },
   "netherite_ingot": {
-    "id": 856,
+    "id": 873,
     "translationKey": "item.minecraft.netherite_ingot",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -15456,7 +15762,7 @@
     }
   },
   "netherite_scrap": {
-    "id": 857,
+    "id": 874,
     "translationKey": "item.minecraft.netherite_scrap",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -15474,7 +15780,7 @@
     }
   },
   "wooden_sword": {
-    "id": 858,
+    "id": 875,
     "translationKey": "item.minecraft.wooden_sword",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -15497,7 +15803,7 @@
     }
   },
   "wooden_shovel": {
-    "id": 859,
+    "id": 876,
     "translationKey": "item.minecraft.wooden_shovel",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -15520,7 +15826,7 @@
     }
   },
   "wooden_pickaxe": {
-    "id": 860,
+    "id": 877,
     "translationKey": "item.minecraft.wooden_pickaxe",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -15543,7 +15849,7 @@
     }
   },
   "wooden_axe": {
-    "id": 861,
+    "id": 878,
     "translationKey": "item.minecraft.wooden_axe",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -15566,7 +15872,7 @@
     }
   },
   "wooden_hoe": {
-    "id": 862,
+    "id": 879,
     "translationKey": "item.minecraft.wooden_hoe",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -15589,7 +15895,7 @@
     }
   },
   "stone_sword": {
-    "id": 863,
+    "id": 880,
     "translationKey": "item.minecraft.stone_sword",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -15612,7 +15918,7 @@
     }
   },
   "stone_shovel": {
-    "id": 864,
+    "id": 881,
     "translationKey": "item.minecraft.stone_shovel",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -15635,7 +15941,7 @@
     }
   },
   "stone_pickaxe": {
-    "id": 865,
+    "id": 882,
     "translationKey": "item.minecraft.stone_pickaxe",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -15658,7 +15964,7 @@
     }
   },
   "stone_axe": {
-    "id": 866,
+    "id": 883,
     "translationKey": "item.minecraft.stone_axe",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -15681,7 +15987,7 @@
     }
   },
   "stone_hoe": {
-    "id": 867,
+    "id": 884,
     "translationKey": "item.minecraft.stone_hoe",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -15704,7 +16010,7 @@
     }
   },
   "golden_sword": {
-    "id": 868,
+    "id": 885,
     "translationKey": "item.minecraft.golden_sword",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -15727,7 +16033,7 @@
     }
   },
   "golden_shovel": {
-    "id": 869,
+    "id": 886,
     "translationKey": "item.minecraft.golden_shovel",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -15750,7 +16056,7 @@
     }
   },
   "golden_pickaxe": {
-    "id": 870,
+    "id": 887,
     "translationKey": "item.minecraft.golden_pickaxe",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -15773,7 +16079,7 @@
     }
   },
   "golden_axe": {
-    "id": 871,
+    "id": 888,
     "translationKey": "item.minecraft.golden_axe",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -15796,7 +16102,7 @@
     }
   },
   "golden_hoe": {
-    "id": 872,
+    "id": 889,
     "translationKey": "item.minecraft.golden_hoe",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -15819,7 +16125,7 @@
     }
   },
   "iron_sword": {
-    "id": 873,
+    "id": 890,
     "translationKey": "item.minecraft.iron_sword",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -15842,7 +16148,7 @@
     }
   },
   "iron_shovel": {
-    "id": 874,
+    "id": 891,
     "translationKey": "item.minecraft.iron_shovel",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -15865,7 +16171,7 @@
     }
   },
   "iron_pickaxe": {
-    "id": 875,
+    "id": 892,
     "translationKey": "item.minecraft.iron_pickaxe",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -15888,7 +16194,7 @@
     }
   },
   "iron_axe": {
-    "id": 876,
+    "id": 893,
     "translationKey": "item.minecraft.iron_axe",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -15911,7 +16217,7 @@
     }
   },
   "iron_hoe": {
-    "id": 877,
+    "id": 894,
     "translationKey": "item.minecraft.iron_hoe",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -15934,7 +16240,7 @@
     }
   },
   "diamond_sword": {
-    "id": 878,
+    "id": 895,
     "translationKey": "item.minecraft.diamond_sword",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -15957,7 +16263,7 @@
     }
   },
   "diamond_shovel": {
-    "id": 879,
+    "id": 896,
     "translationKey": "item.minecraft.diamond_shovel",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -15980,7 +16286,7 @@
     }
   },
   "diamond_pickaxe": {
-    "id": 880,
+    "id": 897,
     "translationKey": "item.minecraft.diamond_pickaxe",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -16003,7 +16309,7 @@
     }
   },
   "diamond_axe": {
-    "id": 881,
+    "id": 898,
     "translationKey": "item.minecraft.diamond_axe",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -16026,7 +16332,7 @@
     }
   },
   "diamond_hoe": {
-    "id": 882,
+    "id": 899,
     "translationKey": "item.minecraft.diamond_hoe",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -16049,7 +16355,7 @@
     }
   },
   "netherite_sword": {
-    "id": 883,
+    "id": 900,
     "translationKey": "item.minecraft.netherite_sword",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -16073,7 +16379,7 @@
     }
   },
   "netherite_shovel": {
-    "id": 884,
+    "id": 901,
     "translationKey": "item.minecraft.netherite_shovel",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -16097,7 +16403,7 @@
     }
   },
   "netherite_pickaxe": {
-    "id": 885,
+    "id": 902,
     "translationKey": "item.minecraft.netherite_pickaxe",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -16121,7 +16427,7 @@
     }
   },
   "netherite_axe": {
-    "id": 886,
+    "id": 903,
     "translationKey": "item.minecraft.netherite_axe",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -16145,7 +16451,7 @@
     }
   },
   "netherite_hoe": {
-    "id": 887,
+    "id": 904,
     "translationKey": "item.minecraft.netherite_hoe",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -16169,7 +16475,7 @@
     }
   },
   "stick": {
-    "id": 888,
+    "id": 905,
     "translationKey": "item.minecraft.stick",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -16186,7 +16492,7 @@
     }
   },
   "mushroom_stew": {
-    "id": 889,
+    "id": 906,
     "translationKey": "item.minecraft.mushroom_stew",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -16206,7 +16512,7 @@
     }
   },
   "string": {
-    "id": 890,
+    "id": 907,
     "translationKey": "item.minecraft.string",
     "maxStackSize": 64,
     "correspondingBlock": "tripwire",
@@ -16224,7 +16530,7 @@
     }
   },
   "feather": {
-    "id": 891,
+    "id": 908,
     "translationKey": "item.minecraft.feather",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -16241,7 +16547,7 @@
     }
   },
   "gunpowder": {
-    "id": 892,
+    "id": 909,
     "translationKey": "item.minecraft.gunpowder",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -16258,7 +16564,7 @@
     }
   },
   "wheat_seeds": {
-    "id": 893,
+    "id": 910,
     "translationKey": "item.minecraft.wheat_seeds",
     "maxStackSize": 64,
     "correspondingBlock": "wheat",
@@ -16276,7 +16582,7 @@
     }
   },
   "wheat": {
-    "id": 894,
+    "id": 911,
     "translationKey": "item.minecraft.wheat",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -16293,7 +16599,7 @@
     }
   },
   "bread": {
-    "id": 895,
+    "id": 912,
     "translationKey": "item.minecraft.bread",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -16312,7 +16618,7 @@
     }
   },
   "leather_helmet": {
-    "id": 896,
+    "id": 913,
     "translationKey": "item.minecraft.leather_helmet",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -16334,7 +16640,7 @@
     }
   },
   "leather_chestplate": {
-    "id": 897,
+    "id": 914,
     "translationKey": "item.minecraft.leather_chestplate",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -16356,7 +16662,7 @@
     }
   },
   "leather_leggings": {
-    "id": 898,
+    "id": 915,
     "translationKey": "item.minecraft.leather_leggings",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -16378,7 +16684,7 @@
     }
   },
   "leather_boots": {
-    "id": 899,
+    "id": 916,
     "translationKey": "item.minecraft.leather_boots",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -16400,7 +16706,7 @@
     }
   },
   "chainmail_helmet": {
-    "id": 900,
+    "id": 917,
     "translationKey": "item.minecraft.chainmail_helmet",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -16422,7 +16728,7 @@
     }
   },
   "chainmail_chestplate": {
-    "id": 901,
+    "id": 918,
     "translationKey": "item.minecraft.chainmail_chestplate",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -16444,7 +16750,7 @@
     }
   },
   "chainmail_leggings": {
-    "id": 902,
+    "id": 919,
     "translationKey": "item.minecraft.chainmail_leggings",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -16466,7 +16772,7 @@
     }
   },
   "chainmail_boots": {
-    "id": 903,
+    "id": 920,
     "translationKey": "item.minecraft.chainmail_boots",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -16488,7 +16794,7 @@
     }
   },
   "iron_helmet": {
-    "id": 904,
+    "id": 921,
     "translationKey": "item.minecraft.iron_helmet",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -16510,7 +16816,7 @@
     }
   },
   "iron_chestplate": {
-    "id": 905,
+    "id": 922,
     "translationKey": "item.minecraft.iron_chestplate",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -16532,7 +16838,7 @@
     }
   },
   "iron_leggings": {
-    "id": 906,
+    "id": 923,
     "translationKey": "item.minecraft.iron_leggings",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -16554,7 +16860,7 @@
     }
   },
   "iron_boots": {
-    "id": 907,
+    "id": 924,
     "translationKey": "item.minecraft.iron_boots",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -16576,7 +16882,7 @@
     }
   },
   "diamond_helmet": {
-    "id": 908,
+    "id": 925,
     "translationKey": "item.minecraft.diamond_helmet",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -16598,7 +16904,7 @@
     }
   },
   "diamond_chestplate": {
-    "id": 909,
+    "id": 926,
     "translationKey": "item.minecraft.diamond_chestplate",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -16620,7 +16926,7 @@
     }
   },
   "diamond_leggings": {
-    "id": 910,
+    "id": 927,
     "translationKey": "item.minecraft.diamond_leggings",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -16642,7 +16948,7 @@
     }
   },
   "diamond_boots": {
-    "id": 911,
+    "id": 928,
     "translationKey": "item.minecraft.diamond_boots",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -16664,7 +16970,7 @@
     }
   },
   "golden_helmet": {
-    "id": 912,
+    "id": 929,
     "translationKey": "item.minecraft.golden_helmet",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -16686,7 +16992,7 @@
     }
   },
   "golden_chestplate": {
-    "id": 913,
+    "id": 930,
     "translationKey": "item.minecraft.golden_chestplate",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -16708,7 +17014,7 @@
     }
   },
   "golden_leggings": {
-    "id": 914,
+    "id": 931,
     "translationKey": "item.minecraft.golden_leggings",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -16730,7 +17036,7 @@
     }
   },
   "golden_boots": {
-    "id": 915,
+    "id": 932,
     "translationKey": "item.minecraft.golden_boots",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -16752,7 +17058,7 @@
     }
   },
   "netherite_helmet": {
-    "id": 916,
+    "id": 933,
     "translationKey": "item.minecraft.netherite_helmet",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -16775,7 +17081,7 @@
     }
   },
   "netherite_chestplate": {
-    "id": 917,
+    "id": 934,
     "translationKey": "item.minecraft.netherite_chestplate",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -16798,7 +17104,7 @@
     }
   },
   "netherite_leggings": {
-    "id": 918,
+    "id": 935,
     "translationKey": "item.minecraft.netherite_leggings",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -16821,7 +17127,7 @@
     }
   },
   "netherite_boots": {
-    "id": 919,
+    "id": 936,
     "translationKey": "item.minecraft.netherite_boots",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -16844,7 +17150,7 @@
     }
   },
   "flint": {
-    "id": 920,
+    "id": 937,
     "translationKey": "item.minecraft.flint",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -16861,7 +17167,7 @@
     }
   },
   "porkchop": {
-    "id": 921,
+    "id": 938,
     "translationKey": "item.minecraft.porkchop",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -16880,7 +17186,7 @@
     }
   },
   "cooked_porkchop": {
-    "id": 922,
+    "id": 939,
     "translationKey": "item.minecraft.cooked_porkchop",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -16899,7 +17205,7 @@
     }
   },
   "painting": {
-    "id": 923,
+    "id": 940,
     "translationKey": "item.minecraft.painting",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -16916,7 +17222,7 @@
     }
   },
   "golden_apple": {
-    "id": 924,
+    "id": 941,
     "translationKey": "item.minecraft.golden_apple",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -16935,7 +17241,7 @@
     }
   },
   "enchanted_golden_apple": {
-    "id": 925,
+    "id": 942,
     "translationKey": "item.minecraft.enchanted_golden_apple",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -16955,7 +17261,7 @@
     }
   },
   "oak_sign": {
-    "id": 926,
+    "id": 943,
     "translationKey": "block.minecraft.oak_sign",
     "maxStackSize": 16,
     "correspondingBlock": "oak_sign",
@@ -16973,7 +17279,7 @@
     }
   },
   "spruce_sign": {
-    "id": 927,
+    "id": 944,
     "translationKey": "block.minecraft.spruce_sign",
     "maxStackSize": 16,
     "correspondingBlock": "spruce_sign",
@@ -16991,7 +17297,7 @@
     }
   },
   "birch_sign": {
-    "id": 928,
+    "id": 945,
     "translationKey": "block.minecraft.birch_sign",
     "maxStackSize": 16,
     "correspondingBlock": "birch_sign",
@@ -17009,7 +17315,7 @@
     }
   },
   "jungle_sign": {
-    "id": 929,
+    "id": 946,
     "translationKey": "block.minecraft.jungle_sign",
     "maxStackSize": 16,
     "correspondingBlock": "jungle_sign",
@@ -17027,7 +17333,7 @@
     }
   },
   "acacia_sign": {
-    "id": 930,
+    "id": 947,
     "translationKey": "block.minecraft.acacia_sign",
     "maxStackSize": 16,
     "correspondingBlock": "acacia_sign",
@@ -17045,7 +17351,7 @@
     }
   },
   "cherry_sign": {
-    "id": 931,
+    "id": 948,
     "translationKey": "block.minecraft.cherry_sign",
     "maxStackSize": 16,
     "correspondingBlock": "cherry_sign",
@@ -17063,7 +17369,7 @@
     }
   },
   "dark_oak_sign": {
-    "id": 932,
+    "id": 949,
     "translationKey": "block.minecraft.dark_oak_sign",
     "maxStackSize": 16,
     "correspondingBlock": "dark_oak_sign",
@@ -17081,7 +17387,7 @@
     }
   },
   "pale_oak_sign": {
-    "id": 933,
+    "id": 950,
     "translationKey": "block.minecraft.pale_oak_sign",
     "maxStackSize": 16,
     "correspondingBlock": "pale_oak_sign",
@@ -17099,7 +17405,7 @@
     }
   },
   "mangrove_sign": {
-    "id": 934,
+    "id": 951,
     "translationKey": "block.minecraft.mangrove_sign",
     "maxStackSize": 16,
     "correspondingBlock": "mangrove_sign",
@@ -17117,7 +17423,7 @@
     }
   },
   "bamboo_sign": {
-    "id": 935,
+    "id": 952,
     "translationKey": "block.minecraft.bamboo_sign",
     "maxStackSize": 16,
     "correspondingBlock": "bamboo_sign",
@@ -17135,7 +17441,7 @@
     }
   },
   "crimson_sign": {
-    "id": 936,
+    "id": 953,
     "translationKey": "block.minecraft.crimson_sign",
     "maxStackSize": 16,
     "correspondingBlock": "crimson_sign",
@@ -17153,7 +17459,7 @@
     }
   },
   "warped_sign": {
-    "id": 937,
+    "id": 954,
     "translationKey": "block.minecraft.warped_sign",
     "maxStackSize": 16,
     "correspondingBlock": "warped_sign",
@@ -17171,7 +17477,7 @@
     }
   },
   "oak_hanging_sign": {
-    "id": 938,
+    "id": 955,
     "translationKey": "block.minecraft.oak_hanging_sign",
     "maxStackSize": 16,
     "correspondingBlock": "oak_hanging_sign",
@@ -17189,7 +17495,7 @@
     }
   },
   "spruce_hanging_sign": {
-    "id": 939,
+    "id": 956,
     "translationKey": "block.minecraft.spruce_hanging_sign",
     "maxStackSize": 16,
     "correspondingBlock": "spruce_hanging_sign",
@@ -17207,7 +17513,7 @@
     }
   },
   "birch_hanging_sign": {
-    "id": 940,
+    "id": 957,
     "translationKey": "block.minecraft.birch_hanging_sign",
     "maxStackSize": 16,
     "correspondingBlock": "birch_hanging_sign",
@@ -17225,7 +17531,7 @@
     }
   },
   "jungle_hanging_sign": {
-    "id": 941,
+    "id": 958,
     "translationKey": "block.minecraft.jungle_hanging_sign",
     "maxStackSize": 16,
     "correspondingBlock": "jungle_hanging_sign",
@@ -17243,7 +17549,7 @@
     }
   },
   "acacia_hanging_sign": {
-    "id": 942,
+    "id": 959,
     "translationKey": "block.minecraft.acacia_hanging_sign",
     "maxStackSize": 16,
     "correspondingBlock": "acacia_hanging_sign",
@@ -17261,7 +17567,7 @@
     }
   },
   "cherry_hanging_sign": {
-    "id": 943,
+    "id": 960,
     "translationKey": "block.minecraft.cherry_hanging_sign",
     "maxStackSize": 16,
     "correspondingBlock": "cherry_hanging_sign",
@@ -17279,7 +17585,7 @@
     }
   },
   "dark_oak_hanging_sign": {
-    "id": 944,
+    "id": 961,
     "translationKey": "block.minecraft.dark_oak_hanging_sign",
     "maxStackSize": 16,
     "correspondingBlock": "dark_oak_hanging_sign",
@@ -17297,7 +17603,7 @@
     }
   },
   "pale_oak_hanging_sign": {
-    "id": 945,
+    "id": 962,
     "translationKey": "block.minecraft.pale_oak_hanging_sign",
     "maxStackSize": 16,
     "correspondingBlock": "pale_oak_hanging_sign",
@@ -17315,7 +17621,7 @@
     }
   },
   "mangrove_hanging_sign": {
-    "id": 946,
+    "id": 963,
     "translationKey": "block.minecraft.mangrove_hanging_sign",
     "maxStackSize": 16,
     "correspondingBlock": "mangrove_hanging_sign",
@@ -17333,7 +17639,7 @@
     }
   },
   "bamboo_hanging_sign": {
-    "id": 947,
+    "id": 964,
     "translationKey": "block.minecraft.bamboo_hanging_sign",
     "maxStackSize": 16,
     "correspondingBlock": "bamboo_hanging_sign",
@@ -17351,7 +17657,7 @@
     }
   },
   "crimson_hanging_sign": {
-    "id": 948,
+    "id": 965,
     "translationKey": "block.minecraft.crimson_hanging_sign",
     "maxStackSize": 16,
     "correspondingBlock": "crimson_hanging_sign",
@@ -17369,7 +17675,7 @@
     }
   },
   "warped_hanging_sign": {
-    "id": 949,
+    "id": 966,
     "translationKey": "block.minecraft.warped_hanging_sign",
     "maxStackSize": 16,
     "correspondingBlock": "warped_hanging_sign",
@@ -17387,7 +17693,7 @@
     }
   },
   "bucket": {
-    "id": 950,
+    "id": 967,
     "translationKey": "item.minecraft.bucket",
     "maxStackSize": 16,
     "defaultComponentHashes": {
@@ -17404,7 +17710,7 @@
     }
   },
   "water_bucket": {
-    "id": 951,
+    "id": 968,
     "translationKey": "item.minecraft.water_bucket",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -17421,7 +17727,7 @@
     }
   },
   "lava_bucket": {
-    "id": 952,
+    "id": 969,
     "translationKey": "item.minecraft.lava_bucket",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -17438,7 +17744,7 @@
     }
   },
   "powder_snow_bucket": {
-    "id": 953,
+    "id": 970,
     "translationKey": "item.minecraft.powder_snow_bucket",
     "maxStackSize": 1,
     "correspondingBlock": "powder_snow",
@@ -17456,7 +17762,7 @@
     }
   },
   "snowball": {
-    "id": 954,
+    "id": 971,
     "translationKey": "item.minecraft.snowball",
     "maxStackSize": 16,
     "defaultComponentHashes": {
@@ -17473,7 +17779,7 @@
     }
   },
   "leather": {
-    "id": 955,
+    "id": 972,
     "translationKey": "item.minecraft.leather",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -17490,7 +17796,7 @@
     }
   },
   "milk_bucket": {
-    "id": 956,
+    "id": 973,
     "translationKey": "item.minecraft.milk_bucket",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -17509,7 +17815,7 @@
     }
   },
   "pufferfish_bucket": {
-    "id": 957,
+    "id": 974,
     "translationKey": "item.minecraft.pufferfish_bucket",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -17527,7 +17833,7 @@
     }
   },
   "salmon_bucket": {
-    "id": 958,
+    "id": 975,
     "translationKey": "item.minecraft.salmon_bucket",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -17545,7 +17851,7 @@
     }
   },
   "cod_bucket": {
-    "id": 959,
+    "id": 976,
     "translationKey": "item.minecraft.cod_bucket",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -17563,7 +17869,7 @@
     }
   },
   "tropical_fish_bucket": {
-    "id": 960,
+    "id": 977,
     "translationKey": "item.minecraft.tropical_fish_bucket",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -17581,7 +17887,7 @@
     }
   },
   "axolotl_bucket": {
-    "id": 961,
+    "id": 978,
     "translationKey": "item.minecraft.axolotl_bucket",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -17599,7 +17905,7 @@
     }
   },
   "tadpole_bucket": {
-    "id": 962,
+    "id": 979,
     "translationKey": "item.minecraft.tadpole_bucket",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -17617,7 +17923,7 @@
     }
   },
   "brick": {
-    "id": 963,
+    "id": 980,
     "translationKey": "item.minecraft.brick",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -17634,7 +17940,7 @@
     }
   },
   "clay_ball": {
-    "id": 964,
+    "id": 981,
     "translationKey": "item.minecraft.clay_ball",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -17651,7 +17957,7 @@
     }
   },
   "dried_kelp_block": {
-    "id": 965,
+    "id": 982,
     "translationKey": "block.minecraft.dried_kelp_block",
     "maxStackSize": 64,
     "correspondingBlock": "dried_kelp_block",
@@ -17669,7 +17975,7 @@
     }
   },
   "paper": {
-    "id": 966,
+    "id": 983,
     "translationKey": "item.minecraft.paper",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -17686,7 +17992,7 @@
     }
   },
   "book": {
-    "id": 967,
+    "id": 984,
     "translationKey": "item.minecraft.book",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -17704,7 +18010,7 @@
     }
   },
   "slime_ball": {
-    "id": 968,
+    "id": 985,
     "translationKey": "item.minecraft.slime_ball",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -17721,7 +18027,7 @@
     }
   },
   "egg": {
-    "id": 969,
+    "id": 986,
     "translationKey": "item.minecraft.egg",
     "maxStackSize": 16,
     "defaultComponentHashes": {
@@ -17739,7 +18045,7 @@
     }
   },
   "blue_egg": {
-    "id": 970,
+    "id": 987,
     "translationKey": "item.minecraft.blue_egg",
     "maxStackSize": 16,
     "defaultComponentHashes": {
@@ -17757,7 +18063,7 @@
     }
   },
   "brown_egg": {
-    "id": 971,
+    "id": 988,
     "translationKey": "item.minecraft.brown_egg",
     "maxStackSize": 16,
     "defaultComponentHashes": {
@@ -17775,7 +18081,7 @@
     }
   },
   "compass": {
-    "id": 972,
+    "id": 989,
     "translationKey": "item.minecraft.compass",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -17792,7 +18098,7 @@
     }
   },
   "recovery_compass": {
-    "id": 973,
+    "id": 990,
     "translationKey": "item.minecraft.recovery_compass",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -17809,7 +18115,7 @@
     }
   },
   "bundle": {
-    "id": 974,
+    "id": 991,
     "translationKey": "item.minecraft.bundle",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -17827,7 +18133,7 @@
     }
   },
   "white_bundle": {
-    "id": 975,
+    "id": 992,
     "translationKey": "item.minecraft.white_bundle",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -17845,7 +18151,7 @@
     }
   },
   "orange_bundle": {
-    "id": 976,
+    "id": 993,
     "translationKey": "item.minecraft.orange_bundle",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -17863,7 +18169,7 @@
     }
   },
   "magenta_bundle": {
-    "id": 977,
+    "id": 994,
     "translationKey": "item.minecraft.magenta_bundle",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -17881,7 +18187,7 @@
     }
   },
   "light_blue_bundle": {
-    "id": 978,
+    "id": 995,
     "translationKey": "item.minecraft.light_blue_bundle",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -17899,7 +18205,7 @@
     }
   },
   "yellow_bundle": {
-    "id": 979,
+    "id": 996,
     "translationKey": "item.minecraft.yellow_bundle",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -17917,7 +18223,7 @@
     }
   },
   "lime_bundle": {
-    "id": 980,
+    "id": 997,
     "translationKey": "item.minecraft.lime_bundle",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -17935,7 +18241,7 @@
     }
   },
   "pink_bundle": {
-    "id": 981,
+    "id": 998,
     "translationKey": "item.minecraft.pink_bundle",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -17953,7 +18259,7 @@
     }
   },
   "gray_bundle": {
-    "id": 982,
+    "id": 999,
     "translationKey": "item.minecraft.gray_bundle",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -17971,7 +18277,7 @@
     }
   },
   "light_gray_bundle": {
-    "id": 983,
+    "id": 1000,
     "translationKey": "item.minecraft.light_gray_bundle",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -17989,7 +18295,7 @@
     }
   },
   "cyan_bundle": {
-    "id": 984,
+    "id": 1001,
     "translationKey": "item.minecraft.cyan_bundle",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -18007,7 +18313,7 @@
     }
   },
   "purple_bundle": {
-    "id": 985,
+    "id": 1002,
     "translationKey": "item.minecraft.purple_bundle",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -18025,7 +18331,7 @@
     }
   },
   "blue_bundle": {
-    "id": 986,
+    "id": 1003,
     "translationKey": "item.minecraft.blue_bundle",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -18043,7 +18349,7 @@
     }
   },
   "brown_bundle": {
-    "id": 987,
+    "id": 1004,
     "translationKey": "item.minecraft.brown_bundle",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -18061,7 +18367,7 @@
     }
   },
   "green_bundle": {
-    "id": 988,
+    "id": 1005,
     "translationKey": "item.minecraft.green_bundle",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -18079,7 +18385,7 @@
     }
   },
   "red_bundle": {
-    "id": 989,
+    "id": 1006,
     "translationKey": "item.minecraft.red_bundle",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -18097,7 +18403,7 @@
     }
   },
   "black_bundle": {
-    "id": 990,
+    "id": 1007,
     "translationKey": "item.minecraft.black_bundle",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -18115,7 +18421,7 @@
     }
   },
   "fishing_rod": {
-    "id": 991,
+    "id": 1008,
     "translationKey": "item.minecraft.fishing_rod",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -18135,7 +18441,7 @@
     }
   },
   "clock": {
-    "id": 992,
+    "id": 1009,
     "translationKey": "item.minecraft.clock",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -18152,7 +18458,7 @@
     }
   },
   "spyglass": {
-    "id": 993,
+    "id": 1010,
     "translationKey": "item.minecraft.spyglass",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -18169,7 +18475,7 @@
     }
   },
   "glowstone_dust": {
-    "id": 994,
+    "id": 1011,
     "translationKey": "item.minecraft.glowstone_dust",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -18186,7 +18492,7 @@
     }
   },
   "cod": {
-    "id": 995,
+    "id": 1012,
     "translationKey": "item.minecraft.cod",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -18205,7 +18511,7 @@
     }
   },
   "salmon": {
-    "id": 996,
+    "id": 1013,
     "translationKey": "item.minecraft.salmon",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -18224,7 +18530,7 @@
     }
   },
   "tropical_fish": {
-    "id": 997,
+    "id": 1014,
     "translationKey": "item.minecraft.tropical_fish",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -18243,7 +18549,7 @@
     }
   },
   "pufferfish": {
-    "id": 998,
+    "id": 1015,
     "translationKey": "item.minecraft.pufferfish",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -18262,7 +18568,7 @@
     }
   },
   "cooked_cod": {
-    "id": 999,
+    "id": 1016,
     "translationKey": "item.minecraft.cooked_cod",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -18281,7 +18587,7 @@
     }
   },
   "cooked_salmon": {
-    "id": 1000,
+    "id": 1017,
     "translationKey": "item.minecraft.cooked_salmon",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -18300,7 +18606,7 @@
     }
   },
   "ink_sac": {
-    "id": 1001,
+    "id": 1018,
     "translationKey": "item.minecraft.ink_sac",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -18317,7 +18623,7 @@
     }
   },
   "glow_ink_sac": {
-    "id": 1002,
+    "id": 1019,
     "translationKey": "item.minecraft.glow_ink_sac",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -18334,7 +18640,7 @@
     }
   },
   "cocoa_beans": {
-    "id": 1003,
+    "id": 1020,
     "translationKey": "item.minecraft.cocoa_beans",
     "maxStackSize": 64,
     "correspondingBlock": "cocoa",
@@ -18352,7 +18658,7 @@
     }
   },
   "white_dye": {
-    "id": 1004,
+    "id": 1021,
     "translationKey": "item.minecraft.white_dye",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -18369,7 +18675,7 @@
     }
   },
   "orange_dye": {
-    "id": 1005,
+    "id": 1022,
     "translationKey": "item.minecraft.orange_dye",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -18386,7 +18692,7 @@
     }
   },
   "magenta_dye": {
-    "id": 1006,
+    "id": 1023,
     "translationKey": "item.minecraft.magenta_dye",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -18403,7 +18709,7 @@
     }
   },
   "light_blue_dye": {
-    "id": 1007,
+    "id": 1024,
     "translationKey": "item.minecraft.light_blue_dye",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -18420,7 +18726,7 @@
     }
   },
   "yellow_dye": {
-    "id": 1008,
+    "id": 1025,
     "translationKey": "item.minecraft.yellow_dye",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -18437,7 +18743,7 @@
     }
   },
   "lime_dye": {
-    "id": 1009,
+    "id": 1026,
     "translationKey": "item.minecraft.lime_dye",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -18454,7 +18760,7 @@
     }
   },
   "pink_dye": {
-    "id": 1010,
+    "id": 1027,
     "translationKey": "item.minecraft.pink_dye",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -18471,7 +18777,7 @@
     }
   },
   "gray_dye": {
-    "id": 1011,
+    "id": 1028,
     "translationKey": "item.minecraft.gray_dye",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -18488,7 +18794,7 @@
     }
   },
   "light_gray_dye": {
-    "id": 1012,
+    "id": 1029,
     "translationKey": "item.minecraft.light_gray_dye",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -18505,7 +18811,7 @@
     }
   },
   "cyan_dye": {
-    "id": 1013,
+    "id": 1030,
     "translationKey": "item.minecraft.cyan_dye",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -18522,7 +18828,7 @@
     }
   },
   "purple_dye": {
-    "id": 1014,
+    "id": 1031,
     "translationKey": "item.minecraft.purple_dye",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -18539,7 +18845,7 @@
     }
   },
   "blue_dye": {
-    "id": 1015,
+    "id": 1032,
     "translationKey": "item.minecraft.blue_dye",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -18556,7 +18862,7 @@
     }
   },
   "brown_dye": {
-    "id": 1016,
+    "id": 1033,
     "translationKey": "item.minecraft.brown_dye",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -18573,7 +18879,7 @@
     }
   },
   "green_dye": {
-    "id": 1017,
+    "id": 1034,
     "translationKey": "item.minecraft.green_dye",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -18590,7 +18896,7 @@
     }
   },
   "red_dye": {
-    "id": 1018,
+    "id": 1035,
     "translationKey": "item.minecraft.red_dye",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -18607,7 +18913,7 @@
     }
   },
   "black_dye": {
-    "id": 1019,
+    "id": 1036,
     "translationKey": "item.minecraft.black_dye",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -18624,7 +18930,7 @@
     }
   },
   "bone_meal": {
-    "id": 1020,
+    "id": 1037,
     "translationKey": "item.minecraft.bone_meal",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -18641,7 +18947,7 @@
     }
   },
   "bone": {
-    "id": 1021,
+    "id": 1038,
     "translationKey": "item.minecraft.bone",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -18658,7 +18964,7 @@
     }
   },
   "sugar": {
-    "id": 1022,
+    "id": 1039,
     "translationKey": "item.minecraft.sugar",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -18675,7 +18981,7 @@
     }
   },
   "cake": {
-    "id": 1023,
+    "id": 1040,
     "translationKey": "block.minecraft.cake",
     "maxStackSize": 1,
     "correspondingBlock": "cake",
@@ -18693,7 +18999,7 @@
     }
   },
   "white_bed": {
-    "id": 1024,
+    "id": 1041,
     "translationKey": "block.minecraft.white_bed",
     "maxStackSize": 1,
     "correspondingBlock": "white_bed",
@@ -18711,7 +19017,7 @@
     }
   },
   "orange_bed": {
-    "id": 1025,
+    "id": 1042,
     "translationKey": "block.minecraft.orange_bed",
     "maxStackSize": 1,
     "correspondingBlock": "orange_bed",
@@ -18729,7 +19035,7 @@
     }
   },
   "magenta_bed": {
-    "id": 1026,
+    "id": 1043,
     "translationKey": "block.minecraft.magenta_bed",
     "maxStackSize": 1,
     "correspondingBlock": "magenta_bed",
@@ -18747,7 +19053,7 @@
     }
   },
   "light_blue_bed": {
-    "id": 1027,
+    "id": 1044,
     "translationKey": "block.minecraft.light_blue_bed",
     "maxStackSize": 1,
     "correspondingBlock": "light_blue_bed",
@@ -18765,7 +19071,7 @@
     }
   },
   "yellow_bed": {
-    "id": 1028,
+    "id": 1045,
     "translationKey": "block.minecraft.yellow_bed",
     "maxStackSize": 1,
     "correspondingBlock": "yellow_bed",
@@ -18783,7 +19089,7 @@
     }
   },
   "lime_bed": {
-    "id": 1029,
+    "id": 1046,
     "translationKey": "block.minecraft.lime_bed",
     "maxStackSize": 1,
     "correspondingBlock": "lime_bed",
@@ -18801,7 +19107,7 @@
     }
   },
   "pink_bed": {
-    "id": 1030,
+    "id": 1047,
     "translationKey": "block.minecraft.pink_bed",
     "maxStackSize": 1,
     "correspondingBlock": "pink_bed",
@@ -18819,7 +19125,7 @@
     }
   },
   "gray_bed": {
-    "id": 1031,
+    "id": 1048,
     "translationKey": "block.minecraft.gray_bed",
     "maxStackSize": 1,
     "correspondingBlock": "gray_bed",
@@ -18837,7 +19143,7 @@
     }
   },
   "light_gray_bed": {
-    "id": 1032,
+    "id": 1049,
     "translationKey": "block.minecraft.light_gray_bed",
     "maxStackSize": 1,
     "correspondingBlock": "light_gray_bed",
@@ -18855,7 +19161,7 @@
     }
   },
   "cyan_bed": {
-    "id": 1033,
+    "id": 1050,
     "translationKey": "block.minecraft.cyan_bed",
     "maxStackSize": 1,
     "correspondingBlock": "cyan_bed",
@@ -18873,7 +19179,7 @@
     }
   },
   "purple_bed": {
-    "id": 1034,
+    "id": 1051,
     "translationKey": "block.minecraft.purple_bed",
     "maxStackSize": 1,
     "correspondingBlock": "purple_bed",
@@ -18891,7 +19197,7 @@
     }
   },
   "blue_bed": {
-    "id": 1035,
+    "id": 1052,
     "translationKey": "block.minecraft.blue_bed",
     "maxStackSize": 1,
     "correspondingBlock": "blue_bed",
@@ -18909,7 +19215,7 @@
     }
   },
   "brown_bed": {
-    "id": 1036,
+    "id": 1053,
     "translationKey": "block.minecraft.brown_bed",
     "maxStackSize": 1,
     "correspondingBlock": "brown_bed",
@@ -18927,7 +19233,7 @@
     }
   },
   "green_bed": {
-    "id": 1037,
+    "id": 1054,
     "translationKey": "block.minecraft.green_bed",
     "maxStackSize": 1,
     "correspondingBlock": "green_bed",
@@ -18945,7 +19251,7 @@
     }
   },
   "red_bed": {
-    "id": 1038,
+    "id": 1055,
     "translationKey": "block.minecraft.red_bed",
     "maxStackSize": 1,
     "correspondingBlock": "red_bed",
@@ -18963,7 +19269,7 @@
     }
   },
   "black_bed": {
-    "id": 1039,
+    "id": 1056,
     "translationKey": "block.minecraft.black_bed",
     "maxStackSize": 1,
     "correspondingBlock": "black_bed",
@@ -18981,7 +19287,7 @@
     }
   },
   "cookie": {
-    "id": 1040,
+    "id": 1057,
     "translationKey": "item.minecraft.cookie",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19000,7 +19306,7 @@
     }
   },
   "crafter": {
-    "id": 1041,
+    "id": 1058,
     "translationKey": "block.minecraft.crafter",
     "maxStackSize": 64,
     "correspondingBlock": "crafter",
@@ -19019,7 +19325,7 @@
     }
   },
   "filled_map": {
-    "id": 1042,
+    "id": 1059,
     "translationKey": "item.minecraft.filled_map",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19038,7 +19344,7 @@
     }
   },
   "shears": {
-    "id": 1043,
+    "id": 1060,
     "translationKey": "item.minecraft.shears",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -19058,7 +19364,7 @@
     }
   },
   "melon_slice": {
-    "id": 1044,
+    "id": 1061,
     "translationKey": "item.minecraft.melon_slice",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19077,7 +19383,7 @@
     }
   },
   "dried_kelp": {
-    "id": 1045,
+    "id": 1062,
     "translationKey": "item.minecraft.dried_kelp",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19096,7 +19402,7 @@
     }
   },
   "pumpkin_seeds": {
-    "id": 1046,
+    "id": 1063,
     "translationKey": "item.minecraft.pumpkin_seeds",
     "maxStackSize": 64,
     "correspondingBlock": "pumpkin_stem",
@@ -19114,7 +19420,7 @@
     }
   },
   "melon_seeds": {
-    "id": 1047,
+    "id": 1064,
     "translationKey": "item.minecraft.melon_seeds",
     "maxStackSize": 64,
     "correspondingBlock": "melon_stem",
@@ -19132,7 +19438,7 @@
     }
   },
   "beef": {
-    "id": 1048,
+    "id": 1065,
     "translationKey": "item.minecraft.beef",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19151,7 +19457,7 @@
     }
   },
   "cooked_beef": {
-    "id": 1049,
+    "id": 1066,
     "translationKey": "item.minecraft.cooked_beef",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19170,7 +19476,7 @@
     }
   },
   "chicken": {
-    "id": 1050,
+    "id": 1067,
     "translationKey": "item.minecraft.chicken",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19189,7 +19495,7 @@
     }
   },
   "cooked_chicken": {
-    "id": 1051,
+    "id": 1068,
     "translationKey": "item.minecraft.cooked_chicken",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19208,7 +19514,7 @@
     }
   },
   "rotten_flesh": {
-    "id": 1052,
+    "id": 1069,
     "translationKey": "item.minecraft.rotten_flesh",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19227,7 +19533,7 @@
     }
   },
   "ender_pearl": {
-    "id": 1053,
+    "id": 1070,
     "translationKey": "item.minecraft.ender_pearl",
     "maxStackSize": 16,
     "defaultComponentHashes": {
@@ -19245,7 +19551,7 @@
     }
   },
   "blaze_rod": {
-    "id": 1054,
+    "id": 1071,
     "translationKey": "item.minecraft.blaze_rod",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19262,7 +19568,7 @@
     }
   },
   "ghast_tear": {
-    "id": 1055,
+    "id": 1072,
     "translationKey": "item.minecraft.ghast_tear",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19279,7 +19585,7 @@
     }
   },
   "gold_nugget": {
-    "id": 1056,
+    "id": 1073,
     "translationKey": "item.minecraft.gold_nugget",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19296,7 +19602,7 @@
     }
   },
   "nether_wart": {
-    "id": 1057,
+    "id": 1074,
     "translationKey": "item.minecraft.nether_wart",
     "maxStackSize": 64,
     "correspondingBlock": "nether_wart",
@@ -19314,7 +19620,7 @@
     }
   },
   "glass_bottle": {
-    "id": 1058,
+    "id": 1075,
     "translationKey": "item.minecraft.glass_bottle",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19331,7 +19637,7 @@
     }
   },
   "potion": {
-    "id": 1059,
+    "id": 1076,
     "translationKey": "item.minecraft.potion",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -19351,7 +19657,7 @@
     }
   },
   "spider_eye": {
-    "id": 1060,
+    "id": 1077,
     "translationKey": "item.minecraft.spider_eye",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19370,7 +19676,7 @@
     }
   },
   "fermented_spider_eye": {
-    "id": 1061,
+    "id": 1078,
     "translationKey": "item.minecraft.fermented_spider_eye",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19387,7 +19693,7 @@
     }
   },
   "blaze_powder": {
-    "id": 1062,
+    "id": 1079,
     "translationKey": "item.minecraft.blaze_powder",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19404,7 +19710,7 @@
     }
   },
   "magma_cream": {
-    "id": 1063,
+    "id": 1080,
     "translationKey": "item.minecraft.magma_cream",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19421,7 +19727,7 @@
     }
   },
   "brewing_stand": {
-    "id": 1064,
+    "id": 1081,
     "translationKey": "block.minecraft.brewing_stand",
     "maxStackSize": 64,
     "correspondingBlock": "brewing_stand",
@@ -19440,7 +19746,7 @@
     }
   },
   "cauldron": {
-    "id": 1065,
+    "id": 1082,
     "translationKey": "block.minecraft.cauldron",
     "maxStackSize": 64,
     "correspondingBlock": "cauldron",
@@ -19458,7 +19764,7 @@
     }
   },
   "ender_eye": {
-    "id": 1066,
+    "id": 1083,
     "translationKey": "item.minecraft.ender_eye",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19475,7 +19781,7 @@
     }
   },
   "glistering_melon_slice": {
-    "id": 1067,
+    "id": 1084,
     "translationKey": "item.minecraft.glistering_melon_slice",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19492,7 +19798,7 @@
     }
   },
   "armadillo_spawn_egg": {
-    "id": 1068,
+    "id": 1085,
     "translationKey": "item.minecraft.armadillo_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19509,7 +19815,7 @@
     }
   },
   "allay_spawn_egg": {
-    "id": 1069,
+    "id": 1086,
     "translationKey": "item.minecraft.allay_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19526,7 +19832,7 @@
     }
   },
   "axolotl_spawn_egg": {
-    "id": 1070,
+    "id": 1087,
     "translationKey": "item.minecraft.axolotl_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19543,7 +19849,7 @@
     }
   },
   "bat_spawn_egg": {
-    "id": 1071,
+    "id": 1088,
     "translationKey": "item.minecraft.bat_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19560,7 +19866,7 @@
     }
   },
   "bee_spawn_egg": {
-    "id": 1072,
+    "id": 1089,
     "translationKey": "item.minecraft.bee_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19577,7 +19883,7 @@
     }
   },
   "blaze_spawn_egg": {
-    "id": 1073,
+    "id": 1090,
     "translationKey": "item.minecraft.blaze_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19594,7 +19900,7 @@
     }
   },
   "bogged_spawn_egg": {
-    "id": 1074,
+    "id": 1091,
     "translationKey": "item.minecraft.bogged_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19611,7 +19917,7 @@
     }
   },
   "breeze_spawn_egg": {
-    "id": 1075,
+    "id": 1092,
     "translationKey": "item.minecraft.breeze_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19628,7 +19934,7 @@
     }
   },
   "cat_spawn_egg": {
-    "id": 1076,
+    "id": 1093,
     "translationKey": "item.minecraft.cat_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19645,7 +19951,7 @@
     }
   },
   "camel_spawn_egg": {
-    "id": 1077,
+    "id": 1094,
     "translationKey": "item.minecraft.camel_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19662,7 +19968,7 @@
     }
   },
   "cave_spider_spawn_egg": {
-    "id": 1078,
+    "id": 1095,
     "translationKey": "item.minecraft.cave_spider_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19679,7 +19985,7 @@
     }
   },
   "chicken_spawn_egg": {
-    "id": 1079,
+    "id": 1096,
     "translationKey": "item.minecraft.chicken_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19696,7 +20002,7 @@
     }
   },
   "cod_spawn_egg": {
-    "id": 1080,
+    "id": 1097,
     "translationKey": "item.minecraft.cod_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19713,7 +20019,7 @@
     }
   },
   "cow_spawn_egg": {
-    "id": 1081,
+    "id": 1098,
     "translationKey": "item.minecraft.cow_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19730,7 +20036,7 @@
     }
   },
   "creeper_spawn_egg": {
-    "id": 1082,
+    "id": 1099,
     "translationKey": "item.minecraft.creeper_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19747,7 +20053,7 @@
     }
   },
   "dolphin_spawn_egg": {
-    "id": 1083,
+    "id": 1100,
     "translationKey": "item.minecraft.dolphin_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19764,7 +20070,7 @@
     }
   },
   "donkey_spawn_egg": {
-    "id": 1084,
+    "id": 1101,
     "translationKey": "item.minecraft.donkey_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19781,7 +20087,7 @@
     }
   },
   "drowned_spawn_egg": {
-    "id": 1085,
+    "id": 1102,
     "translationKey": "item.minecraft.drowned_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19798,7 +20104,7 @@
     }
   },
   "elder_guardian_spawn_egg": {
-    "id": 1086,
+    "id": 1103,
     "translationKey": "item.minecraft.elder_guardian_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19815,7 +20121,7 @@
     }
   },
   "ender_dragon_spawn_egg": {
-    "id": 1087,
+    "id": 1104,
     "translationKey": "item.minecraft.ender_dragon_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19832,7 +20138,7 @@
     }
   },
   "enderman_spawn_egg": {
-    "id": 1088,
+    "id": 1105,
     "translationKey": "item.minecraft.enderman_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19849,7 +20155,7 @@
     }
   },
   "endermite_spawn_egg": {
-    "id": 1089,
+    "id": 1106,
     "translationKey": "item.minecraft.endermite_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19866,7 +20172,7 @@
     }
   },
   "evoker_spawn_egg": {
-    "id": 1090,
+    "id": 1107,
     "translationKey": "item.minecraft.evoker_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19883,7 +20189,7 @@
     }
   },
   "fox_spawn_egg": {
-    "id": 1091,
+    "id": 1108,
     "translationKey": "item.minecraft.fox_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19900,7 +20206,7 @@
     }
   },
   "frog_spawn_egg": {
-    "id": 1092,
+    "id": 1109,
     "translationKey": "item.minecraft.frog_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19917,7 +20223,7 @@
     }
   },
   "ghast_spawn_egg": {
-    "id": 1093,
+    "id": 1110,
     "translationKey": "item.minecraft.ghast_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19933,8 +20239,25 @@
       "break_sound": 123447120
     }
   },
+  "happy_ghast_spawn_egg": {
+    "id": 1111,
+    "translationKey": "item.minecraft.happy_ghast_spawn_egg",
+    "maxStackSize": 64,
+    "defaultComponentHashes": {
+      "max_stack_size": 733160003,
+      "item_name": -229987609,
+      "item_model": 2084687766,
+      "lore": -1978007022,
+      "rarity": 75150990,
+      "enchantments": -982207288,
+      "attribute_modifiers": -1978007022,
+      "tooltip_display": -982207288,
+      "repair_cost": -2146075228,
+      "break_sound": 123447120
+    }
+  },
   "glow_squid_spawn_egg": {
-    "id": 1094,
+    "id": 1112,
     "translationKey": "item.minecraft.glow_squid_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19951,7 +20274,7 @@
     }
   },
   "goat_spawn_egg": {
-    "id": 1095,
+    "id": 1113,
     "translationKey": "item.minecraft.goat_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19968,7 +20291,7 @@
     }
   },
   "guardian_spawn_egg": {
-    "id": 1096,
+    "id": 1114,
     "translationKey": "item.minecraft.guardian_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -19985,7 +20308,7 @@
     }
   },
   "hoglin_spawn_egg": {
-    "id": 1097,
+    "id": 1115,
     "translationKey": "item.minecraft.hoglin_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20002,7 +20325,7 @@
     }
   },
   "horse_spawn_egg": {
-    "id": 1098,
+    "id": 1116,
     "translationKey": "item.minecraft.horse_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20019,7 +20342,7 @@
     }
   },
   "husk_spawn_egg": {
-    "id": 1099,
+    "id": 1117,
     "translationKey": "item.minecraft.husk_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20036,7 +20359,7 @@
     }
   },
   "iron_golem_spawn_egg": {
-    "id": 1100,
+    "id": 1118,
     "translationKey": "item.minecraft.iron_golem_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20053,7 +20376,7 @@
     }
   },
   "llama_spawn_egg": {
-    "id": 1101,
+    "id": 1119,
     "translationKey": "item.minecraft.llama_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20070,7 +20393,7 @@
     }
   },
   "magma_cube_spawn_egg": {
-    "id": 1102,
+    "id": 1120,
     "translationKey": "item.minecraft.magma_cube_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20087,7 +20410,7 @@
     }
   },
   "mooshroom_spawn_egg": {
-    "id": 1103,
+    "id": 1121,
     "translationKey": "item.minecraft.mooshroom_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20104,7 +20427,7 @@
     }
   },
   "mule_spawn_egg": {
-    "id": 1104,
+    "id": 1122,
     "translationKey": "item.minecraft.mule_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20121,7 +20444,7 @@
     }
   },
   "ocelot_spawn_egg": {
-    "id": 1105,
+    "id": 1123,
     "translationKey": "item.minecraft.ocelot_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20138,7 +20461,7 @@
     }
   },
   "panda_spawn_egg": {
-    "id": 1106,
+    "id": 1124,
     "translationKey": "item.minecraft.panda_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20155,7 +20478,7 @@
     }
   },
   "parrot_spawn_egg": {
-    "id": 1107,
+    "id": 1125,
     "translationKey": "item.minecraft.parrot_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20172,7 +20495,7 @@
     }
   },
   "phantom_spawn_egg": {
-    "id": 1108,
+    "id": 1126,
     "translationKey": "item.minecraft.phantom_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20189,7 +20512,7 @@
     }
   },
   "pig_spawn_egg": {
-    "id": 1109,
+    "id": 1127,
     "translationKey": "item.minecraft.pig_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20206,7 +20529,7 @@
     }
   },
   "piglin_spawn_egg": {
-    "id": 1110,
+    "id": 1128,
     "translationKey": "item.minecraft.piglin_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20223,7 +20546,7 @@
     }
   },
   "piglin_brute_spawn_egg": {
-    "id": 1111,
+    "id": 1129,
     "translationKey": "item.minecraft.piglin_brute_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20240,7 +20563,7 @@
     }
   },
   "pillager_spawn_egg": {
-    "id": 1112,
+    "id": 1130,
     "translationKey": "item.minecraft.pillager_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20257,7 +20580,7 @@
     }
   },
   "polar_bear_spawn_egg": {
-    "id": 1113,
+    "id": 1131,
     "translationKey": "item.minecraft.polar_bear_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20274,7 +20597,7 @@
     }
   },
   "pufferfish_spawn_egg": {
-    "id": 1114,
+    "id": 1132,
     "translationKey": "item.minecraft.pufferfish_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20291,7 +20614,7 @@
     }
   },
   "rabbit_spawn_egg": {
-    "id": 1115,
+    "id": 1133,
     "translationKey": "item.minecraft.rabbit_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20308,7 +20631,7 @@
     }
   },
   "ravager_spawn_egg": {
-    "id": 1116,
+    "id": 1134,
     "translationKey": "item.minecraft.ravager_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20325,7 +20648,7 @@
     }
   },
   "salmon_spawn_egg": {
-    "id": 1117,
+    "id": 1135,
     "translationKey": "item.minecraft.salmon_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20342,7 +20665,7 @@
     }
   },
   "sheep_spawn_egg": {
-    "id": 1118,
+    "id": 1136,
     "translationKey": "item.minecraft.sheep_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20359,7 +20682,7 @@
     }
   },
   "shulker_spawn_egg": {
-    "id": 1119,
+    "id": 1137,
     "translationKey": "item.minecraft.shulker_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20376,7 +20699,7 @@
     }
   },
   "silverfish_spawn_egg": {
-    "id": 1120,
+    "id": 1138,
     "translationKey": "item.minecraft.silverfish_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20393,7 +20716,7 @@
     }
   },
   "skeleton_spawn_egg": {
-    "id": 1121,
+    "id": 1139,
     "translationKey": "item.minecraft.skeleton_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20410,7 +20733,7 @@
     }
   },
   "skeleton_horse_spawn_egg": {
-    "id": 1122,
+    "id": 1140,
     "translationKey": "item.minecraft.skeleton_horse_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20427,7 +20750,7 @@
     }
   },
   "slime_spawn_egg": {
-    "id": 1123,
+    "id": 1141,
     "translationKey": "item.minecraft.slime_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20444,7 +20767,7 @@
     }
   },
   "sniffer_spawn_egg": {
-    "id": 1124,
+    "id": 1142,
     "translationKey": "item.minecraft.sniffer_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20461,7 +20784,7 @@
     }
   },
   "snow_golem_spawn_egg": {
-    "id": 1125,
+    "id": 1143,
     "translationKey": "item.minecraft.snow_golem_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20478,7 +20801,7 @@
     }
   },
   "spider_spawn_egg": {
-    "id": 1126,
+    "id": 1144,
     "translationKey": "item.minecraft.spider_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20495,7 +20818,7 @@
     }
   },
   "squid_spawn_egg": {
-    "id": 1127,
+    "id": 1145,
     "translationKey": "item.minecraft.squid_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20512,7 +20835,7 @@
     }
   },
   "stray_spawn_egg": {
-    "id": 1128,
+    "id": 1146,
     "translationKey": "item.minecraft.stray_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20529,7 +20852,7 @@
     }
   },
   "strider_spawn_egg": {
-    "id": 1129,
+    "id": 1147,
     "translationKey": "item.minecraft.strider_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20546,7 +20869,7 @@
     }
   },
   "tadpole_spawn_egg": {
-    "id": 1130,
+    "id": 1148,
     "translationKey": "item.minecraft.tadpole_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20563,7 +20886,7 @@
     }
   },
   "trader_llama_spawn_egg": {
-    "id": 1131,
+    "id": 1149,
     "translationKey": "item.minecraft.trader_llama_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20580,7 +20903,7 @@
     }
   },
   "tropical_fish_spawn_egg": {
-    "id": 1132,
+    "id": 1150,
     "translationKey": "item.minecraft.tropical_fish_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20597,7 +20920,7 @@
     }
   },
   "turtle_spawn_egg": {
-    "id": 1133,
+    "id": 1151,
     "translationKey": "item.minecraft.turtle_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20614,7 +20937,7 @@
     }
   },
   "vex_spawn_egg": {
-    "id": 1134,
+    "id": 1152,
     "translationKey": "item.minecraft.vex_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20631,7 +20954,7 @@
     }
   },
   "villager_spawn_egg": {
-    "id": 1135,
+    "id": 1153,
     "translationKey": "item.minecraft.villager_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20648,7 +20971,7 @@
     }
   },
   "vindicator_spawn_egg": {
-    "id": 1136,
+    "id": 1154,
     "translationKey": "item.minecraft.vindicator_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20665,7 +20988,7 @@
     }
   },
   "wandering_trader_spawn_egg": {
-    "id": 1137,
+    "id": 1155,
     "translationKey": "item.minecraft.wandering_trader_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20682,7 +21005,7 @@
     }
   },
   "warden_spawn_egg": {
-    "id": 1138,
+    "id": 1156,
     "translationKey": "item.minecraft.warden_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20699,7 +21022,7 @@
     }
   },
   "witch_spawn_egg": {
-    "id": 1139,
+    "id": 1157,
     "translationKey": "item.minecraft.witch_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20716,7 +21039,7 @@
     }
   },
   "wither_spawn_egg": {
-    "id": 1140,
+    "id": 1158,
     "translationKey": "item.minecraft.wither_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20733,7 +21056,7 @@
     }
   },
   "wither_skeleton_spawn_egg": {
-    "id": 1141,
+    "id": 1159,
     "translationKey": "item.minecraft.wither_skeleton_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20750,7 +21073,7 @@
     }
   },
   "wolf_spawn_egg": {
-    "id": 1142,
+    "id": 1160,
     "translationKey": "item.minecraft.wolf_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20767,7 +21090,7 @@
     }
   },
   "zoglin_spawn_egg": {
-    "id": 1143,
+    "id": 1161,
     "translationKey": "item.minecraft.zoglin_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20784,7 +21107,7 @@
     }
   },
   "creaking_spawn_egg": {
-    "id": 1144,
+    "id": 1162,
     "translationKey": "item.minecraft.creaking_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20801,7 +21124,7 @@
     }
   },
   "zombie_spawn_egg": {
-    "id": 1145,
+    "id": 1163,
     "translationKey": "item.minecraft.zombie_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20818,7 +21141,7 @@
     }
   },
   "zombie_horse_spawn_egg": {
-    "id": 1146,
+    "id": 1164,
     "translationKey": "item.minecraft.zombie_horse_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20835,7 +21158,7 @@
     }
   },
   "zombie_villager_spawn_egg": {
-    "id": 1147,
+    "id": 1165,
     "translationKey": "item.minecraft.zombie_villager_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20852,7 +21175,7 @@
     }
   },
   "zombified_piglin_spawn_egg": {
-    "id": 1148,
+    "id": 1166,
     "translationKey": "item.minecraft.zombified_piglin_spawn_egg",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20869,7 +21192,7 @@
     }
   },
   "experience_bottle": {
-    "id": 1149,
+    "id": 1167,
     "translationKey": "item.minecraft.experience_bottle",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20887,7 +21210,7 @@
     }
   },
   "fire_charge": {
-    "id": 1150,
+    "id": 1168,
     "translationKey": "item.minecraft.fire_charge",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20904,7 +21227,7 @@
     }
   },
   "wind_charge": {
-    "id": 1151,
+    "id": 1169,
     "translationKey": "item.minecraft.wind_charge",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20922,7 +21245,7 @@
     }
   },
   "writable_book": {
-    "id": 1152,
+    "id": 1170,
     "translationKey": "item.minecraft.writable_book",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -20940,7 +21263,7 @@
     }
   },
   "written_book": {
-    "id": 1153,
+    "id": 1171,
     "translationKey": "item.minecraft.written_book",
     "maxStackSize": 16,
     "defaultComponentHashes": {
@@ -20958,7 +21281,7 @@
     }
   },
   "breeze_rod": {
-    "id": 1154,
+    "id": 1172,
     "translationKey": "item.minecraft.breeze_rod",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -20975,7 +21298,7 @@
     }
   },
   "mace": {
-    "id": 1155,
+    "id": 1173,
     "translationKey": "item.minecraft.mace",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -20998,7 +21321,7 @@
     }
   },
   "item_frame": {
-    "id": 1156,
+    "id": 1174,
     "translationKey": "item.minecraft.item_frame",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -21015,7 +21338,7 @@
     }
   },
   "glow_item_frame": {
-    "id": 1157,
+    "id": 1175,
     "translationKey": "item.minecraft.glow_item_frame",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -21032,7 +21355,7 @@
     }
   },
   "flower_pot": {
-    "id": 1158,
+    "id": 1176,
     "translationKey": "block.minecraft.flower_pot",
     "maxStackSize": 64,
     "correspondingBlock": "flower_pot",
@@ -21050,7 +21373,7 @@
     }
   },
   "carrot": {
-    "id": 1159,
+    "id": 1177,
     "translationKey": "item.minecraft.carrot",
     "maxStackSize": 64,
     "correspondingBlock": "carrots",
@@ -21070,7 +21393,7 @@
     }
   },
   "potato": {
-    "id": 1160,
+    "id": 1178,
     "translationKey": "item.minecraft.potato",
     "maxStackSize": 64,
     "correspondingBlock": "potatoes",
@@ -21090,7 +21413,7 @@
     }
   },
   "baked_potato": {
-    "id": 1161,
+    "id": 1179,
     "translationKey": "item.minecraft.baked_potato",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -21109,7 +21432,7 @@
     }
   },
   "poisonous_potato": {
-    "id": 1162,
+    "id": 1180,
     "translationKey": "item.minecraft.poisonous_potato",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -21128,7 +21451,7 @@
     }
   },
   "map": {
-    "id": 1163,
+    "id": 1181,
     "translationKey": "item.minecraft.map",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -21145,7 +21468,7 @@
     }
   },
   "golden_carrot": {
-    "id": 1164,
+    "id": 1182,
     "translationKey": "item.minecraft.golden_carrot",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -21164,7 +21487,7 @@
     }
   },
   "skeleton_skull": {
-    "id": 1165,
+    "id": 1183,
     "translationKey": "block.minecraft.skeleton_skull",
     "maxStackSize": 64,
     "correspondingBlock": "skeleton_skull",
@@ -21175,7 +21498,7 @@
       "lore": -1978007022,
       "rarity": -1278428462,
       "enchantments": -982207288,
-      "attribute_modifiers": -1978007022,
+      "attribute_modifiers": -344872020,
       "tooltip_display": -982207288,
       "repair_cost": -2146075228,
       "equippable": -1608093718,
@@ -21183,7 +21506,7 @@
     }
   },
   "wither_skeleton_skull": {
-    "id": 1166,
+    "id": 1184,
     "translationKey": "block.minecraft.wither_skeleton_skull",
     "maxStackSize": 64,
     "correspondingBlock": "wither_skeleton_skull",
@@ -21194,7 +21517,7 @@
       "lore": -1978007022,
       "rarity": -1420566726,
       "enchantments": -982207288,
-      "attribute_modifiers": -1978007022,
+      "attribute_modifiers": -344872020,
       "tooltip_display": -982207288,
       "repair_cost": -2146075228,
       "equippable": -1608093718,
@@ -21202,7 +21525,7 @@
     }
   },
   "player_head": {
-    "id": 1167,
+    "id": 1185,
     "translationKey": "block.minecraft.player_head",
     "maxStackSize": 64,
     "correspondingBlock": "player_head",
@@ -21213,7 +21536,7 @@
       "lore": -1978007022,
       "rarity": -1278428462,
       "enchantments": -982207288,
-      "attribute_modifiers": -1978007022,
+      "attribute_modifiers": -344872020,
       "tooltip_display": -982207288,
       "repair_cost": -2146075228,
       "equippable": -1608093718,
@@ -21221,7 +21544,7 @@
     }
   },
   "zombie_head": {
-    "id": 1168,
+    "id": 1186,
     "translationKey": "block.minecraft.zombie_head",
     "maxStackSize": 64,
     "correspondingBlock": "zombie_head",
@@ -21232,7 +21555,7 @@
       "lore": -1978007022,
       "rarity": -1278428462,
       "enchantments": -982207288,
-      "attribute_modifiers": -1978007022,
+      "attribute_modifiers": -344872020,
       "tooltip_display": -982207288,
       "repair_cost": -2146075228,
       "equippable": -1608093718,
@@ -21240,7 +21563,7 @@
     }
   },
   "creeper_head": {
-    "id": 1169,
+    "id": 1187,
     "translationKey": "block.minecraft.creeper_head",
     "maxStackSize": 64,
     "correspondingBlock": "creeper_head",
@@ -21251,7 +21574,7 @@
       "lore": -1978007022,
       "rarity": -1278428462,
       "enchantments": -982207288,
-      "attribute_modifiers": -1978007022,
+      "attribute_modifiers": -344872020,
       "tooltip_display": -982207288,
       "repair_cost": -2146075228,
       "equippable": -1608093718,
@@ -21259,7 +21582,7 @@
     }
   },
   "dragon_head": {
-    "id": 1170,
+    "id": 1188,
     "translationKey": "block.minecraft.dragon_head",
     "maxStackSize": 64,
     "correspondingBlock": "dragon_head",
@@ -21270,7 +21593,7 @@
       "lore": -1978007022,
       "rarity": -292715907,
       "enchantments": -982207288,
-      "attribute_modifiers": -1978007022,
+      "attribute_modifiers": -344872020,
       "tooltip_display": -982207288,
       "repair_cost": -2146075228,
       "equippable": -1608093718,
@@ -21278,7 +21601,7 @@
     }
   },
   "piglin_head": {
-    "id": 1171,
+    "id": 1189,
     "translationKey": "block.minecraft.piglin_head",
     "maxStackSize": 64,
     "correspondingBlock": "piglin_head",
@@ -21289,7 +21612,7 @@
       "lore": -1978007022,
       "rarity": -1278428462,
       "enchantments": -982207288,
-      "attribute_modifiers": -1978007022,
+      "attribute_modifiers": -344872020,
       "tooltip_display": -982207288,
       "repair_cost": -2146075228,
       "equippable": -1608093718,
@@ -21297,7 +21620,7 @@
     }
   },
   "nether_star": {
-    "id": 1172,
+    "id": 1190,
     "translationKey": "item.minecraft.nether_star",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -21316,7 +21639,7 @@
     }
   },
   "pumpkin_pie": {
-    "id": 1173,
+    "id": 1191,
     "translationKey": "item.minecraft.pumpkin_pie",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -21335,7 +21658,7 @@
     }
   },
   "firework_rocket": {
-    "id": 1174,
+    "id": 1192,
     "translationKey": "item.minecraft.firework_rocket",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -21353,7 +21676,7 @@
     }
   },
   "firework_star": {
-    "id": 1175,
+    "id": 1193,
     "translationKey": "item.minecraft.firework_star",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -21370,7 +21693,7 @@
     }
   },
   "enchanted_book": {
-    "id": 1176,
+    "id": 1194,
     "translationKey": "item.minecraft.enchanted_book",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -21389,7 +21712,7 @@
     }
   },
   "nether_brick": {
-    "id": 1177,
+    "id": 1195,
     "translationKey": "item.minecraft.nether_brick",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -21406,7 +21729,7 @@
     }
   },
   "resin_brick": {
-    "id": 1178,
+    "id": 1196,
     "translationKey": "item.minecraft.resin_brick",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -21424,7 +21747,7 @@
     }
   },
   "prismarine_shard": {
-    "id": 1179,
+    "id": 1197,
     "translationKey": "item.minecraft.prismarine_shard",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -21441,7 +21764,7 @@
     }
   },
   "prismarine_crystals": {
-    "id": 1180,
+    "id": 1198,
     "translationKey": "item.minecraft.prismarine_crystals",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -21458,7 +21781,7 @@
     }
   },
   "rabbit": {
-    "id": 1181,
+    "id": 1199,
     "translationKey": "item.minecraft.rabbit",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -21477,7 +21800,7 @@
     }
   },
   "cooked_rabbit": {
-    "id": 1182,
+    "id": 1200,
     "translationKey": "item.minecraft.cooked_rabbit",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -21496,7 +21819,7 @@
     }
   },
   "rabbit_stew": {
-    "id": 1183,
+    "id": 1201,
     "translationKey": "item.minecraft.rabbit_stew",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -21516,7 +21839,7 @@
     }
   },
   "rabbit_foot": {
-    "id": 1184,
+    "id": 1202,
     "translationKey": "item.minecraft.rabbit_foot",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -21533,7 +21856,7 @@
     }
   },
   "rabbit_hide": {
-    "id": 1185,
+    "id": 1203,
     "translationKey": "item.minecraft.rabbit_hide",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -21550,7 +21873,7 @@
     }
   },
   "armor_stand": {
-    "id": 1186,
+    "id": 1204,
     "translationKey": "item.minecraft.armor_stand",
     "maxStackSize": 16,
     "defaultComponentHashes": {
@@ -21567,7 +21890,7 @@
     }
   },
   "iron_horse_armor": {
-    "id": 1187,
+    "id": 1205,
     "translationKey": "item.minecraft.iron_horse_armor",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -21580,12 +21903,12 @@
       "attribute_modifiers": -423832170,
       "tooltip_display": -982207288,
       "repair_cost": -2146075228,
-      "equippable": 1801730285,
+      "equippable": 956972088,
       "break_sound": 123447120
     }
   },
   "golden_horse_armor": {
-    "id": 1188,
+    "id": 1206,
     "translationKey": "item.minecraft.golden_horse_armor",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -21598,12 +21921,12 @@
       "attribute_modifiers": 241575231,
       "tooltip_display": -982207288,
       "repair_cost": -2146075228,
-      "equippable": -421625556,
+      "equippable": -138436614,
       "break_sound": 123447120
     }
   },
   "diamond_horse_armor": {
-    "id": 1189,
+    "id": 1207,
     "translationKey": "item.minecraft.diamond_horse_armor",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -21616,12 +21939,12 @@
       "attribute_modifiers": 739327443,
       "tooltip_display": -982207288,
       "repair_cost": -2146075228,
-      "equippable": 1924732972,
+      "equippable": 1962342038,
       "break_sound": 123447120
     }
   },
   "leather_horse_armor": {
-    "id": 1190,
+    "id": 1208,
     "translationKey": "item.minecraft.leather_horse_armor",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -21634,12 +21957,12 @@
       "attribute_modifiers": 749007280,
       "tooltip_display": -982207288,
       "repair_cost": -2146075228,
-      "equippable": 828296926,
+      "equippable": 1277851856,
       "break_sound": 123447120
     }
   },
   "lead": {
-    "id": 1191,
+    "id": 1209,
     "translationKey": "item.minecraft.lead",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -21656,7 +21979,7 @@
     }
   },
   "name_tag": {
-    "id": 1192,
+    "id": 1210,
     "translationKey": "item.minecraft.name_tag",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -21673,7 +21996,7 @@
     }
   },
   "command_block_minecart": {
-    "id": 1193,
+    "id": 1211,
     "translationKey": "item.minecraft.command_block_minecart",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -21690,7 +22013,7 @@
     }
   },
   "mutton": {
-    "id": 1194,
+    "id": 1212,
     "translationKey": "item.minecraft.mutton",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -21709,7 +22032,7 @@
     }
   },
   "cooked_mutton": {
-    "id": 1195,
+    "id": 1213,
     "translationKey": "item.minecraft.cooked_mutton",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -21728,7 +22051,7 @@
     }
   },
   "white_banner": {
-    "id": 1196,
+    "id": 1214,
     "translationKey": "block.minecraft.white_banner",
     "maxStackSize": 16,
     "correspondingBlock": "white_banner",
@@ -21747,7 +22070,7 @@
     }
   },
   "orange_banner": {
-    "id": 1197,
+    "id": 1215,
     "translationKey": "block.minecraft.orange_banner",
     "maxStackSize": 16,
     "correspondingBlock": "orange_banner",
@@ -21766,7 +22089,7 @@
     }
   },
   "magenta_banner": {
-    "id": 1198,
+    "id": 1216,
     "translationKey": "block.minecraft.magenta_banner",
     "maxStackSize": 16,
     "correspondingBlock": "magenta_banner",
@@ -21785,7 +22108,7 @@
     }
   },
   "light_blue_banner": {
-    "id": 1199,
+    "id": 1217,
     "translationKey": "block.minecraft.light_blue_banner",
     "maxStackSize": 16,
     "correspondingBlock": "light_blue_banner",
@@ -21804,7 +22127,7 @@
     }
   },
   "yellow_banner": {
-    "id": 1200,
+    "id": 1218,
     "translationKey": "block.minecraft.yellow_banner",
     "maxStackSize": 16,
     "correspondingBlock": "yellow_banner",
@@ -21823,7 +22146,7 @@
     }
   },
   "lime_banner": {
-    "id": 1201,
+    "id": 1219,
     "translationKey": "block.minecraft.lime_banner",
     "maxStackSize": 16,
     "correspondingBlock": "lime_banner",
@@ -21842,7 +22165,7 @@
     }
   },
   "pink_banner": {
-    "id": 1202,
+    "id": 1220,
     "translationKey": "block.minecraft.pink_banner",
     "maxStackSize": 16,
     "correspondingBlock": "pink_banner",
@@ -21861,7 +22184,7 @@
     }
   },
   "gray_banner": {
-    "id": 1203,
+    "id": 1221,
     "translationKey": "block.minecraft.gray_banner",
     "maxStackSize": 16,
     "correspondingBlock": "gray_banner",
@@ -21880,7 +22203,7 @@
     }
   },
   "light_gray_banner": {
-    "id": 1204,
+    "id": 1222,
     "translationKey": "block.minecraft.light_gray_banner",
     "maxStackSize": 16,
     "correspondingBlock": "light_gray_banner",
@@ -21899,7 +22222,7 @@
     }
   },
   "cyan_banner": {
-    "id": 1205,
+    "id": 1223,
     "translationKey": "block.minecraft.cyan_banner",
     "maxStackSize": 16,
     "correspondingBlock": "cyan_banner",
@@ -21918,7 +22241,7 @@
     }
   },
   "purple_banner": {
-    "id": 1206,
+    "id": 1224,
     "translationKey": "block.minecraft.purple_banner",
     "maxStackSize": 16,
     "correspondingBlock": "purple_banner",
@@ -21937,7 +22260,7 @@
     }
   },
   "blue_banner": {
-    "id": 1207,
+    "id": 1225,
     "translationKey": "block.minecraft.blue_banner",
     "maxStackSize": 16,
     "correspondingBlock": "blue_banner",
@@ -21956,7 +22279,7 @@
     }
   },
   "brown_banner": {
-    "id": 1208,
+    "id": 1226,
     "translationKey": "block.minecraft.brown_banner",
     "maxStackSize": 16,
     "correspondingBlock": "brown_banner",
@@ -21975,7 +22298,7 @@
     }
   },
   "green_banner": {
-    "id": 1209,
+    "id": 1227,
     "translationKey": "block.minecraft.green_banner",
     "maxStackSize": 16,
     "correspondingBlock": "green_banner",
@@ -21994,7 +22317,7 @@
     }
   },
   "red_banner": {
-    "id": 1210,
+    "id": 1228,
     "translationKey": "block.minecraft.red_banner",
     "maxStackSize": 16,
     "correspondingBlock": "red_banner",
@@ -22013,7 +22336,7 @@
     }
   },
   "black_banner": {
-    "id": 1211,
+    "id": 1229,
     "translationKey": "block.minecraft.black_banner",
     "maxStackSize": 16,
     "correspondingBlock": "black_banner",
@@ -22032,7 +22355,7 @@
     }
   },
   "end_crystal": {
-    "id": 1212,
+    "id": 1230,
     "translationKey": "item.minecraft.end_crystal",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -22050,7 +22373,7 @@
     }
   },
   "chorus_fruit": {
-    "id": 1213,
+    "id": 1231,
     "translationKey": "item.minecraft.chorus_fruit",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -22070,7 +22393,7 @@
     }
   },
   "popped_chorus_fruit": {
-    "id": 1214,
+    "id": 1232,
     "translationKey": "item.minecraft.popped_chorus_fruit",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -22087,7 +22410,7 @@
     }
   },
   "torchflower_seeds": {
-    "id": 1215,
+    "id": 1233,
     "translationKey": "item.minecraft.torchflower_seeds",
     "maxStackSize": 64,
     "correspondingBlock": "torchflower_crop",
@@ -22105,7 +22428,7 @@
     }
   },
   "pitcher_pod": {
-    "id": 1216,
+    "id": 1234,
     "translationKey": "item.minecraft.pitcher_pod",
     "maxStackSize": 64,
     "correspondingBlock": "pitcher_crop",
@@ -22123,7 +22446,7 @@
     }
   },
   "beetroot": {
-    "id": 1217,
+    "id": 1235,
     "translationKey": "item.minecraft.beetroot",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -22142,7 +22465,7 @@
     }
   },
   "beetroot_seeds": {
-    "id": 1218,
+    "id": 1236,
     "translationKey": "item.minecraft.beetroot_seeds",
     "maxStackSize": 64,
     "correspondingBlock": "beetroots",
@@ -22160,7 +22483,7 @@
     }
   },
   "beetroot_soup": {
-    "id": 1219,
+    "id": 1237,
     "translationKey": "item.minecraft.beetroot_soup",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22180,7 +22503,7 @@
     }
   },
   "dragon_breath": {
-    "id": 1220,
+    "id": 1238,
     "translationKey": "item.minecraft.dragon_breath",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -22197,7 +22520,7 @@
     }
   },
   "splash_potion": {
-    "id": 1221,
+    "id": 1239,
     "translationKey": "item.minecraft.splash_potion",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22215,7 +22538,7 @@
     }
   },
   "spectral_arrow": {
-    "id": 1222,
+    "id": 1240,
     "translationKey": "item.minecraft.spectral_arrow",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -22232,7 +22555,7 @@
     }
   },
   "tipped_arrow": {
-    "id": 1223,
+    "id": 1241,
     "translationKey": "item.minecraft.tipped_arrow",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -22251,7 +22574,7 @@
     }
   },
   "lingering_potion": {
-    "id": 1224,
+    "id": 1242,
     "translationKey": "item.minecraft.lingering_potion",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22270,7 +22593,7 @@
     }
   },
   "shield": {
-    "id": 1225,
+    "id": 1243,
     "translationKey": "item.minecraft.shield",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22293,7 +22616,7 @@
     }
   },
   "totem_of_undying": {
-    "id": 1226,
+    "id": 1244,
     "translationKey": "item.minecraft.totem_of_undying",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22311,7 +22634,7 @@
     }
   },
   "shulker_shell": {
-    "id": 1227,
+    "id": 1245,
     "translationKey": "item.minecraft.shulker_shell",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -22328,7 +22651,7 @@
     }
   },
   "iron_nugget": {
-    "id": 1228,
+    "id": 1246,
     "translationKey": "item.minecraft.iron_nugget",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -22345,7 +22668,7 @@
     }
   },
   "knowledge_book": {
-    "id": 1229,
+    "id": 1247,
     "translationKey": "item.minecraft.knowledge_book",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22363,7 +22686,7 @@
     }
   },
   "debug_stick": {
-    "id": 1230,
+    "id": 1248,
     "translationKey": "item.minecraft.debug_stick",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22382,7 +22705,7 @@
     }
   },
   "music_disc_13": {
-    "id": 1231,
+    "id": 1249,
     "translationKey": "item.minecraft.music_disc_13",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22400,7 +22723,7 @@
     }
   },
   "music_disc_cat": {
-    "id": 1232,
+    "id": 1250,
     "translationKey": "item.minecraft.music_disc_cat",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22418,7 +22741,7 @@
     }
   },
   "music_disc_blocks": {
-    "id": 1233,
+    "id": 1251,
     "translationKey": "item.minecraft.music_disc_blocks",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22436,7 +22759,7 @@
     }
   },
   "music_disc_chirp": {
-    "id": 1234,
+    "id": 1252,
     "translationKey": "item.minecraft.music_disc_chirp",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22454,7 +22777,7 @@
     }
   },
   "music_disc_creator": {
-    "id": 1235,
+    "id": 1253,
     "translationKey": "item.minecraft.music_disc_creator",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22472,7 +22795,7 @@
     }
   },
   "music_disc_creator_music_box": {
-    "id": 1236,
+    "id": 1254,
     "translationKey": "item.minecraft.music_disc_creator_music_box",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22490,7 +22813,7 @@
     }
   },
   "music_disc_far": {
-    "id": 1237,
+    "id": 1255,
     "translationKey": "item.minecraft.music_disc_far",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22507,8 +22830,26 @@
       "break_sound": 123447120
     }
   },
+  "music_disc_lava_chicken": {
+    "id": 1256,
+    "translationKey": "item.minecraft.music_disc_lava_chicken",
+    "maxStackSize": 1,
+    "defaultComponentHashes": {
+      "max_stack_size": 1565579036,
+      "item_name": -2034248693,
+      "item_model": 1443487095,
+      "lore": -1978007022,
+      "rarity": -1420566726,
+      "enchantments": -982207288,
+      "attribute_modifiers": -1978007022,
+      "tooltip_display": -982207288,
+      "repair_cost": -2146075228,
+      "jukebox_playable": -991943051,
+      "break_sound": 123447120
+    }
+  },
   "music_disc_mall": {
-    "id": 1238,
+    "id": 1257,
     "translationKey": "item.minecraft.music_disc_mall",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22526,7 +22867,7 @@
     }
   },
   "music_disc_mellohi": {
-    "id": 1239,
+    "id": 1258,
     "translationKey": "item.minecraft.music_disc_mellohi",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22544,7 +22885,7 @@
     }
   },
   "music_disc_stal": {
-    "id": 1240,
+    "id": 1259,
     "translationKey": "item.minecraft.music_disc_stal",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22562,7 +22903,7 @@
     }
   },
   "music_disc_strad": {
-    "id": 1241,
+    "id": 1260,
     "translationKey": "item.minecraft.music_disc_strad",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22580,7 +22921,7 @@
     }
   },
   "music_disc_ward": {
-    "id": 1242,
+    "id": 1261,
     "translationKey": "item.minecraft.music_disc_ward",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22598,7 +22939,7 @@
     }
   },
   "music_disc_11": {
-    "id": 1243,
+    "id": 1262,
     "translationKey": "item.minecraft.music_disc_11",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22616,7 +22957,7 @@
     }
   },
   "music_disc_wait": {
-    "id": 1244,
+    "id": 1263,
     "translationKey": "item.minecraft.music_disc_wait",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22634,7 +22975,7 @@
     }
   },
   "music_disc_otherside": {
-    "id": 1245,
+    "id": 1264,
     "translationKey": "item.minecraft.music_disc_otherside",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22652,7 +22993,7 @@
     }
   },
   "music_disc_relic": {
-    "id": 1246,
+    "id": 1265,
     "translationKey": "item.minecraft.music_disc_relic",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22670,7 +23011,7 @@
     }
   },
   "music_disc_5": {
-    "id": 1247,
+    "id": 1266,
     "translationKey": "item.minecraft.music_disc_5",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22688,7 +23029,7 @@
     }
   },
   "music_disc_pigstep": {
-    "id": 1248,
+    "id": 1267,
     "translationKey": "item.minecraft.music_disc_pigstep",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22706,7 +23047,7 @@
     }
   },
   "music_disc_precipice": {
-    "id": 1249,
+    "id": 1268,
     "translationKey": "item.minecraft.music_disc_precipice",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22723,8 +23064,26 @@
       "break_sound": 123447120
     }
   },
+  "music_disc_tears": {
+    "id": 1269,
+    "translationKey": "item.minecraft.music_disc_tears",
+    "maxStackSize": 1,
+    "defaultComponentHashes": {
+      "max_stack_size": 1565579036,
+      "item_name": -1094498031,
+      "item_model": 1196147045,
+      "lore": -1978007022,
+      "rarity": -1278428462,
+      "enchantments": -982207288,
+      "attribute_modifiers": -1978007022,
+      "tooltip_display": -982207288,
+      "repair_cost": -2146075228,
+      "jukebox_playable": -75055667,
+      "break_sound": 123447120
+    }
+  },
   "disc_fragment_5": {
-    "id": 1250,
+    "id": 1270,
     "translationKey": "item.minecraft.disc_fragment_5",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -22741,7 +23100,7 @@
     }
   },
   "trident": {
-    "id": 1251,
+    "id": 1271,
     "translationKey": "item.minecraft.trident",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22763,7 +23122,7 @@
     }
   },
   "nautilus_shell": {
-    "id": 1252,
+    "id": 1272,
     "translationKey": "item.minecraft.nautilus_shell",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -22780,7 +23139,7 @@
     }
   },
   "heart_of_the_sea": {
-    "id": 1253,
+    "id": 1273,
     "translationKey": "item.minecraft.heart_of_the_sea",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -22797,7 +23156,7 @@
     }
   },
   "crossbow": {
-    "id": 1254,
+    "id": 1274,
     "translationKey": "item.minecraft.crossbow",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22818,7 +23177,7 @@
     }
   },
   "suspicious_stew": {
-    "id": 1255,
+    "id": 1275,
     "translationKey": "item.minecraft.suspicious_stew",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22839,7 +23198,7 @@
     }
   },
   "loom": {
-    "id": 1256,
+    "id": 1276,
     "translationKey": "block.minecraft.loom",
     "maxStackSize": 64,
     "correspondingBlock": "loom",
@@ -22857,7 +23216,7 @@
     }
   },
   "flower_banner_pattern": {
-    "id": 1257,
+    "id": 1277,
     "translationKey": "item.minecraft.flower_banner_pattern",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22875,7 +23234,7 @@
     }
   },
   "creeper_banner_pattern": {
-    "id": 1258,
+    "id": 1278,
     "translationKey": "item.minecraft.creeper_banner_pattern",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22893,7 +23252,7 @@
     }
   },
   "skull_banner_pattern": {
-    "id": 1259,
+    "id": 1279,
     "translationKey": "item.minecraft.skull_banner_pattern",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22911,7 +23270,7 @@
     }
   },
   "mojang_banner_pattern": {
-    "id": 1260,
+    "id": 1280,
     "translationKey": "item.minecraft.mojang_banner_pattern",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22929,7 +23288,7 @@
     }
   },
   "globe_banner_pattern": {
-    "id": 1261,
+    "id": 1281,
     "translationKey": "item.minecraft.globe_banner_pattern",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22947,7 +23306,7 @@
     }
   },
   "piglin_banner_pattern": {
-    "id": 1262,
+    "id": 1282,
     "translationKey": "item.minecraft.piglin_banner_pattern",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22965,7 +23324,7 @@
     }
   },
   "flow_banner_pattern": {
-    "id": 1263,
+    "id": 1283,
     "translationKey": "item.minecraft.flow_banner_pattern",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -22983,7 +23342,7 @@
     }
   },
   "guster_banner_pattern": {
-    "id": 1264,
+    "id": 1284,
     "translationKey": "item.minecraft.guster_banner_pattern",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -23001,7 +23360,7 @@
     }
   },
   "field_masoned_banner_pattern": {
-    "id": 1265,
+    "id": 1285,
     "translationKey": "item.minecraft.field_masoned_banner_pattern",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -23019,7 +23378,7 @@
     }
   },
   "bordure_indented_banner_pattern": {
-    "id": 1266,
+    "id": 1286,
     "translationKey": "item.minecraft.bordure_indented_banner_pattern",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -23037,7 +23396,7 @@
     }
   },
   "goat_horn": {
-    "id": 1267,
+    "id": 1287,
     "translationKey": "item.minecraft.goat_horn",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -23055,7 +23414,7 @@
     }
   },
   "composter": {
-    "id": 1268,
+    "id": 1288,
     "translationKey": "block.minecraft.composter",
     "maxStackSize": 64,
     "correspondingBlock": "composter",
@@ -23073,7 +23432,7 @@
     }
   },
   "barrel": {
-    "id": 1269,
+    "id": 1289,
     "translationKey": "block.minecraft.barrel",
     "maxStackSize": 64,
     "correspondingBlock": "barrel",
@@ -23092,7 +23451,7 @@
     }
   },
   "smoker": {
-    "id": 1270,
+    "id": 1290,
     "translationKey": "block.minecraft.smoker",
     "maxStackSize": 64,
     "correspondingBlock": "smoker",
@@ -23111,7 +23470,7 @@
     }
   },
   "blast_furnace": {
-    "id": 1271,
+    "id": 1291,
     "translationKey": "block.minecraft.blast_furnace",
     "maxStackSize": 64,
     "correspondingBlock": "blast_furnace",
@@ -23130,7 +23489,7 @@
     }
   },
   "cartography_table": {
-    "id": 1272,
+    "id": 1292,
     "translationKey": "block.minecraft.cartography_table",
     "maxStackSize": 64,
     "correspondingBlock": "cartography_table",
@@ -23148,7 +23507,7 @@
     }
   },
   "fletching_table": {
-    "id": 1273,
+    "id": 1293,
     "translationKey": "block.minecraft.fletching_table",
     "maxStackSize": 64,
     "correspondingBlock": "fletching_table",
@@ -23166,7 +23525,7 @@
     }
   },
   "grindstone": {
-    "id": 1274,
+    "id": 1294,
     "translationKey": "block.minecraft.grindstone",
     "maxStackSize": 64,
     "correspondingBlock": "grindstone",
@@ -23184,7 +23543,7 @@
     }
   },
   "smithing_table": {
-    "id": 1275,
+    "id": 1295,
     "translationKey": "block.minecraft.smithing_table",
     "maxStackSize": 64,
     "correspondingBlock": "smithing_table",
@@ -23202,7 +23561,7 @@
     }
   },
   "stonecutter": {
-    "id": 1276,
+    "id": 1296,
     "translationKey": "block.minecraft.stonecutter",
     "maxStackSize": 64,
     "correspondingBlock": "stonecutter",
@@ -23220,7 +23579,7 @@
     }
   },
   "bell": {
-    "id": 1277,
+    "id": 1297,
     "translationKey": "block.minecraft.bell",
     "maxStackSize": 64,
     "correspondingBlock": "bell",
@@ -23238,7 +23597,7 @@
     }
   },
   "lantern": {
-    "id": 1278,
+    "id": 1298,
     "translationKey": "block.minecraft.lantern",
     "maxStackSize": 64,
     "correspondingBlock": "lantern",
@@ -23256,7 +23615,7 @@
     }
   },
   "soul_lantern": {
-    "id": 1279,
+    "id": 1299,
     "translationKey": "block.minecraft.soul_lantern",
     "maxStackSize": 64,
     "correspondingBlock": "soul_lantern",
@@ -23274,7 +23633,7 @@
     }
   },
   "sweet_berries": {
-    "id": 1280,
+    "id": 1300,
     "translationKey": "item.minecraft.sweet_berries",
     "maxStackSize": 64,
     "correspondingBlock": "sweet_berry_bush",
@@ -23294,7 +23653,7 @@
     }
   },
   "glow_berries": {
-    "id": 1281,
+    "id": 1301,
     "translationKey": "item.minecraft.glow_berries",
     "maxStackSize": 64,
     "correspondingBlock": "cave_vines",
@@ -23314,7 +23673,7 @@
     }
   },
   "campfire": {
-    "id": 1282,
+    "id": 1302,
     "translationKey": "block.minecraft.campfire",
     "maxStackSize": 64,
     "correspondingBlock": "campfire",
@@ -23333,7 +23692,7 @@
     }
   },
   "soul_campfire": {
-    "id": 1283,
+    "id": 1303,
     "translationKey": "block.minecraft.soul_campfire",
     "maxStackSize": 64,
     "correspondingBlock": "soul_campfire",
@@ -23352,7 +23711,7 @@
     }
   },
   "shroomlight": {
-    "id": 1284,
+    "id": 1304,
     "translationKey": "block.minecraft.shroomlight",
     "maxStackSize": 64,
     "correspondingBlock": "shroomlight",
@@ -23370,7 +23729,7 @@
     }
   },
   "honeycomb": {
-    "id": 1285,
+    "id": 1305,
     "translationKey": "item.minecraft.honeycomb",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -23387,7 +23746,7 @@
     }
   },
   "bee_nest": {
-    "id": 1286,
+    "id": 1306,
     "translationKey": "block.minecraft.bee_nest",
     "maxStackSize": 64,
     "correspondingBlock": "bee_nest",
@@ -23407,7 +23766,7 @@
     }
   },
   "beehive": {
-    "id": 1287,
+    "id": 1307,
     "translationKey": "block.minecraft.beehive",
     "maxStackSize": 64,
     "correspondingBlock": "beehive",
@@ -23427,7 +23786,7 @@
     }
   },
   "honey_bottle": {
-    "id": 1288,
+    "id": 1308,
     "translationKey": "item.minecraft.honey_bottle",
     "maxStackSize": 16,
     "defaultComponentHashes": {
@@ -23447,7 +23806,7 @@
     }
   },
   "honeycomb_block": {
-    "id": 1289,
+    "id": 1309,
     "translationKey": "block.minecraft.honeycomb_block",
     "maxStackSize": 64,
     "correspondingBlock": "honeycomb_block",
@@ -23465,7 +23824,7 @@
     }
   },
   "lodestone": {
-    "id": 1290,
+    "id": 1310,
     "translationKey": "block.minecraft.lodestone",
     "maxStackSize": 64,
     "correspondingBlock": "lodestone",
@@ -23483,7 +23842,7 @@
     }
   },
   "crying_obsidian": {
-    "id": 1291,
+    "id": 1311,
     "translationKey": "block.minecraft.crying_obsidian",
     "maxStackSize": 64,
     "correspondingBlock": "crying_obsidian",
@@ -23501,7 +23860,7 @@
     }
   },
   "blackstone": {
-    "id": 1292,
+    "id": 1312,
     "translationKey": "block.minecraft.blackstone",
     "maxStackSize": 64,
     "correspondingBlock": "blackstone",
@@ -23519,7 +23878,7 @@
     }
   },
   "blackstone_slab": {
-    "id": 1293,
+    "id": 1313,
     "translationKey": "block.minecraft.blackstone_slab",
     "maxStackSize": 64,
     "correspondingBlock": "blackstone_slab",
@@ -23537,7 +23896,7 @@
     }
   },
   "blackstone_stairs": {
-    "id": 1294,
+    "id": 1314,
     "translationKey": "block.minecraft.blackstone_stairs",
     "maxStackSize": 64,
     "correspondingBlock": "blackstone_stairs",
@@ -23555,7 +23914,7 @@
     }
   },
   "gilded_blackstone": {
-    "id": 1295,
+    "id": 1315,
     "translationKey": "block.minecraft.gilded_blackstone",
     "maxStackSize": 64,
     "correspondingBlock": "gilded_blackstone",
@@ -23573,7 +23932,7 @@
     }
   },
   "polished_blackstone": {
-    "id": 1296,
+    "id": 1316,
     "translationKey": "block.minecraft.polished_blackstone",
     "maxStackSize": 64,
     "correspondingBlock": "polished_blackstone",
@@ -23591,7 +23950,7 @@
     }
   },
   "polished_blackstone_slab": {
-    "id": 1297,
+    "id": 1317,
     "translationKey": "block.minecraft.polished_blackstone_slab",
     "maxStackSize": 64,
     "correspondingBlock": "polished_blackstone_slab",
@@ -23609,7 +23968,7 @@
     }
   },
   "polished_blackstone_stairs": {
-    "id": 1298,
+    "id": 1318,
     "translationKey": "block.minecraft.polished_blackstone_stairs",
     "maxStackSize": 64,
     "correspondingBlock": "polished_blackstone_stairs",
@@ -23627,7 +23986,7 @@
     }
   },
   "chiseled_polished_blackstone": {
-    "id": 1299,
+    "id": 1319,
     "translationKey": "block.minecraft.chiseled_polished_blackstone",
     "maxStackSize": 64,
     "correspondingBlock": "chiseled_polished_blackstone",
@@ -23645,7 +24004,7 @@
     }
   },
   "polished_blackstone_bricks": {
-    "id": 1300,
+    "id": 1320,
     "translationKey": "block.minecraft.polished_blackstone_bricks",
     "maxStackSize": 64,
     "correspondingBlock": "polished_blackstone_bricks",
@@ -23663,7 +24022,7 @@
     }
   },
   "polished_blackstone_brick_slab": {
-    "id": 1301,
+    "id": 1321,
     "translationKey": "block.minecraft.polished_blackstone_brick_slab",
     "maxStackSize": 64,
     "correspondingBlock": "polished_blackstone_brick_slab",
@@ -23681,7 +24040,7 @@
     }
   },
   "polished_blackstone_brick_stairs": {
-    "id": 1302,
+    "id": 1322,
     "translationKey": "block.minecraft.polished_blackstone_brick_stairs",
     "maxStackSize": 64,
     "correspondingBlock": "polished_blackstone_brick_stairs",
@@ -23699,7 +24058,7 @@
     }
   },
   "cracked_polished_blackstone_bricks": {
-    "id": 1303,
+    "id": 1323,
     "translationKey": "block.minecraft.cracked_polished_blackstone_bricks",
     "maxStackSize": 64,
     "correspondingBlock": "cracked_polished_blackstone_bricks",
@@ -23717,7 +24076,7 @@
     }
   },
   "respawn_anchor": {
-    "id": 1304,
+    "id": 1324,
     "translationKey": "block.minecraft.respawn_anchor",
     "maxStackSize": 64,
     "correspondingBlock": "respawn_anchor",
@@ -23735,7 +24094,7 @@
     }
   },
   "candle": {
-    "id": 1305,
+    "id": 1325,
     "translationKey": "block.minecraft.candle",
     "maxStackSize": 64,
     "correspondingBlock": "candle",
@@ -23753,7 +24112,7 @@
     }
   },
   "white_candle": {
-    "id": 1306,
+    "id": 1326,
     "translationKey": "block.minecraft.white_candle",
     "maxStackSize": 64,
     "correspondingBlock": "white_candle",
@@ -23771,7 +24130,7 @@
     }
   },
   "orange_candle": {
-    "id": 1307,
+    "id": 1327,
     "translationKey": "block.minecraft.orange_candle",
     "maxStackSize": 64,
     "correspondingBlock": "orange_candle",
@@ -23789,7 +24148,7 @@
     }
   },
   "magenta_candle": {
-    "id": 1308,
+    "id": 1328,
     "translationKey": "block.minecraft.magenta_candle",
     "maxStackSize": 64,
     "correspondingBlock": "magenta_candle",
@@ -23807,7 +24166,7 @@
     }
   },
   "light_blue_candle": {
-    "id": 1309,
+    "id": 1329,
     "translationKey": "block.minecraft.light_blue_candle",
     "maxStackSize": 64,
     "correspondingBlock": "light_blue_candle",
@@ -23825,7 +24184,7 @@
     }
   },
   "yellow_candle": {
-    "id": 1310,
+    "id": 1330,
     "translationKey": "block.minecraft.yellow_candle",
     "maxStackSize": 64,
     "correspondingBlock": "yellow_candle",
@@ -23843,7 +24202,7 @@
     }
   },
   "lime_candle": {
-    "id": 1311,
+    "id": 1331,
     "translationKey": "block.minecraft.lime_candle",
     "maxStackSize": 64,
     "correspondingBlock": "lime_candle",
@@ -23861,7 +24220,7 @@
     }
   },
   "pink_candle": {
-    "id": 1312,
+    "id": 1332,
     "translationKey": "block.minecraft.pink_candle",
     "maxStackSize": 64,
     "correspondingBlock": "pink_candle",
@@ -23879,7 +24238,7 @@
     }
   },
   "gray_candle": {
-    "id": 1313,
+    "id": 1333,
     "translationKey": "block.minecraft.gray_candle",
     "maxStackSize": 64,
     "correspondingBlock": "gray_candle",
@@ -23897,7 +24256,7 @@
     }
   },
   "light_gray_candle": {
-    "id": 1314,
+    "id": 1334,
     "translationKey": "block.minecraft.light_gray_candle",
     "maxStackSize": 64,
     "correspondingBlock": "light_gray_candle",
@@ -23915,7 +24274,7 @@
     }
   },
   "cyan_candle": {
-    "id": 1315,
+    "id": 1335,
     "translationKey": "block.minecraft.cyan_candle",
     "maxStackSize": 64,
     "correspondingBlock": "cyan_candle",
@@ -23933,7 +24292,7 @@
     }
   },
   "purple_candle": {
-    "id": 1316,
+    "id": 1336,
     "translationKey": "block.minecraft.purple_candle",
     "maxStackSize": 64,
     "correspondingBlock": "purple_candle",
@@ -23951,7 +24310,7 @@
     }
   },
   "blue_candle": {
-    "id": 1317,
+    "id": 1337,
     "translationKey": "block.minecraft.blue_candle",
     "maxStackSize": 64,
     "correspondingBlock": "blue_candle",
@@ -23969,7 +24328,7 @@
     }
   },
   "brown_candle": {
-    "id": 1318,
+    "id": 1338,
     "translationKey": "block.minecraft.brown_candle",
     "maxStackSize": 64,
     "correspondingBlock": "brown_candle",
@@ -23987,7 +24346,7 @@
     }
   },
   "green_candle": {
-    "id": 1319,
+    "id": 1339,
     "translationKey": "block.minecraft.green_candle",
     "maxStackSize": 64,
     "correspondingBlock": "green_candle",
@@ -24005,7 +24364,7 @@
     }
   },
   "red_candle": {
-    "id": 1320,
+    "id": 1340,
     "translationKey": "block.minecraft.red_candle",
     "maxStackSize": 64,
     "correspondingBlock": "red_candle",
@@ -24023,7 +24382,7 @@
     }
   },
   "black_candle": {
-    "id": 1321,
+    "id": 1341,
     "translationKey": "block.minecraft.black_candle",
     "maxStackSize": 64,
     "correspondingBlock": "black_candle",
@@ -24041,7 +24400,7 @@
     }
   },
   "small_amethyst_bud": {
-    "id": 1322,
+    "id": 1342,
     "translationKey": "block.minecraft.small_amethyst_bud",
     "maxStackSize": 64,
     "correspondingBlock": "small_amethyst_bud",
@@ -24059,7 +24418,7 @@
     }
   },
   "medium_amethyst_bud": {
-    "id": 1323,
+    "id": 1343,
     "translationKey": "block.minecraft.medium_amethyst_bud",
     "maxStackSize": 64,
     "correspondingBlock": "medium_amethyst_bud",
@@ -24077,7 +24436,7 @@
     }
   },
   "large_amethyst_bud": {
-    "id": 1324,
+    "id": 1344,
     "translationKey": "block.minecraft.large_amethyst_bud",
     "maxStackSize": 64,
     "correspondingBlock": "large_amethyst_bud",
@@ -24095,7 +24454,7 @@
     }
   },
   "amethyst_cluster": {
-    "id": 1325,
+    "id": 1345,
     "translationKey": "block.minecraft.amethyst_cluster",
     "maxStackSize": 64,
     "correspondingBlock": "amethyst_cluster",
@@ -24113,7 +24472,7 @@
     }
   },
   "pointed_dripstone": {
-    "id": 1326,
+    "id": 1346,
     "translationKey": "block.minecraft.pointed_dripstone",
     "maxStackSize": 64,
     "correspondingBlock": "pointed_dripstone",
@@ -24131,7 +24490,7 @@
     }
   },
   "ochre_froglight": {
-    "id": 1327,
+    "id": 1347,
     "translationKey": "block.minecraft.ochre_froglight",
     "maxStackSize": 64,
     "correspondingBlock": "ochre_froglight",
@@ -24149,7 +24508,7 @@
     }
   },
   "verdant_froglight": {
-    "id": 1328,
+    "id": 1348,
     "translationKey": "block.minecraft.verdant_froglight",
     "maxStackSize": 64,
     "correspondingBlock": "verdant_froglight",
@@ -24167,7 +24526,7 @@
     }
   },
   "pearlescent_froglight": {
-    "id": 1329,
+    "id": 1349,
     "translationKey": "block.minecraft.pearlescent_froglight",
     "maxStackSize": 64,
     "correspondingBlock": "pearlescent_froglight",
@@ -24185,7 +24544,7 @@
     }
   },
   "frogspawn": {
-    "id": 1330,
+    "id": 1350,
     "translationKey": "block.minecraft.frogspawn",
     "maxStackSize": 64,
     "correspondingBlock": "frogspawn",
@@ -24203,7 +24562,7 @@
     }
   },
   "echo_shard": {
-    "id": 1331,
+    "id": 1351,
     "translationKey": "item.minecraft.echo_shard",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24220,7 +24579,7 @@
     }
   },
   "brush": {
-    "id": 1332,
+    "id": 1352,
     "translationKey": "item.minecraft.brush",
     "maxStackSize": 1,
     "defaultComponentHashes": {
@@ -24239,7 +24598,7 @@
     }
   },
   "netherite_upgrade_smithing_template": {
-    "id": 1333,
+    "id": 1353,
     "translationKey": "item.minecraft.netherite_upgrade_smithing_template",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24256,7 +24615,7 @@
     }
   },
   "sentry_armor_trim_smithing_template": {
-    "id": 1334,
+    "id": 1354,
     "translationKey": "item.minecraft.sentry_armor_trim_smithing_template",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24273,7 +24632,7 @@
     }
   },
   "dune_armor_trim_smithing_template": {
-    "id": 1335,
+    "id": 1355,
     "translationKey": "item.minecraft.dune_armor_trim_smithing_template",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24290,7 +24649,7 @@
     }
   },
   "coast_armor_trim_smithing_template": {
-    "id": 1336,
+    "id": 1356,
     "translationKey": "item.minecraft.coast_armor_trim_smithing_template",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24307,7 +24666,7 @@
     }
   },
   "wild_armor_trim_smithing_template": {
-    "id": 1337,
+    "id": 1357,
     "translationKey": "item.minecraft.wild_armor_trim_smithing_template",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24324,7 +24683,7 @@
     }
   },
   "ward_armor_trim_smithing_template": {
-    "id": 1338,
+    "id": 1358,
     "translationKey": "item.minecraft.ward_armor_trim_smithing_template",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24341,7 +24700,7 @@
     }
   },
   "eye_armor_trim_smithing_template": {
-    "id": 1339,
+    "id": 1359,
     "translationKey": "item.minecraft.eye_armor_trim_smithing_template",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24358,7 +24717,7 @@
     }
   },
   "vex_armor_trim_smithing_template": {
-    "id": 1340,
+    "id": 1360,
     "translationKey": "item.minecraft.vex_armor_trim_smithing_template",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24375,7 +24734,7 @@
     }
   },
   "tide_armor_trim_smithing_template": {
-    "id": 1341,
+    "id": 1361,
     "translationKey": "item.minecraft.tide_armor_trim_smithing_template",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24392,7 +24751,7 @@
     }
   },
   "snout_armor_trim_smithing_template": {
-    "id": 1342,
+    "id": 1362,
     "translationKey": "item.minecraft.snout_armor_trim_smithing_template",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24409,7 +24768,7 @@
     }
   },
   "rib_armor_trim_smithing_template": {
-    "id": 1343,
+    "id": 1363,
     "translationKey": "item.minecraft.rib_armor_trim_smithing_template",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24426,7 +24785,7 @@
     }
   },
   "spire_armor_trim_smithing_template": {
-    "id": 1344,
+    "id": 1364,
     "translationKey": "item.minecraft.spire_armor_trim_smithing_template",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24443,7 +24802,7 @@
     }
   },
   "wayfinder_armor_trim_smithing_template": {
-    "id": 1345,
+    "id": 1365,
     "translationKey": "item.minecraft.wayfinder_armor_trim_smithing_template",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24460,7 +24819,7 @@
     }
   },
   "shaper_armor_trim_smithing_template": {
-    "id": 1346,
+    "id": 1366,
     "translationKey": "item.minecraft.shaper_armor_trim_smithing_template",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24477,7 +24836,7 @@
     }
   },
   "silence_armor_trim_smithing_template": {
-    "id": 1347,
+    "id": 1367,
     "translationKey": "item.minecraft.silence_armor_trim_smithing_template",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24494,7 +24853,7 @@
     }
   },
   "raiser_armor_trim_smithing_template": {
-    "id": 1348,
+    "id": 1368,
     "translationKey": "item.minecraft.raiser_armor_trim_smithing_template",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24511,7 +24870,7 @@
     }
   },
   "host_armor_trim_smithing_template": {
-    "id": 1349,
+    "id": 1369,
     "translationKey": "item.minecraft.host_armor_trim_smithing_template",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24528,7 +24887,7 @@
     }
   },
   "flow_armor_trim_smithing_template": {
-    "id": 1350,
+    "id": 1370,
     "translationKey": "item.minecraft.flow_armor_trim_smithing_template",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24545,7 +24904,7 @@
     }
   },
   "bolt_armor_trim_smithing_template": {
-    "id": 1351,
+    "id": 1371,
     "translationKey": "item.minecraft.bolt_armor_trim_smithing_template",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24562,7 +24921,7 @@
     }
   },
   "angler_pottery_sherd": {
-    "id": 1352,
+    "id": 1372,
     "translationKey": "item.minecraft.angler_pottery_sherd",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24579,7 +24938,7 @@
     }
   },
   "archer_pottery_sherd": {
-    "id": 1353,
+    "id": 1373,
     "translationKey": "item.minecraft.archer_pottery_sherd",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24596,7 +24955,7 @@
     }
   },
   "arms_up_pottery_sherd": {
-    "id": 1354,
+    "id": 1374,
     "translationKey": "item.minecraft.arms_up_pottery_sherd",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24613,7 +24972,7 @@
     }
   },
   "blade_pottery_sherd": {
-    "id": 1355,
+    "id": 1375,
     "translationKey": "item.minecraft.blade_pottery_sherd",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24630,7 +24989,7 @@
     }
   },
   "brewer_pottery_sherd": {
-    "id": 1356,
+    "id": 1376,
     "translationKey": "item.minecraft.brewer_pottery_sherd",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24647,7 +25006,7 @@
     }
   },
   "burn_pottery_sherd": {
-    "id": 1357,
+    "id": 1377,
     "translationKey": "item.minecraft.burn_pottery_sherd",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24664,7 +25023,7 @@
     }
   },
   "danger_pottery_sherd": {
-    "id": 1358,
+    "id": 1378,
     "translationKey": "item.minecraft.danger_pottery_sherd",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24681,7 +25040,7 @@
     }
   },
   "explorer_pottery_sherd": {
-    "id": 1359,
+    "id": 1379,
     "translationKey": "item.minecraft.explorer_pottery_sherd",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24698,7 +25057,7 @@
     }
   },
   "flow_pottery_sherd": {
-    "id": 1360,
+    "id": 1380,
     "translationKey": "item.minecraft.flow_pottery_sherd",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24715,7 +25074,7 @@
     }
   },
   "friend_pottery_sherd": {
-    "id": 1361,
+    "id": 1381,
     "translationKey": "item.minecraft.friend_pottery_sherd",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24732,7 +25091,7 @@
     }
   },
   "guster_pottery_sherd": {
-    "id": 1362,
+    "id": 1382,
     "translationKey": "item.minecraft.guster_pottery_sherd",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24749,7 +25108,7 @@
     }
   },
   "heart_pottery_sherd": {
-    "id": 1363,
+    "id": 1383,
     "translationKey": "item.minecraft.heart_pottery_sherd",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24766,7 +25125,7 @@
     }
   },
   "heartbreak_pottery_sherd": {
-    "id": 1364,
+    "id": 1384,
     "translationKey": "item.minecraft.heartbreak_pottery_sherd",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24783,7 +25142,7 @@
     }
   },
   "howl_pottery_sherd": {
-    "id": 1365,
+    "id": 1385,
     "translationKey": "item.minecraft.howl_pottery_sherd",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24800,7 +25159,7 @@
     }
   },
   "miner_pottery_sherd": {
-    "id": 1366,
+    "id": 1386,
     "translationKey": "item.minecraft.miner_pottery_sherd",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24817,7 +25176,7 @@
     }
   },
   "mourner_pottery_sherd": {
-    "id": 1367,
+    "id": 1387,
     "translationKey": "item.minecraft.mourner_pottery_sherd",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24834,7 +25193,7 @@
     }
   },
   "plenty_pottery_sherd": {
-    "id": 1368,
+    "id": 1388,
     "translationKey": "item.minecraft.plenty_pottery_sherd",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24851,7 +25210,7 @@
     }
   },
   "prize_pottery_sherd": {
-    "id": 1369,
+    "id": 1389,
     "translationKey": "item.minecraft.prize_pottery_sherd",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24868,7 +25227,7 @@
     }
   },
   "scrape_pottery_sherd": {
-    "id": 1370,
+    "id": 1390,
     "translationKey": "item.minecraft.scrape_pottery_sherd",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24885,7 +25244,7 @@
     }
   },
   "sheaf_pottery_sherd": {
-    "id": 1371,
+    "id": 1391,
     "translationKey": "item.minecraft.sheaf_pottery_sherd",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24902,7 +25261,7 @@
     }
   },
   "shelter_pottery_sherd": {
-    "id": 1372,
+    "id": 1392,
     "translationKey": "item.minecraft.shelter_pottery_sherd",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24919,7 +25278,7 @@
     }
   },
   "skull_pottery_sherd": {
-    "id": 1373,
+    "id": 1393,
     "translationKey": "item.minecraft.skull_pottery_sherd",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24936,7 +25295,7 @@
     }
   },
   "snort_pottery_sherd": {
-    "id": 1374,
+    "id": 1394,
     "translationKey": "item.minecraft.snort_pottery_sherd",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -24953,7 +25312,7 @@
     }
   },
   "copper_grate": {
-    "id": 1375,
+    "id": 1395,
     "translationKey": "block.minecraft.copper_grate",
     "maxStackSize": 64,
     "correspondingBlock": "copper_grate",
@@ -24971,7 +25330,7 @@
     }
   },
   "exposed_copper_grate": {
-    "id": 1376,
+    "id": 1396,
     "translationKey": "block.minecraft.exposed_copper_grate",
     "maxStackSize": 64,
     "correspondingBlock": "exposed_copper_grate",
@@ -24989,7 +25348,7 @@
     }
   },
   "weathered_copper_grate": {
-    "id": 1377,
+    "id": 1397,
     "translationKey": "block.minecraft.weathered_copper_grate",
     "maxStackSize": 64,
     "correspondingBlock": "weathered_copper_grate",
@@ -25007,7 +25366,7 @@
     }
   },
   "oxidized_copper_grate": {
-    "id": 1378,
+    "id": 1398,
     "translationKey": "block.minecraft.oxidized_copper_grate",
     "maxStackSize": 64,
     "correspondingBlock": "oxidized_copper_grate",
@@ -25025,7 +25384,7 @@
     }
   },
   "waxed_copper_grate": {
-    "id": 1379,
+    "id": 1399,
     "translationKey": "block.minecraft.waxed_copper_grate",
     "maxStackSize": 64,
     "correspondingBlock": "waxed_copper_grate",
@@ -25043,7 +25402,7 @@
     }
   },
   "waxed_exposed_copper_grate": {
-    "id": 1380,
+    "id": 1400,
     "translationKey": "block.minecraft.waxed_exposed_copper_grate",
     "maxStackSize": 64,
     "correspondingBlock": "waxed_exposed_copper_grate",
@@ -25061,7 +25420,7 @@
     }
   },
   "waxed_weathered_copper_grate": {
-    "id": 1381,
+    "id": 1401,
     "translationKey": "block.minecraft.waxed_weathered_copper_grate",
     "maxStackSize": 64,
     "correspondingBlock": "waxed_weathered_copper_grate",
@@ -25079,7 +25438,7 @@
     }
   },
   "waxed_oxidized_copper_grate": {
-    "id": 1382,
+    "id": 1402,
     "translationKey": "block.minecraft.waxed_oxidized_copper_grate",
     "maxStackSize": 64,
     "correspondingBlock": "waxed_oxidized_copper_grate",
@@ -25097,7 +25456,7 @@
     }
   },
   "copper_bulb": {
-    "id": 1383,
+    "id": 1403,
     "translationKey": "block.minecraft.copper_bulb",
     "maxStackSize": 64,
     "correspondingBlock": "copper_bulb",
@@ -25115,7 +25474,7 @@
     }
   },
   "exposed_copper_bulb": {
-    "id": 1384,
+    "id": 1404,
     "translationKey": "block.minecraft.exposed_copper_bulb",
     "maxStackSize": 64,
     "correspondingBlock": "exposed_copper_bulb",
@@ -25133,7 +25492,7 @@
     }
   },
   "weathered_copper_bulb": {
-    "id": 1385,
+    "id": 1405,
     "translationKey": "block.minecraft.weathered_copper_bulb",
     "maxStackSize": 64,
     "correspondingBlock": "weathered_copper_bulb",
@@ -25151,7 +25510,7 @@
     }
   },
   "oxidized_copper_bulb": {
-    "id": 1386,
+    "id": 1406,
     "translationKey": "block.minecraft.oxidized_copper_bulb",
     "maxStackSize": 64,
     "correspondingBlock": "oxidized_copper_bulb",
@@ -25169,7 +25528,7 @@
     }
   },
   "waxed_copper_bulb": {
-    "id": 1387,
+    "id": 1407,
     "translationKey": "block.minecraft.waxed_copper_bulb",
     "maxStackSize": 64,
     "correspondingBlock": "waxed_copper_bulb",
@@ -25187,7 +25546,7 @@
     }
   },
   "waxed_exposed_copper_bulb": {
-    "id": 1388,
+    "id": 1408,
     "translationKey": "block.minecraft.waxed_exposed_copper_bulb",
     "maxStackSize": 64,
     "correspondingBlock": "waxed_exposed_copper_bulb",
@@ -25205,7 +25564,7 @@
     }
   },
   "waxed_weathered_copper_bulb": {
-    "id": 1389,
+    "id": 1409,
     "translationKey": "block.minecraft.waxed_weathered_copper_bulb",
     "maxStackSize": 64,
     "correspondingBlock": "waxed_weathered_copper_bulb",
@@ -25223,7 +25582,7 @@
     }
   },
   "waxed_oxidized_copper_bulb": {
-    "id": 1390,
+    "id": 1410,
     "translationKey": "block.minecraft.waxed_oxidized_copper_bulb",
     "maxStackSize": 64,
     "correspondingBlock": "waxed_oxidized_copper_bulb",
@@ -25241,7 +25600,7 @@
     }
   },
   "trial_spawner": {
-    "id": 1391,
+    "id": 1411,
     "translationKey": "block.minecraft.trial_spawner",
     "maxStackSize": 64,
     "correspondingBlock": "trial_spawner",
@@ -25259,7 +25618,7 @@
     }
   },
   "trial_key": {
-    "id": 1392,
+    "id": 1412,
     "translationKey": "item.minecraft.trial_key",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -25276,7 +25635,7 @@
     }
   },
   "ominous_trial_key": {
-    "id": 1393,
+    "id": 1413,
     "translationKey": "item.minecraft.ominous_trial_key",
     "maxStackSize": 64,
     "defaultComponentHashes": {
@@ -25293,7 +25652,7 @@
     }
   },
   "vault": {
-    "id": 1394,
+    "id": 1414,
     "translationKey": "block.minecraft.vault",
     "maxStackSize": 64,
     "correspondingBlock": "vault",
@@ -25311,7 +25670,7 @@
     }
   },
   "ominous_bottle": {
-    "id": 1395,
+    "id": 1415,
     "translationKey": "item.minecraft.ominous_bottle",
     "maxStackSize": 64,
     "defaultComponentHashes": {

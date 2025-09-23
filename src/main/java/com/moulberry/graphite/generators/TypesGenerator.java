@@ -15,6 +15,7 @@ import net.minecraft.util.StringRepresentable;
 import net.minecraft.world.BossEvent;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.entity.Display;
+import net.minecraft.world.entity.EntityEvent;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.HumanoidArm;
 import net.minecraft.world.entity.Pose;
@@ -27,6 +28,7 @@ import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.ItemUseAnimation;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.component.MapPostProcessing;
+import net.minecraft.world.level.GameType;
 import net.minecraft.world.level.block.LevelEvent;
 import net.minecraft.world.scores.DisplaySlot;
 import net.minecraft.world.scores.criteria.ObjectiveCriteria;
@@ -58,7 +60,7 @@ public class TypesGenerator implements DataGenerator {
         addType(allTypesJson, Direction.class);
         addType(allTypesJson, DisplaySlot.class);
         addType(allTypesJson, DyeColor.class);
-        addType(allTypesJson, EquipmentSlot.class);
+        addTypeWithIndex(allTypesJson, EquipmentSlot.class, null, EquipmentSlot::getId);
         addType(allTypesJson, HumanoidArm.class);
         addType(allTypesJson, InteractionHand.class);
         addType(allTypesJson, MapPostProcessing.class);
@@ -75,10 +77,12 @@ public class TypesGenerator implements DataGenerator {
         addType(allTypesJson, ItemUseAnimation.class);
         addType(allTypesJson, ServerboundClientCommandPacket.Action.class, "client_action");
         addType(allTypesJson, Display.BillboardConstraints.class, "billboard_constraint");
+        addType(allTypesJson, GameType.class, "gamemode");
 
         addStaticConstants(allTypesJson, ClientboundAnimatePacket.class, int.class, Function.identity(), "entity_animation");
         addStaticConstants(allTypesJson, LevelEvent.class, int.class, Function.identity(), "level_event");
         addStaticConstants(allTypesJson, ClientboundGameEventPacket.class, ClientboundGameEventPacket.Type.class, t -> t.id, "game_event");
+        addStaticConstants(allTypesJson, EntityEvent.class, byte.class, v -> (int) v, "entity_event");
 
         return allTypesJson;
     }
@@ -87,13 +91,31 @@ public class TypesGenerator implements DataGenerator {
         addType(jsonObject, enumClass, null);
     }
 
-    private static void addType(JsonObject jsonObject, Class<? extends Enum<?>> enumClass, @Nullable String alternativeName) {
+    private static <T extends Enum<?>> void addType(JsonObject jsonObject, Class<T> enumClass, @Nullable String alternativeName) {
         JsonArray enumValues = new JsonArray();
         for (Enum<?> enumConstant : enumClass.getEnumConstants()) {
             if (enumConstant instanceof StringRepresentable stringRepresentable) {
                 enumValues.add(stringRepresentable.getSerializedName());
             } else {
                 enumValues.add(enumConstant.name().toLowerCase(Locale.ROOT));
+            }
+        }
+        if (alternativeName != null) {
+            jsonObject.add(alternativeName, enumValues);
+        } else {
+            String name = enumClass.getSimpleName();
+            name = name.replaceAll("([a-z])([A-Z]+)", "$1_$2").toLowerCase(Locale.ROOT);
+            jsonObject.add(name, enumValues);
+        }
+    }
+
+    private static <T extends Enum<?>> void addTypeWithIndex(JsonObject jsonObject, Class<T> enumClass, @Nullable String alternativeName, Function<T, Integer> indexer) {
+        JsonObject enumValues = new JsonObject();
+        for (Enum<?> enumConstant : enumClass.getEnumConstants()) {
+            if (enumConstant instanceof StringRepresentable stringRepresentable) {
+                enumValues.addProperty(stringRepresentable.getSerializedName(), indexer.apply((T) enumConstant));
+            } else {
+                enumValues.addProperty(enumConstant.name().toLowerCase(Locale.ROOT), indexer.apply((T) enumConstant));
             }
         }
         if (alternativeName != null) {

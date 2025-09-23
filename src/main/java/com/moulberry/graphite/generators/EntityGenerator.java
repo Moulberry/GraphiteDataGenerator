@@ -80,7 +80,7 @@ public class EntityGenerator implements DataGenerator {
 
             Entity entity;
             if (entityType == EntityType.PLAYER) {
-                entity = new Player(level, BlockPos.ZERO, 0, new GameProfile(UUID.randomUUID(), "Dummy")) {
+                entity = new Player(level, new GameProfile(UUID.randomUUID(), "Dummy")) {
                     @Override
                     public boolean isSpectator() {
                         return false;
